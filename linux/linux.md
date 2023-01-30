@@ -5,3 +5,6 @@ The ${\color{violet}Linux System Administration Guide}$ documents relevant infor
 
 #5f3dc4
 
+```html
+#800080
+```
