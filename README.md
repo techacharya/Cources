@@ -1,3 +1,3 @@
 # Courses
 
-  ## [Linux](Linux/linux.md)
+  ## [Linux](linux/linux.md)
