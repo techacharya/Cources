@@ -1,3 +1,3 @@
 # Cources
-## Linux
-  - [Linux](Linux/linux.md)
+
+  ## [Linux](Linux/linux.md)
