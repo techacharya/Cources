@@ -5,4 +5,5 @@ The **Linux System Administration Guide** documents relevant information regardi
 
 ## Course Contents
 
+  - [Introduction to Linux System](linux/introduction/introduction.md)
 
