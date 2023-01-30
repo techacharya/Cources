@@ -8,3 +8,4 @@ The ${\color{violet}Linux System Administration Guide}$ documents relevant infor
 ```html
 #800080
 ```
+<h1 style="color:purple;">This is a heading</h1>
