@@ -24,7 +24,7 @@ In **1987**, **`MINIX`**, a Unix-like system for academic use was released by **
  
 
 ## History of Linux
-In **1991**, a computer science student at **`University of Helsinki`**, **Linus Torvalds** began writting the program specifically for the hardware he was using and independent of an Operating System because he wanted to use the functions of his new **PC** with an **`80386 processor`** on **`MINIX`** using the **GNU C Compiler** that later became the Linux **kernel**.
+In **1991**, a computer science student at **`University of Helsinki`**, **Linus Torvalds** began writting the program specifically for the hardware he was using and independent of an Operating System because he wanted to use the functions of his new **PC** with an **`80386 processor`** on **`MINIX`** using the **GNU C Compiler** that later became the **Linux kernel**.
 
 
 
