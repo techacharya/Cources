@@ -19,9 +19,12 @@ In **1983** the **Unix** kernel were rewritten in almost all in **higher-level l
 
 In **1983**, only **Richard Stallman** started the **`GNU project`** with the goal of creating a free **Unix-like** operating system. And he wrote the **GNU General Public License (GPL)**. By the early **1990s**, there was almost enough available software to create a full Operating System. However, the GNU kernel, called **Hurd**, failed to attract enough development effort, leaving **GNU** incomplete.
 
+In **1987**, **`MINIX`**, a Unix-like system for academic use was released by **Andrew S. Tanenbaum** to exemplify the principles conveyed in his textbook, **Operating Systems: Design and Implementation**.
+
  
 
 ## History of Linux
+In **1991**, a computer science student at **`University of Helsinki`**, **Linus Torvalds** began writting the program specifically for the hardware he was using and independent of an Operating System because he wanted to use the functions of his new **PC** with an **`80386 processor`** on **`MINIX`** using the **GNU C Compiler** that later became the Linux **kernel**.
 
 
 
