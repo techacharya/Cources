@@ -7,3 +7,5 @@ In the mid **`1960s`**, when the **Massachusetts Institute of Technology**, **AT
 
 **Bell Labs**, got frustrated by the size and complexity of **`Multics`** and dissatisfied with the project's progress, hence ultimately management withdrew.
 
+Their researchers **Ken Thompson**, **Dennis Ritchie**, **Doug McIlroy**, **Brian Kernighan** and **Joe Ossanna** decided to redo the work and in **`in 1969`** launched the **`Unix`** which was much smaller and simpler than **`Multics`**.
+
