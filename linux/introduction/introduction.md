@@ -9,3 +9,5 @@ In the mid **`1960s`**, when the **Massachusetts Institute of Technology**, **AT
 
 Their researchers **Ken Thompson**, **Dennis Ritchie**, **Doug McIlroy**, **Brian Kernighan** and **Joe Ossanna** decided to redo the work and in **`in 1969`** launched the **`Unix`** which was much smaller and simpler than **`Multics`**.
 
+In **1973**, Version 4 **Unix** was rewritten in the **`higher-level language C`**, **AT&T** released Version 5 Unix and licensed it to educational institutions, and licensed **1975's** Version 6 to companies for the first time.
+
