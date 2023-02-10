@@ -9,10 +9,20 @@ In the mid **`1960s`**, when the **Massachusetts Institute of Technology**, **AT
 
 Their researchers **Ken Thompson**, **Dennis Ritchie**, **Doug McIlroy**, **Brian Kernighan** and **Joe Ossanna** decided to redo the work and in **`in 1969`** launched the **`Unix`** which was much smaller and simpler than **`Multics`**.
 
-In **1973**, Version 4 **Unix** was rewritten in the **`higher-level language C`** but still had considerable assembly **PDP-11** dependent code , **AT&T** released Version 5 Unix and licensed it to educational institutions, and licensed **1975's** Version 6 to companies for the first time.
+In **1973**, Version 4 **Unix** was rewritten in the **`higher-level language C`** to make it portable but still had considerable assembly **PDP-11** dependent code , **AT&T** released Version 5 Unix and licensed it to educational institutions, and licensed **1975's** Version 6 to companies for the first time.
 
-In **1983** the **Unix** kernel were written in almost all in **higher-level language C** in less than **20,000** lines of code and more than 75% was not machine-dependent. By that year **Unix** or a **Unix-like** system was available for at least **16** different processors and architectures from about 60 vendors.
+The availability and portability of **Unix** caused it to be widely adopted, copied and modified by academic institutions and businesses.
+
+In **1977**, the **`Berkeley Software Distribution (BSD)`** was developed by the **Computer Systems Research Group (CSRG)** from UC Berkeley, based on the **`6th`** edition of **Unix** from **AT&T**. Since **BSD** contained **Unix** code that **AT&T** owned, **AT&T** filed a lawsuit against the **University of California**. This strongly limited the development and adoption of **BSD**.
+
+In **1983** the **Unix** kernel were rewritten in almost all in **higher-level language C** in less than **20,000** lines of code and more than 75% was not machine-dependent. By that year **Unix** or a **Unix-like** system was available for at least **16** different processors and architectures from about 60 vendors.
+
+In **1983**, only **Richard Stallman** started the **`GNU project`** with the goal of creating a free **Unix-like** operating system. And he wrote the **GNU General Public License (GPL)**. By the early **1990s**, there was almost enough available software to create a full Operating System. However, the GNU kernel, called **Hurd**, failed to attract enough development effort, leaving **GNU** incomplete.
+
  
- 
+
+## History of Linux
+
+
 
 
