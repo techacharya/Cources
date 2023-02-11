@@ -32,7 +32,8 @@ A Unix-like system is an operating system that behaves in a manner similar to a 
   - Linux began to gain importance in **1992** after the **`X Window System`** was ported to Linux by **Orest Zborowski**, which allowed Linux to support a **GUI** for the first time.
 
 
-
+## Linux
+**Linux** is a family of **`free`** (ensures that the end users have freedom in using, studying, sharing and modifying) and **`open-source`** (rights to study, modify the source code and redistribute to others) Unix-like Operating Systems based on the Linux kernel.
 
 
 
