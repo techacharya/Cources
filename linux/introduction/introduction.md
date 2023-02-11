@@ -26,6 +26,10 @@ A Unix-like system is an operating system that behaves in a manner similar to a 
 ## History of Linux
 In **1991**, a computer science student at **`University of Helsinki`**, **Linus Torvalds** began writting the program specifically for the hardware he was using and independent of an Operating System because he wanted to use the functions of his new **PC** with an **`80386 processor`** on **`MINIX`** using the **GNU C Compiler** that later became the **Linux kernel**.
 
+Linux began to gain importance in **1992** after the **`X Window System`** was ported to Linux by **Orest Zborowski**, which allowed Linux to support a **GUI** for the first time.
+
+
+
 
 
 
