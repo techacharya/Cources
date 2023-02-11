@@ -2,7 +2,9 @@
 
 A Unix-like system is an operating system that behaves in a manner similar to a Unix system, although not necessarily conforming to or being certified to any version of the single Unix specification.
 
-## History of Unix
+## History of Unix-like System
+
+### Evolution of Unix
   - In the mid **`1960s`**, when the **Massachusetts Institute of Technology**, **AT&T Bell Labs**, and **General Electric** were jointly developing an experimental time-sharing operating system called **Multiplexed Information and Computing Service** ( **`Multics`** ) allowing multiple users to access a mainframe simultaneously. Multics introduced many innovations, but also had many problems.
 
   - **Bell Labs**, got frustrated by the size and complexity of **`Multics`** and dissatisfied with the project's progress, hence ultimately management withdrew.
@@ -23,7 +25,7 @@ A Unix-like system is an operating system that behaves in a manner similar to a 
 
  
 
-## History of Linux
+### Evolution of Linux
   - In **1991**, a computer science student at **`University of Helsinki`**, **Linus Torvalds** began writting the code specifically for his own hardware, he was using and independent of an Operating System because he wanted to use the functions of his new **PC** with an **`80386 processor`**. He has written the code on **`MINIX`** using the **GNU C Compiler** that later became the **Linux kernel**.
 
   - **Torvalds** first published the **`Linux kernel`** under its own licence, which had a restriction on commercial activity. In **1992**, he released the **kernel** under the GNU General Public License. 
