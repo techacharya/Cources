@@ -37,6 +37,12 @@ A Unix-like system is an operating system that behaves in a manner similar to a 
 ## Linux
 **Linux** is a family of **`free`** (ensures that the end users have freedom in using, studying, sharing and modifying) and **`open-source`** (rights to study, modify the source code and redistribute to others) Unix-like Operating Systems based on the Linux kernel. The Operation System based on **Linux Kernel** is termed as linux distribution. Some linux distributions are: Debian, Fedora, SUSE, Gentoo, Red Hat Enterprise Linux, Arch Linux and many more.
 
+### Linux Operating System Architecture
+An Operating Pystem (OS) is the system software that manages computer hardware, software resources and provides an environment for the users to execute computer programs. It consists of various components to perform specific task / function shown in below figure:
+
+  ![linux os arch](../images/linto/linux-os_arch.png)
+
+
 
 
 
