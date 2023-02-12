@@ -50,6 +50,10 @@ The **Kernel Modules** are pieces of code that can be loaded and unloaded into t
   - The basic way is to add the code to the kernel source file itself and recompile the **kernel**.
   - A more efficient way is to add module is by adding code to the **kernel** while it is running. A module can be configured as built-in or loadable. To dynamically load or remove a module, it has to be configured as a loadable module in the kernel configuration.
 
+Using modules can save memory, because they are loaded only when the system is actually using them. All parts of the base kernel stay loaded, in real storage, not just virtual storage.
+
+Modules are much faster to maintain and debug.
+
 
 #### Obtain kernel modules information
 Modules are stored in **/usr/lib/modules/$(uname -r)/kernel**. You can use the command **`uname -r`** to get your current kernel release version.
@@ -79,6 +83,28 @@ virtio_net
 ```
 
 ## kernel
+
+The **Linux kernel** is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel. ${\color{green}Kernel}$ is central/core component of an Operating System and generally has complete control over everything in the system. It always resident in memory until Operating System is shut down again and facilitates interactions between hardware and software components. It is responsible for various tasks such as:
+  - Device management
+  - Memory Management
+  - Process Management
+  - Security & System Calls
+
+### Memory Management
+Keep track of how much memory is used to store what, how, and where.
+
+### Device Management
+Act as mediator/interpreter between the hardware and processes.
+
+### Process Management
+Determine which processes can use the **Central Processing Unit (CPU)**, when, and for how long.
+
+### Security & System Calls
+
+Receive requests for service from the processes and provide the approperiate security among various processes.
+
+  - The ${\color{green}kernel}$, is invisible to the user, working in its own little world known as **kernel space**, where it allocates memory and keeps track of where everything is stored. Web browsers, shell, files, etc are known as the **user space**. These applications interact with the kernel through a **System Call Interface (SCI)**.
+
 
 
 
