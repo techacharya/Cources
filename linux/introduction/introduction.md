@@ -122,7 +122,7 @@ Code or program executed by the system runs on **CPUs** in 1 of 2 modes: **kerne
 
 ### Kernel Types
 The types of kernel are as follow:
-  - ${\color{green}Monolithic Kernel –}$
+  - ${\color{green}Monolithic  Kernel –}$
 
 
 
