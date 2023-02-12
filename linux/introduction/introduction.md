@@ -51,4 +51,5 @@ The **Kernel Modules** are pieces of code that can be loaded and unloaded into t
   - A more efficient way is to add module is by adding code to the **kernel** while it is running. A module can be configured as built-in or loadable. To dynamically load or remove a module, it has to be configured as a loadable module in the kernel configuration.
 
 
-
+#### Obtain kernel modules information
+Modules are stored in ${\color{purple}/usr/lib/modules/kernel_release}$. You can use the command **`uname -r`** to get your current kernel release version.
