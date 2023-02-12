@@ -57,6 +57,7 @@ ${\color{green}Linux}$ is the leading Operating System on servers (over 96.4% of
 An Operating Pystem (OS) is the system software that manages computer hardware, software resources and provides an environment for the users to execute computer programs. It consists of various components to perform specific task / function shown in below figure:
 
   ![linux os arch](../images/lintro/linux-os_arch.png)
+  <img src=../images/lintro/linux-os_arch.png width=900 height 800>
 
 
 ### Kernel Modules
