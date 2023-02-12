@@ -150,6 +150,15 @@ $ cat /etc/shells
   - Prompt for the **root user**: **` # `**
   - Prompt for the **non-root user**: **` $ `**
 
+## System Libraries
+System Libraries are special functions or programs (pre-compiled pieces of code that can be reused in a program) using which application programs or system utilities accesses **kernel's** features. 
 
+### Library File Extensions
+**Uinux-like** System has a variety of library files in many locations. Learning the names, locations, and purposes of some of these libraries may help users and admins better understand their Linux system.
+  - *.a - These are statically linked libraries.
+  - *.bin - These libraries are binary files.
+  - *.fw - Firmware files are special libraries/drivers for hardware.
+  - *.o - Many loadable kernel modules/objects are object files.
+  - *.so - These files are dynamically-linked shared libraries that are not linked put into programs. Rather, programs reference this library and obtain functions/code from it.
 
 
