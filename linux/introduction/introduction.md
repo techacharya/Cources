@@ -58,6 +58,14 @@ ${\color{orange}Note:}$<br>
 Module names often use underscores ( **` _ `** ) or dashes ( **` - `**); however, those symbols are interchangeable when using the **modprobe** command and in configuration files in ${\color{green}/etc/modprobe.d/}$.
 
 You can see what modules are already loaded into the kernel by running **`lsmod`**, which gets its information by reading the file ${\color{green}/proc/modules}$.
+```
+$ lsmod
+```
+To get information about specific module **`modinfo`** command cab be used:
+```
+$ modinfo module_name
+```
+
 
 
 
