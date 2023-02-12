@@ -133,6 +133,23 @@ This Kernel has separate resource protection and management, suitable for use wh
   - **Nano Kernel -**<br> 
 Smallest type of **kernel**, consisting of only a few thousand lines of code. Code executing in the privileged mode of the hardware is minimal. They are used primarily in embedded systems or devices with limited resources.
 
+## Shell
+A **Shell** is a **command-line** interpreter or piece of code that provides a command line user interface for **Unix-like** Operating Systems. It accept human readable commands from computer user and convert them into something which kernel can understand. The shell is both an interactive **command language** and a **scripting language**, and is used by the Operating System to control the execution of the system using shell scripts.
+
+There are several shells are available for **Uinux-like systems** like –
+  - ksh (Korn Shell)
+  - csh (C Shell, Syntax sinilar to C language)
+  - sh (Bourne shell)
+  - bash (Bourne Again shell) and many more
+
+List of all the available shells in **Unix-like** system is present in the ${\color{purple}/etc/shells}$ file.
+```
+$ cat /etc/shells
+```
+  - Path Name : /bin/sh or bash or sch or ksh
+  - Prompt for the **root user**: **` # `**
+  - Prompt for the **non-root user**: **` $ `**
+
 
 
 
