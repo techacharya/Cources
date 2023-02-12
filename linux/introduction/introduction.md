@@ -89,6 +89,7 @@ The **Linux kernel** is a free and open-source, monolithic, modular, multitaskin
   - Memory Management
   - Process Management
   - Security & System Calls
+![linux architecture](../images/lintro/kernel_arch.png)
 
 ### Memory Management
 Keep track of how much memory is used to store what, how, and where.
