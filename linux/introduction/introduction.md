@@ -72,7 +72,7 @@ Today, all necessary modules loading is handled automatically by **`udev`**, so 
 **Kernel modules** can be explicitly listed in files under ${\color{green}/etc/modules-load.d/}$ for **systemd** to load them during boot. Each configuration file is named in the style of ${\color{purple}/etc/modules-load.d/program.conf}$. Configuration files simply contain a list of kernel modules names to load, separated by newlines. Empty lines and lines starting with character **` # `** or **` ; `** are ignored.
 ```
 /etc/modules-load.d/virtio-net.conf
-------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 
 # Load virtio_net.ko at boot
 virtio_net
