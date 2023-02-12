@@ -122,7 +122,17 @@ Code or program executed by the system runs on **CPUs** in 1 of 2 modes: **kerne
 
 ### Kernel Types
 The types of kernel are as follow:
-  - ${\color{green}Monolithic  Kernel –}$
+  - **Monolithic Kernel –**<br>
+The simplest and most common type of **kernel**, the user and kernel services are implemented in the same memory space. It has huge lines of code which is complex.
+  - **Micro Kernel –** <br>
+Include only the essential services and devices required for the system to function and hence, results in a smaller kernel that is faster and uses less memory. It has separate **User Space** and **kernel Space**.
+  - **Hybrid Kernel -**<br>
+Combinnation of both **monolithic** and **microkernel** and it borrows speed from the monolithic kernels and modularity from microkernel.
+  - **Exo Kernel -** <br>
+This Kernel has separate resource protection and management, suitable for use when performing **application-specific** customization.
+  - **Nano Kernel -**<br> 
+Smallest type of **kernel**, consisting of only a few thousand lines of code. Code executing in the privileged mode of the hardware is minimal. They are used primarily in embedded systems or devices with limited resources.
+
 
 
 
