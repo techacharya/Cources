@@ -89,7 +89,6 @@ The **Linux kernel** is a free and open-source, monolithic, modular, multitaskin
   - Memory Management
   - Process Management
   - Security & System Calls
-![linux architecture](../images/lintro/kernel_arch.png)
 
 ### Memory Management
 Keep track of how much memory is used to store what, how, and where.
@@ -106,6 +105,16 @@ Receive requests for service from the processes and provide the approperiate sec
 
   - The ${\color{green}kernel}$, is invisible to the user, working in its own little world known as **kernel space**, where it allocates memory and keeps track of where everything is stored. System components, Libraries and user's application like, Web browsers, shell, files, etc are known as the **user space**. These applications interact with the kernel through a **System Call Interface (SCI)**.
 
+
+## kernel within the OS
+To put the kernel in context, you can think of a **Linux** machine as having 3 layers:
+  - **The hardware:**<br> The physical machine — the bottom or base of the system, made up of memory **(RAM)** and the processor or central processing unit **(CPU)**, as well as input/output **(I/O)** devices such as storage, networking, and graphics. The CPU performs computations and reads from, and writes to, memory.
+  - **The Linux kernel:** The core of the OS. It’s residing in memory that tells the **CPU** what to do.
+  - **User processes:** These are the running programs that the **kernel** manages. User processes are what collectively make up **user space**. The **kernel** also allows these processes and servers to communicate with each other known as **Inter-process Communication, or IPC.
+
+![linux architecture](../images/lintro/kernel_arch.png)
+
+Code or program executed by the system runs on **CPUs** in 1 of 2 modes: **kernel mode** or **user mode**. Code running in the **kernel mode** has unrestricted access to the hardware, while **user mode** restricts access to the **CPU** and **memory** to the **SCI**. A similar separation exists for memory (**kernel space** and **user space**). These 2 small details form the base for some complicated operations like privilege separation for security, building containers, and virtual machines.
 
 
 
