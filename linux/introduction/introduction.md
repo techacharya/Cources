@@ -43,6 +43,12 @@ An Operating Pystem (OS) is the system software that manages computer hardware, 
   ![linux os arch](../images/lintro/linux-os_arch.png)
 
 
+### Kernel Modules
+
+The **Kernel Modules** are pieces of code that can be loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to reboot the system. For example, one type of module is the device driver, which allows the kernel to access hardware connected to the system. Custom codes/modules can be added to **Linux kernel** via two methods:
+
+  - The basic way is to add the code to the kernel source file itself and recompile the **kernel**.
+  - A more efficient way is to add module is by adding code to the **kernel** while it is running. A module can be configured as built-in or loadable. To dynamically load or remove a module, it has to be configured as a loadable module in the kernel configuration.
 
 
 
