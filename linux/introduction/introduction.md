@@ -110,9 +110,9 @@ Receive requests for service from the processes and provide the approperiate sec
 To put the kernel in context, you can think of a **Linux** machine as having 3 layers:
   - **The hardware:**<br> 
 The physical machine — the bottom or base of the system, made up of memory **(RAM)** and the processor or central processing unit **(CPU)**, as well as input/output **(I/O)** devices such as storage, networking, and graphics. The CPU performs computations and reads from, and writes to, memory.
-  - **The Linux kernel:** 
+  - **The Linux kernel:**<br> 
 The core of the OS. It’s residing in memory that tells the **CPU** what to do.
-  - **User processes:** 
+  - **User processes:** <br>
 These are the running programs that the **kernel** manages. User processes are what collectively make up **user space**. The **kernel** also allows these processes and servers to communicate with each other known as **Inter-process Communication, or IPC.
 
 ![linux architecture](../images/lintro/kernel_arch.png)
