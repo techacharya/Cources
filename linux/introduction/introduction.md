@@ -55,4 +55,10 @@ The **Kernel Modules** are pieces of code that can be loaded and unloaded into t
 Modules are stored in **/usr/lib/modules/kernel_release**. You can use the command **`uname -r`** to get your current kernel release version.
 
 ${\color{orange}Note:}$<br>
-Module names often use underscores ( **`_ `** ) or dashes ( **`- `**); however, those symbols are interchangeable when using the **modprobe** command and in configuration files in ${\color{green}/etc/modprobe.d/}$.
+Module names often use underscores ( **` _ `** ) or dashes ( **` - `**); however, those symbols are interchangeable when using the **modprobe** command and in configuration files in ${\color{green}/etc/modprobe.d/}$.
+
+You can see what modules are already loaded into the kernel by running **`lsmod`**, which gets its information by reading the file ${\color{green}/proc/modules}$.
+
+
+
+
