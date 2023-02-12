@@ -180,9 +180,9 @@ System Libraries are special functions or programs (pre-compiled pieces of code 
 System libraries are found in ${\color{purple}/lib/}$  and ${\color{purple}/lib64/}$ directory
 
 ## Linux System Utility Tools
-The Linux System utility tool is a collection of various **command-line** and **GUI** peice of software or program. The **GUI** programs are written by **GNU Project** and ported to linux based Operating System to make it efficient to use for the end users and make it freely available to everyone by published under **GPL**. These tools are not required by system itself but very importent to end users. Some list of tools are mentioned below:
-  - vi ( an editor )
-  - Mozilla Firefox ( Web browser )
-  - The Terminal ( Command-line interface )
-  - Various command-line tools and many more.
+The Linux System utility tool is a collection of various **command-line** and **GUI** peice of software or program. The **GUI** programs are written by **GNU Project** and ported to linux based Operating System to make it efficient to use for the end users and make it freely available to everyone by published under **GPL**. It helps to analyze, configure, optimize or maintain a computer system. Some list of tools are mentioned below:
+  - ACL's
+  - Network Utility (nmcli, etc)
+  - Package Manager (rpm, yum, apt, etc)
+  - System Monitors and many more.
 
