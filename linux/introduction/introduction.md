@@ -52,4 +52,4 @@ The **Kernel Modules** are pieces of code that can be loaded and unloaded into t
 
 
 #### Obtain kernel modules information
-Modules are stored in ${\color{purple}/usr/lib/modules/kernel__release}$. You can use the command **`uname -r`** to get your current kernel release version.
+Modules are stored in ${\color{purple}/usr/lib/modules/kernel_release}$. You can use the command **`uname -r`** to get your current kernel release version.
