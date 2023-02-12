@@ -161,4 +161,6 @@ System Libraries are special functions or programs (pre-compiled pieces of code 
   - *.o - Many loadable kernel modules/objects are object files.
   - *.so - These files are dynamically-linked shared libraries that are not linked put into programs. Rather, programs reference this library and obtain functions/code from it.
 
+System libraries are found in ${\color{purple}/lib/}$  and ${\color{purple}/lib64/}$ directory
+
 
