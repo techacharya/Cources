@@ -66,6 +66,14 @@ To get information about specific module **`modinfo`** command cab be used:
 $ modinfo module_name
 ```
 
+#### Module loading
+Today, all necessary modules loading is handled automatically by **`udev`**, so if you do not need to use any out-of-tree kernel modules, there is no need to put modules that should be loaded at boot in any configuration file. However, there are cases where you might want to load an extra module during the boot process, or blacklist another one for your computer to function properly.
+
+**Kernel modules** can be explicitly listed in files under ${\color{green}/etc/modules-load.d/}$ for **systemd** to load them during boot. Each configuration file is named in the style of ${\color{purple}/etc/modules-load.d/program.conf}$. Configuration files simply contain a list of kernel modules names to load, separated by newlines. Empty lines and lines starting with character **` # `** or **` ; `** are ignored.
+
+### kernel
+
+
 
 
 
