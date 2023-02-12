@@ -146,7 +146,7 @@ List of all the available shells in **Unix-like** system is present in the ${\co
 ```
 $ cat /etc/shells
 ```
-  - Path Name : /bin/sh or bash or sch or ksh
+  - Path Name : /bin/{sh | bash | csh | ksh} or /usr/bin/{sh | bash | csh | ksh}
   - Prompt for the **root user**: **` # `**
   - Prompt for the **non-root user**: **` $ `**
 
