@@ -184,5 +184,6 @@ The Linux System utility tool is a collection of various **command-line** and **
   - ACL's
   - Network Utility (nmcli, etc)
   - Package Manager (rpm, yum, apt, etc)
+  - Cryptographic
   - System Monitors and many more.
 
