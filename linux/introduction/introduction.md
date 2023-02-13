@@ -187,3 +187,17 @@ The Linux System utility tool is a collection of various **command-line** and **
   - Cryptographic
   - System Monitors and many more.
 
+## The Terminal
+The Linux terminal is a text-based interface ( a rectangular box or window/frame) used to control a linux computer. It is the standard way to interact with a Linux server.
+  - Takes input from the user in the form of commands.
+  - Displays output on the screen
+Terminal is a dumb thing so it does not know what to do with the input, so it needs another program to process it, and in most cases, it’s the **Shell**. Post writing commands on the **terminal**, when we press the **`Enter key`**, the terminal passes those commands to another program to figure out what the user wants to do, and in most cases, that program is the Shell, which performs the following functions:
+  - Interprets the command given by the end-user.
+  - Checks the syntax of the command and then Checks whether the command is correctly used or not.
+  - If everything is correct, the shell converts the command into a **kernel** understandable form and passes it to the **kernel**. Else, It returns an error message.
+  - The **` $ `** or **` # `** prompt appears on the terminal waiting for the next command, rrrespective of whether the previous commands were correct or not.
+
+
+
+
+
