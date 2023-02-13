@@ -56,7 +56,7 @@ ${\color{green}Linux}$ is the leading Operating System on servers (over 96.4% of
 ### Linux Operating System Architecture
 An Operating Pystem (OS) is the system software that manages computer hardware, software resources and provides an environment for the users to execute computer programs. It consists of various components to perform specific task / function shown in below figure:
 
-  <img src="../images/lintro/linux-os_arch.png" width="900" height="700">
+  <img src="../../images/lintro/linux-os_arch.png" width="900" height="700">
 
 
 ### Kernel Modules
@@ -131,7 +131,7 @@ The core of the OS. It’s residing in memory that tells the **CPU** what to do.
   - **User processes:** <br>
 These are the running programs that the **kernel** manages. User processes are what collectively make up **user space**. The **kernel** also allows these processes and servers to communicate with each other known as **Inter-process Communication, or IPC.
 
-![linux architecture](../images/lintro/kernel_arch.png)
+![linux architecture](../../images/lintro/kernel_arch.png)
 
 Code or program executed by the system runs on **CPUs** in 1 of 2 modes: **kernel mode** or **user mode**. Code running in the **kernel mode** has unrestricted access to the hardware, while **user mode** restricts access to the **CPU** and **memory** to the **SCI**. A similar separation exists for memory (**kernel space** and **user space**). These 2 small details form the base for some complicated operations like privilege separation for security, building containers, and virtual machines.
 
