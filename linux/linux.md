@@ -5,7 +5,7 @@ This course is presented by **`Devraj Modi`** and hosted on ${\color{green}techa
 The **Linux System Administration Guide** documents have the relevant information regarding the deployment, configuration, and administration of Unix-like Systems. It is oriented towards system administrators with a basic understanding of the Unix-like Systems.
 
 ## Syllabus
-  [Introduction to Unix-like System](introduction/introduction.md)
-  [Access the command line](systemlogin/access-command.md)
+  - [Introduction to Unix-like System](introduction/introduction.md)
+  - [Access the command line](systemlogin/access-command.md)
   
   
