@@ -187,6 +187,13 @@ The Linux System utility tool is a collection of various **command-line** and **
   - Cryptographic
   - System Monitors and many more.
 
+## The User's Applications
+The Operating System based on linux kernel consists of a wide variety of essential applications that can be used to perform many day-to-day tasks. It is not required for Operating System but neccessary to end-users. Some user applications are listed below:
+  - Web browser (Mozilla Firefox, etc)
+  - Audio/Video player (Videos, etc)
+  - Editor (vi, vim, etc)
+  - Remote access tool (ssh, etc) and many more.
+
 ## The Terminal
 The Linux terminal is a text-based interface ( a rectangular box or window/frame) used to control a linux computer. It is the standard way to interact with a Linux server.
   - Takes input from the user in the form of commands.
