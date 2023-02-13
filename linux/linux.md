@@ -6,4 +6,6 @@ The **Linux System Administration Guide** documents have the relevant informatio
 
 ## Syllabus
   [Introduction to Unix-like System](introduction/introduction.md)
+  [Access the command line](systemlogin/access-command.md)
+  
   
