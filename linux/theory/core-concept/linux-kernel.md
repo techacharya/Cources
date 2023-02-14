@@ -3,7 +3,7 @@
 **${\color{green}Kernel}$** is the core component of the Linux based Operating System and has complete control over everything in the system. It always resides in the memory till system shut down and facilitates interactions between hardware and software components. It virtualizes the hardware resources of the machine to provide each process with its virtual resources. This makes the process seem as it is the sole process running on the machine. Different types of kernel listed below:
   - Monolithic Kernel
 
-Monolithic Kernel implements fundamental features of a machine such as managing files, process, memory, and other resources in which all the resources are associated with kernel-space. This increases the size of **Kernel** and the execution of a process is faster.
+    Monolithic Kernel implements fundamental features of a machine such as managing files, process, memory, and other resources in which all the resources are associated with kernel-space. This increases the size of **Kernel** and the execution of a process is faster.
   - Mirco Kernel
   - Hybrid Kernel
   - Exo Kernel
