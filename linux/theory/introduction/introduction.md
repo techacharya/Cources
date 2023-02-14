@@ -32,6 +32,7 @@ A Unix-like system is an operating system that behaves in a manner similar to a 
   - The software to use with the **kernel** was developed by the **GNU project** licensed under the **`GNU General Public License`**, a free software license.
 
   - Linux began to gain importance in **1992** after the **`X Window System`** was ported to Linux by **Orest Zborowski**, which allowed Linux to support a **GUI** for the first time.
+  - The rest of the Operating System usually includes many GNU libraries, utilities, and other software, from the Free Software Foundation. The operating system as a whole is known as **GNU/Linux**.
 
 ### Linux in Today's World
 ${\color{green}Linux}$ is the leading Operating System on servers (over 96.4% of the top 1 million web servers are running on  Linux based Operating System). Linux also runs on all most all available electronics device like,
