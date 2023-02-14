@@ -25,5 +25,7 @@ The **Linux System Administration Guide** documents have the relevant informatio
   - [Local User and Group Management](theory/user-management/user-management.md)
   - [Permissions in Linux System](theory/permissions/permission.md)
   - [Access Control Lists (ACLs)](theory/acl/acls.md)
+  - [Monitor and Manage Linux Process](theory/process/manage-process.md)
+  - [Control Service and Daemons](theory/daemons/control-daemons.md)
   
   
