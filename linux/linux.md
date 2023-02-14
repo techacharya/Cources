@@ -27,5 +27,11 @@ The **Linux System Administration Guide** documents have the relevant informatio
   - [Access Control Lists (ACLs)](theory/acl/acls.md)
   - [Monitor and Manage Linux Process](theory/process/manage-process.md)
   - [Control Service and Daemons](theory/daemons/control-daemons.md)
+  - [Manage Network](theory/network/manage-network.md)
+  - [Remote Access through SSH](theory/ssh/ssh.md)
+  - [Analyze logs and Store](theory/logs/logs.md)
+  - [Software Package Management](theory/software-packages/package.md)
+  - [Data Backups](theory/backups/backup.md)
+  - [Analyze Linux Server](theory/analyze-server/analyze.md)
   
   
