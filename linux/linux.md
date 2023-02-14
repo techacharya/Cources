@@ -21,6 +21,9 @@ The **Linux System Administration Guide** documents have the relevant informatio
     - [File Types in Linux System](theory/core-concept/file-types.md)
     - [Working with Hardware](theory/core-concept/detect-hardware.md)
     - [File Hierarchy Structure](theory/core-concept/fhs.md)
-  - 
+  - [File Management](theory/file-management/file-management.md)
+  - [Local User and Group Management](theory/user-management/user-management.md)
+  - [Permissions in Linux System](theory/permissions/permission.md)
+  - [Access Control Lists (ACLs)](theory/acl/acls.md)
   
   
