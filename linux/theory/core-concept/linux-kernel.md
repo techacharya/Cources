@@ -28,6 +28,7 @@ The linux kernel has four basic major functionalities:
 
 ### The Linux kernel Version
 To find out the version of your kernel, run **`uname -r`**:
+
    ![kernel version](../../images/core-concept/kernel-version.png)
 
 
