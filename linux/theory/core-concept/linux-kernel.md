@@ -6,7 +6,7 @@
   - The **linux kernel** is also modular, hence it extends its capabilities through the use of dynamically loaded kernel modules without the need to reboot the system. A module can be configured as **built-in** or **loadable**.
 
   [linux kernel](../../images/core-concept/linux-kernel.png)
-  <img src="../../images/core-concept/linux-kernel.png" height="500" width="500"
+  <img src="../../images/core-concept/linux-kernel.png" height="500" width="500">
 
 
 Different types of kernel listed below:
