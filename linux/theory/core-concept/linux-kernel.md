@@ -7,7 +7,7 @@
 
   <img src="../../images/core-concept/linux-kernel.png" height="450" width="600">
 
-To better understand the **Linux kernel** in simple language, Think like this: The kernel is a busy personal assistant for a powerful CEO/Boss (the hardware). It’s the assistant’s job to relay messages and requests (processes) from employees and the public (users) to the CEO, to remember to attend the meetting or something else (memory), and to determine who has access to the CEO at any given time and for how long.
+To better understand the **Linux kernel** in simple language, __think like this:__ The kernel is a busy personal assistant for a powerful CEO/Boss (the hardware). It’s the assistant’s job to relay messages and requests (processes) from employees and the public (users) to the CEO, to remember to attend the meetting or something else (memory), and to determine who has access to the CEO at any given time and for how long.
 
 <img src="../../images/core-concept/linux-kernel-eg.png" height="450" width="600">
 
