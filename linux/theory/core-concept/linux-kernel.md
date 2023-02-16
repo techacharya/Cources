@@ -11,6 +11,14 @@ To better understand the **Linux kernel** in simple language, _think like this:_
 
 <img src="../../images/core-concept/linux-kernel-eg.png" height="450" width="600">
 
+
+The linux kernel has four basic major functionalities:
+  - Memory Management
+  - Process Management
+  - Device Management
+  - Security & System Calls
+
+
 Different types of kernel listed below:
   - **Monolithic Kernel**
 
