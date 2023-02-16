@@ -61,7 +61,9 @@ The kernel, is invisible to the user, working in its own little world known as k
   - C/C++
   - Containers and various applications
 
-![kernel space](../../images/core-concept/kernel-space.png) ![user space](../../images/core-concept/user-space.png)
+| **Kernel Space**                                           | User Space                                             |
+|------------------------------------------------------------|--------------------------------------------------------|
+| ![kernel space](../../images/core-concept/kernel-space.png)| ![user space](../../images/core-concept/user-space.png)|
 
 
 Different types of kernel listed below:
