@@ -26,6 +26,10 @@ The linux kernel has four basic major functionalities:
 
     Receive requests for service from the processes and maintain the security.
 
+### The Linux kernel Version
+To find out the version of your kernel, run **`uname -r`**:
+   ![kernel version](../../images/core-concept/kernel-version.png)
+
 
 Different types of kernel listed below:
   - **Monolithic Kernel**
