@@ -43,7 +43,7 @@ It's the tree where all new features are introduced and where all the exciting n
 
 #### Stable
 After each mainline kernel is released, it is considered **stable**. An example, here is how the **5.4** development cycle went (all dates in **2019**):
-   ![stable version]()
+   ![stable version](../../images/core-concept/stable-version.png)
 
 **Longterm kernels** are picked based on various factors -- major new features, popular commercial distribution needs, device manufacturer demand, maintainer workload and availability, etc. You can roughly estimate when the new longterm version will become available based on how much time has elapsed since the last longterm version was chosen.
 
