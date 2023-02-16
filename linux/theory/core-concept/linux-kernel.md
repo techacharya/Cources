@@ -22,7 +22,7 @@ The linux kernel has four basic major functionalities:
   - ${\color{green}Device}$ ${\color{green}Management}$
 
     Act as mediator/interpreter between the hardware and processes.
-  - ${\color{green}Security}$ ${\color{green}&}$ ${\color{green}System}$ ${\color{green}Calls}$
+  - ${\color{green}Security}$ ${\color{green}and}$ ${\color{green}System}$ ${\color{green}Calls}$
 
     Receive requests for service from the processes and maintain the security.
 
