@@ -48,7 +48,7 @@ The major version number is incremented when the number after the dot ( **` . `*
 ### Kernel Space & User Space
 The kernel, is invisible to the user, working in its own little world known as kernel space, where it allocates memory and keeps track of where everything is stored. What the user sees like, web browsers, other applications and files are known as the user space. These applications interact with the kernel through a **System Call Interface (SCI)**.
 ![kernel & User mode]
-<img src="../../images/core-concept/kernel-user-mode.png" width="1000" height="650">
+<img src="../../images/core-concept/kernel-user-mode.png" width="900" height="650">
 ##### Kernel Space
   - Kernel codes
   - Kernel modules
