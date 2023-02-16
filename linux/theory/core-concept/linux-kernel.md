@@ -32,7 +32,7 @@ To find out the version of your kernel, run **`uname -r`**:
    ![kernel version](../../images/core-concept/kernel-version.png)
 
 In **1994**, Linus started using a new versioning system _i,e._ three variables in the syntax: **` a.b.c `**. Each number, separated by a dot ( **` . `** ) or hyphen ( **` - `** ), is part of a code. If you see anything at all after the dash ( **` - `** ), you are running a distribution kernel.
-   ![version details](../../images/core-concept/version-details.png)
+   <img src="../../images/core-concept/version-details.png" height="450" width="600">
 
 There are several main categories into which kernel releases may fall:
 #### Prepatch
@@ -43,7 +43,7 @@ It's the tree where all new features are introduced and where all the exciting n
 
 #### Stable
 After each mainline kernel is released, it is considered **stable**. An example, here is how the **5.4** development cycle went (all dates in **2019**):
-   ![stable version](../../images/core-concept/stable-version.png)
+   ![stable version](../../images/core-concept/stable-version.png 
 
 **Longterm kernels** are picked based on various factors -- major new features, popular commercial distribution needs, device manufacturer demand, maintainer workload and availability, etc. You can roughly estimate when the new longterm version will become available based on how much time has elapsed since the last longterm version was chosen.
 
