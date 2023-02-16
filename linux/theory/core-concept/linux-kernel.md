@@ -28,6 +28,7 @@ The linux kernel has four basic major functionalities:
 
 ### The Linux kernel Version
 To find out the version of your kernel, run **`uname -r`**:
+
    ![kernel version](../../images/core-concept/kernel-version.png)
 
 In **1994**, Linus started using a new versioning system _i,e._ three variables in the syntax: **` a.b.c `**. Each number, separated by a dot ( **` . `** ) or hyphen ( **` - `** ), is part of a code. If you see anything at all after the dash ( **` - `** ), you are running a distribution kernel.
