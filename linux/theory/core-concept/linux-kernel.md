@@ -45,7 +45,8 @@ After each mainline kernel is released, it is considered **stable**. An example,
 
 The major version number is incremented when the number after the dot ( **` . `** ) starts looking too big, there is literally no other reason.
  
-
+### Kernel Space & User Space
+The kernel, is invisible to the user, working in its own little world known as kernel space, where it allocates memory and keeps track of where everything is stored. What the user sees like, web browsers, other applications and files are known as the user space. These applications interact with the kernel through a **System Call Interface (SCI)**.
 
 
 
