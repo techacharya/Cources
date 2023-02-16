@@ -5,9 +5,11 @@
   - Linnux based Operating System uses **Monolithic Kernel**, hence **kernel** carries out process scheduling, device management, memory managemrnt and several operations by itself.
   - The **linux kernel** is also modular, hence it extends its capabilities through the use of dynamically loaded kernel modules without the need to reboot the system. A module can be configured as **built-in** or **loadable**.
 
-  [linux kernel](../../images/core-concept/linux-kernel.png)
   <img src="../../images/core-concept/linux-kernel.png" height="450" width="600">
 
+To better understand the **Linux kernel** in simple language, Think like this: The kernel is a busy personal assistant for a powerful CEO/Boss (the hardware). It’s the assistant’s job to relay messages and requests (processes) from employees and the public (users) to the CEO, to remember to attend the meetting or something else (memory), and to determine who has access to the CEO at any given time and for how long.
+
+<img src="../../images/core-concept/linux-kernel-eg.png" height="450" width="600">
 
 Different types of kernel listed below:
   - **Monolithic Kernel**
