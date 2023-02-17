@@ -74,7 +74,7 @@ Now we will understand the, how programs/applications run in User Space. There a
   - Versioning of this API matters as it’s the **glue** that ensures deterministic communication between the **`user space`** and **`kernel space`**.
 All processes make system calls:
   [user space process execution](../../images/core-concept/user-space-process.png)
-  <img src="../../images/core-concept/user-space-process.png" width="900" height="650">
+  <img src="../../images/core-concept/user-space-process.png" width="900" height="550">
 
 Different types of kernel listed below:
   - **Monolithic Kernel**<br>
