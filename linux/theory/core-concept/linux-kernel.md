@@ -67,6 +67,13 @@ User space refers to all of the code in an Operating System that lives outside o
 |------------------------------------------------------------|--------------------------------------------------------|
 | ![kernel space](../../images/core-concept/kernel-space.png)| ![user space](../../images/core-concept/user-space.png)|
 
+### Application running in User Space
+Now we will understand the, how programs/applications run in User Space. There are three important things that developers, architects, and systems administrators, need to know:
+  - All applications, inclusive of containerized applications, rely on the underlying **`kernel`**.
+  - The kernel provides an API to these applications via **`System Calls`**.
+  - Versioning of this API matters as it’s the **glue** that ensures deterministic communication between the **`user space`** and **`kernel space`**.
+All processes make system calls:
+  ![user space process execution](../../images/core-concept/user-space-process.png)
 
 Different types of kernel listed below:
   - **Monolithic Kernel**<br>
