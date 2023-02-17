@@ -50,3 +50,10 @@ The Linux system boot process can be divided into following steps.
   - Once kernel is loaded into the RAM, it passes control to kernel.
 
   ![boot option](../../images/core-concept/boot-process/grub-option.png)
+
+### Kernel Initialization
+  - First of all kernel is loaded into mermory in **`read-only`** mode.
+  - initramfs/initrd gets decompressed and then, it first loads temporary filesystem.
+  - initrd/initramfs detects and loads the drivers from temporary file-system to actual file-system.
+  - Mounts the other file-systems like, LVM, RAID, etc and unmount itself.
+  - Once the main file-system is mounted, kernel initialize the first process **`init/systemd`**
