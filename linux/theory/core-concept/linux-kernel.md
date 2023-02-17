@@ -33,10 +33,8 @@ In **1994**, Linus started using a new versioning system _i,e._ three variables 
 There are several main categories into which kernel releases may fall:
 #### Prepatch
 They must be compiled from source and usually contain new features that must be tested before they can be put into a stable release.
- 
 #### Mainline
 It's the tree where all new features are introduced and where all the exciting new development happens.
-
 #### Stable
 After each mainline kernel is released, it is considered **stable**. An example, here is how the **5.4** development cycle went (all dates in **2019**):
    <img src="../../images/core-concept/stable-version.png" height="450" width="600"> 
