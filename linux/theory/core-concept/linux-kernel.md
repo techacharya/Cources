@@ -72,9 +72,13 @@ Now we will understand the, how programs/applications run in User Space. There a
   - All applications, inclusive of containerized applications, rely on the underlying **`kernel`**.
   - The kernel provides an API to these applications via **`System Calls`**.
   - Versioning of this API matters as it’s the **glue** that ensures deterministic communication between the **`user space`** and **`kernel space`**.
+
 All processes make system calls:
-  [user space process execution](../../images/core-concept/user-space-process.png)
+  
   <img src="../../images/core-concept/user-space-process.png" width="900" height="550">
+
+Notice in the following figure that bash makes a **`getpid()`** call which requests its own process identity. Also, the **`cat`** command requests access to ${\color{purple}/etc/os-release}$ with a file **`open()`** call but notice that some code lives in user space, and some lives in the kernel space.
+  <img src="../../images/core-concept/user-space-process-eg.png" width="900" height="550">
 
 Different types of kernel listed below:
   - **Monolithic Kernel**<br>
