@@ -49,12 +49,14 @@ The major version number is incremented when the number after the dot ( **` . `*
 The kernel, is invisible to the user, working in its own little world known as kernel space, where it allocates memory and keeps track of where everything is stored. What the user sees like, web browsers, other applications and files are known as the user space. These applications interact with the kernel through a **System Call Interface (SCI)**.
 ![kernel & User mode]
 <img src="../../images/core-concept/kernel-user-mode.png" width="900" height="650">
-##### Kernel Space
+#### Kernel Space
+
   - Kernel codes
   - Kernel modules
   - Device drivers
   - Security codes and so on.
-##### User Space
+#### User Space
+User space refers to all of the code in an Operating System that lives outside of the kernel. All kinds of utilities, programming languages, scripts and graphical tools - these are user space applications.
   - Mozilla Firefox
   - Java
   - Python
