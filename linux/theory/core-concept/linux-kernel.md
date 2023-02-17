@@ -77,9 +77,10 @@ All processes make system calls:
   
   <img src="../../images/core-concept/user-space-process.png" width="900" height="550">
 
-Notice in the following figure that bash makes a **`getpid()`** call which requests its own process identity. Also, the **`cat`** command requests access to ${\color{purple}/etc/os-release}$ with a file **`open()`** call but notice that some code lives in user space, and some lives in the kernel space.
+Notice in the following figure that bash makes a **`getpid()`** call which requests its own process identity. Also, the **`cat`** command requests access to ${\color{purple}/etc/os-release}$ with a file **`open()`** call. But notice that some code lives in user space, and some lives in the kernel space.
   <img src="../../images/core-concept/user-space-process-eg.png" width="900" height="550">
 
+## Kernel types
 Different types of kernel listed below:
   - **Monolithic Kernel**<br>
     Monolithic Kernel implements fundamental features of a machine such as managing files, process, memory, and other resources in which all the resources are associated with kernel-space. This increases the size of **Kernel** and the execution of a process is faster.
