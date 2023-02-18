@@ -27,12 +27,21 @@ The Linux system boot process can be divided into following steps.
   - Handover the **`control`** to first srctor of selected/configured boot device i.e. MBR.
 
 ### UEFI
-  - Unified Extensible Firmware Interface is a set of specifications written by the **`UEFI Forum`**. 
-  - UEFI doesn’t look for the MBR in the first sector of the Boot Device.
+  - Unified Extensible Firmware Interface is a set of specifications written by the **UEFI Forum** **` https://uefi.org `**. 
   - It maintains a list of valid boot volumes called **EFI (Extensible Firmware Interface)** System Partitions or **ESP**. 
   - During the **POST** procedure, the **`UEFI firmware`** scans all of the bootable storage devices that are connected to the system for a valid **GUID Partition Table (GPT)**.
+  - Globally Unique Identifier (GUID)
   - Unlike the MBR, GPT doesn’t contain a Boot Loader. 
   - The firmware itself scans the GPT to find an EFI System Partition to boot from, and directly loads the kernel from the right partition. 
+
+#### Legacy BIOS v/s UEFI
+  | **Legacy BIOS**                                                   | **UEFI**                                                     |
+  |-------------------------------------------------------------------|--------------------------------------------------------------|
+  | <li>Supports hard disk upto 2.2 TB</li>                           | <li>Supports hard disk upto 9.4 ZB </li>                     |
+  | <li>Look for the MBR in the first sector of the Boot Device.</li> | <li>Maintains a list of valid boot volumes i.e. **EFI**</li> |
+  | <li>Limits, 16-bit and 32-bit modes </li>                         | <li>It runs in 32-bit and 64-bit modes </li>                 |
+  | <li>Doesn't support mouse curser </li>                            | <li>Supports mouse curser </li>                              |
+  | <li>Slower </li>                                                  | <li>Faster boot process and has a secure boot feature </li>  |
 
 ### MBR (Master Boot record)
   - It's size is 512 B (bytes), first sector of any bootable device contains machine instruction code to boot a machine and having below information:
@@ -59,3 +68,6 @@ The Linux system boot process can be divided into following steps.
   - Once the main file-system is mounted, kernel initialize the first process **`init/systemd`**
 
   ![kernel initialize](../../images/core-concept/boot-process/kernel-loading.png)
+  
+### INIT Process or SystemD
+
