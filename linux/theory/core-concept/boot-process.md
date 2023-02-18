@@ -43,6 +43,8 @@ The Linux system boot process can be divided into following steps.
   | <li>Doesn't support mouse curser </li>                            | <li>Supports mouse curser </li>                              |
   | <li>Slower </li>                                                  | <li>Faster boot process and has a secure boot feature </li>  |
 
+![bios v/s ](../../images/core-concept/boot-process/bios-uefi.png)
+
 ### MBR (Master Boot record)
   - It's size is 512 B (bytes), first sector of any bootable device contains machine instruction code to boot a machine and having below information:
     - Boot Loader (446 B (bytes))
