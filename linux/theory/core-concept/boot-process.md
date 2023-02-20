@@ -52,6 +52,12 @@ The Linux system boot process can be divided into following steps.
     - Error Checking (2 B)
   - It loads the boot loader into the main memory and handover to it.
 
+### EFI (Extensible Firmware Interface)
+  - The EFI ( **`Extensible Firmware Interface `** ) System Partition or ESP is a partition on a data storage device.
+  - It is an independent partition from OS, where the **UEFI** Boot Loader, application and drivers to be used by **`UEFI Firmware`**.
+  - **ESP** is mandatory for UEFI boot.
+  - An **ESP** contains the boot loaders or kernel images and device drivers for all installed operating systems.
+
 ### GRUB 
   - Stands for GNU GRand Unified Bootloader.
   - Loads ${\color{purple}/boot/grub2/grub.cfg}$ at boot time.
@@ -72,4 +78,13 @@ The Linux system boot process can be divided into following steps.
   ![kernel initialize](../../images/core-concept/boot-process/kernel-loading.png)
   
 ### INIT Process or SystemD
+  - Kernel starts the first service/process with **PID 1** i.e. **` systemd `**.
+  - **systemd** starts all the required service/process and brings the system to the runlevel/target. 
+  - Executes the system to boot into the run level or target as specified in **` /etc/systemd/system/default.target `**.
+  - To check default target execute either **`systemctl get-default`** or **`who -r`** or **` runlevel `**
+To check all the available targets or run levels in the system execute the below command.
+```
+$ ls /usr/lib/systemd/system/runlevel*.target -l
+```
+
 
