@@ -96,4 +96,4 @@ $ ls /usr/lib/systemd/system/runlevel*.target -l
 Post gone through all the avobe mentioned steps/stages system landed to login interface.
 |                                     |                                  |
 |-------------------------------------|----------------------------------|
-| ![login](../../images/core-concept/boot-process/login-shell.png) | ![login](../../images/core-concept/boot-process/login-shel1.png)|
+| ![login](../../images/core-concept/boot-process/login-shell.png) | ![login](../../images/core-concept/boot-process/login-shell1.png)|
