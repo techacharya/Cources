@@ -82,9 +82,12 @@ The Linux system boot process can be divided into following steps.
   - **systemd** starts all the required service/process and brings the system to the runlevel/target. 
   - Executes the system to boot into the run level or target as specified in **` /etc/systemd/system/default.target `**.
   - To check default target execute either **`systemctl get-default`** or **`who -r`** or **` runlevel `**
+  - Next as per the **fstab** entry file system's integrity is checked and root partition is re-mounted as read-write.
+
+
+### runlevel or target Scripts
+  - Scripts used for runlevels **0** to **6** are located in ${\color{purple}/usr/lib/systemd/system/runlevel}$.
 To check all the available targets or run levels in the system execute the below command.
 ```
 $ ls /usr/lib/systemd/system/runlevel*.target -l
 ```
-
-
