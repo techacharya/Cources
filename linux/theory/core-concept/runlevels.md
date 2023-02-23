@@ -41,3 +41,21 @@ In older version of Linux Systems like, **RHEL 6**, **Ubuntu 14.0**, etc. had a 
   | **` 6 `**     | Reboot the machine                                  |
 
   
+## Targets
+  - Poweroff mode
+  - Rescue Mode
+  - Multi User mode
+  - Graphical Mode
+  - Reboot
+
+| **Runlevels** | **Targets**               | **Description**                                                |
+|---------------|---------------------------|----------------------------------------------------------------|
+| **` 0 `**     | poweroff.target           | power-off or halt the system                                   |
+| **` 1 `**     | rescue.target             | Boot the system in rescue or recovery mode.                    |
+| **` 2 `**     | multi-user.target         | To boot system into multi-user environment                     |
+| **` 3 `**     | multi-user.target         | To boot system into multi-user environment                     |
+| **` 4 `**     | multi-user.target         | To boot system into multi-user environment                     |
+| **` 5 `**     | graphical.target          | To boot machine into multi-user & graphical environment        |
+| **` 6 `**     | reboot.target             | Reboot the machine                                             |
+
+
