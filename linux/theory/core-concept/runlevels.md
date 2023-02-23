@@ -30,7 +30,7 @@ $ systemctl get-default
 
 In older version of Linux Systems like, **RHEL 6**, **Ubuntu 14.0**, etc. had a concept of **` runlevels `** but later version of linux based systems replaced with **` targets `**.
 ## Runlevels
-  | ** Runlevels  | **Description**                                     |
+  | **Runlevels** | **Description**                                     |
   |---------------|-----------------------------------------------------|
   | **` 0 `**     | Halt and shut down the machine                      |
   | **` 1 `**     | Single user, rescue mode                            |
