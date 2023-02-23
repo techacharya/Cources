@@ -59,3 +59,4 @@ In older version of Linux Systems like, **RHEL 6**, **Ubuntu 14.0**, etc. had a 
 | **` 6 `**     | reboot.target             | Reboot the machine                                             |
 
 
+![runlevels-targets](../../images/core-concept/targets/runleve-target.png)
