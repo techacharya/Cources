@@ -27,3 +27,17 @@ To identigy the defaut configured runlevel or target execute the following comma
 ```
 $ systemctl get-default
 ```
+
+In older version of Linux Systems like, **RHEL 6**, **Ubuntu 14.0**, etc. had a concept of **` runlevels `** but later version of linux based systems replaced with **` targets `**.
+## Runlevels
+  | ** Runlevels  | **Description**                                     |
+  |---------------|-----------------------------------------------------|
+  | **` 0 `**     | Halt and shut down the machine                      |
+  | **` 1 `**     | Single user, rescue mode                            |
+  | **` 2 `**     | Multi User mode without NFS or Networking           |
+  | **` 3 `**     | Multi User mode                                     |
+  | **` 4 `**     | Unused, System admin can set custom runlevel        |
+  | **` 5 `**     | Graphical user mode                                 |
+  | **` 6 `**     | Reboot the machine                                  |
+
+  
