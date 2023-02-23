@@ -22,3 +22,8 @@ To start the system into **Graphical Mode** to get graphical interface requires 
 Similarly, to get Command-line interface with multi user it operates into **Command-line Mode** and requires **NetworkManager Service** and many others service.
 
 ![targets](../../images/core-concept/targets/target3-5.png)
+
+To identigy the defaut configured runlevel or target execute the following command:
+```
+$ systemctl get-default
+```
