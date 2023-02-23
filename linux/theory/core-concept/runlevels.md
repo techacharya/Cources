@@ -15,7 +15,7 @@ $ runlevel
 $ who -r
 ```
 
-During boot process **` initd `** or **`systemd `** checks for default configured **runlevel** or **target** and make sure that all the required process or service in that mode are started.
+During boot process **` initd `** or **` systemd `** checks for default configured **runlevel** or **target** and make sure that all the required process or service in that mode are started.
 
 ${\color{purple}For}$ ${\color{purple}Example:}$<br>
 To start the system into **Graphical Mode** to get graphical interface requires GNOME Display Manager **` gdm.service `** and **Multi User service** as well and many others.
