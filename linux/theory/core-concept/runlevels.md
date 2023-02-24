@@ -27,11 +27,11 @@ Similarly, to get Command-line interface with multi user it operates into **Comm
 You can display the default target using the **` systemctl `** command or examine the **` /etc/systemd/system/default.target `** file, which represents the default target unit.
   - To identigy the defaut configured runlevel or target execute the following command:
     ```
-    $ systemctl get-default
+    # systemctl get-default
     ```
   - Determine the default target using the symbolic link:
     ```
-    $ ls -l /usr/lib/systemd/system/default.target
+    # ls -l /usr/lib/systemd/system/default.target
     ```
 
 In older version of Linux Systems like, **RHEL 6**, **Ubuntu 14.0**, etc. had a concept of **` runlevels `** but later version of linux based systems replaced with **` targets `**.
@@ -71,13 +71,36 @@ Targets are groupings of resources that represent a state the Linux system has r
 ### View the Target Units
   - List all loaded units regardless of their state:
     ```
-    $ systemctl list-units --type target --all
+    # systemctl list-units --type target --all
     ```
   - To list all currently loaded target units:
     ```
-    $ systemctl list-units --type target
+    # systemctl list-units --type target
     ```
     ![list loaded target](../../images/core-concept/targets/list-loaded-target.png)
-  - 
+
+### Change default target
+  - To determine the default target unit:
+    ```
+    # systemctl get-default
+    ```
+  - To change the default target unit execute the below command:
+    ```
+    # systemctl set-default multi-user.target
+    ```
+    Replace the **` multi-user.target `** with your desired target unit name.
+
+
+### Changing the current target
+When you set a default target unit, the current target remains unchanged until the next **reboot**. If you want to change the target unit in the current session without reboot, use the **` systemctl isolate `** command.
+  - Change to a different target unit in the current session:
+    ```
+    # systemctl isolate multi-user.target
+    ```
+    Replace the **` multi-user.target `** with your desired target unit.
+  - To verify the chabges execute the below command:
+    ```
+    # systemctl get-default
+    ```
 
 
