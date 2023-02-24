@@ -23,10 +23,15 @@ Similarly, to get Command-line interface with multi user it operates into **Comm
 
 ![targets](../../images/core-concept/targets/target3-5.png)
 
-To identigy the defaut configured runlevel or target execute the following command:
-```
-$ systemctl get-default
-```
+You can display the default target using the **` systemctl `** command or examine the **` /etc/systemd/system/default.target `** file, which represents the default target unit.
+  - To identigy the defaut configured runlevel or target execute the following command:
+    ```
+    $ systemctl get-default
+    ```
+  - Determine the default target using the symbolic link:
+    ```
+    $ ls -l /usr/lib/systemd/system/default.target
+    ```
 
 In older version of Linux Systems like, **RHEL 6**, **Ubuntu 14.0**, etc. had a concept of **` runlevels `** but later version of linux based systems replaced with **` targets `**.
 ## Runlevels
@@ -42,6 +47,7 @@ In older version of Linux Systems like, **RHEL 6**, **Ubuntu 14.0**, etc. had a 
 
   
 ## Targets
+Targets are groupings of resources that represent a state the Linux system has reached during startup.
   - Poweroff mode
   - Rescue Mode
   - Multi User mode
