@@ -35,6 +35,9 @@ You can display the default target using the **` systemctl `** command or examin
     ```
 
 In older version of Linux Systems like, **RHEL 6**, **Ubuntu 14.0**, etc. had a concept of **` runlevels `** but later version of linux based systems replaced with **` targets `**.
+
+  ![target runlevel](../../images/core-concept/targets/target-runlevel.png)
+
 ## Runlevels
   | **Runlevels** | **Description**                                     |
   |---------------|-----------------------------------------------------|
