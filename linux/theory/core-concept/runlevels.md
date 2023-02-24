@@ -23,6 +23,7 @@ Similarly, to get Command-line interface with multi user it operates into **Comm
 
 ![targets](../../images/core-concept/targets/target3-5.png)
 
+### View Default Target
 You can display the default target using the **` systemctl `** command or examine the **` /etc/systemd/system/default.target `** file, which represents the default target unit.
   - To identigy the defaut configured runlevel or target execute the following command:
     ```
@@ -66,3 +67,17 @@ Targets are groupings of resources that represent a state the Linux system has r
 
 
 ![runlevels-targets](../../images/core-concept/targets/runleve-target.png)
+
+### View the Target Units
+  - List all loaded units regardless of their state:
+    ```
+    $ systemctl list-units --type target --all
+    ```
+  - To list all currently loaded target units:
+    ```
+    $ systemctl list-units --type target
+    ```
+    ![list loaded target](../../images/core-concept/targets/list-loaded-target.png)
+  - 
+
+
