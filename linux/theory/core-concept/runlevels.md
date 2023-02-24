@@ -103,4 +103,34 @@ When you set a default target unit, the current target remains unchanged until t
     # systemctl get-default
     ```
 
+To boot system into any desired mode you can execute the below command:
+#### Syntax:
+```
+# systemctl mode
+```
+#### Examples:
+To reboot system execute below command:
+```
+# systemctl reboot
+```
+To boot system into rescue mode:
+```
+# systemctl rescue
+```
+To prevent **` systemd `** from sending a message, use the **` --no-wall `** command-line option:
+```
+# systemctl --no-wall rescue
+```
+
+## Additional Information
+You can visit to more information:
+```
+# man bootup
+```
+```
+# man systemd.special
+```
+```
+# man man dracut.bootup
+```
 
