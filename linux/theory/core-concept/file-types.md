@@ -58,13 +58,12 @@ Symbol links file points to another file or a folder/directory on linux system. 
 ```
 $ ls -ltr /dev/ | grep ^l
 ```
-<br>
-    There are two types of symbol link file one is **` Soft Links `** and other is **` Hard Links `**.
-    #### Hard Links
-      - Every file on the linux filesystem starts with a single hard link. 
-      - The **hard link** is the link between the filename and the actual data stored on the filesystem. 
-      - Creating an additional hard link to a file means pointing to the exact same data as the old filename. This means that the two filenames, even though they are different, point to identical data. 
-      - Files that are hard-linked together share the same **` inode `** number.
+There are two types of symbol link file one is **` Soft Links `** and other is **` Hard Links `**.
+#### Hard Links
+  - Every file on the linux filesystem starts with a single hard link. 
+  - The **hard link** is the link between the filename and the actual data stored on the filesystem. 
+  - Creating an additional hard link to a file means pointing to the exact same data as the old filename. This means that the two filenames, even though they are different, point to identical data. 
+  - Files that are hard-linked together share the same **` inode `** number.
     
 
 
