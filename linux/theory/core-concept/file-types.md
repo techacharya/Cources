@@ -101,7 +101,7 @@ ${\color{orange}Syntax:}$
 ```
 $ find / -type <file_identifier>
 ```
-${\color{orange}Examples:}$
+${\color{orange}Examples:}$<br>
 To identify character files:
 ```
 $ find / -type c
