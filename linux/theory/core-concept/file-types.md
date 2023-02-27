@@ -41,3 +41,16 @@ Block files act as a direct interface to block devices that performs data **Inpu
 $ ls -ltr /dev/ | grep ^b
 ```
 
+### Character Files
+A character file is a hardware file that **` reads/writes `** data character by character and provides a serial stream of input or output and provide direct access to hardware devices. To find out these files execute the below command:
+```
+$ ls -ltr /dev/ | grep ^c
+```
+
+### Socket Files
+A socket file is used to pass the information between applications and enables the communication between two processes. To find out these files execute the below command:
+```
+$ ls -ltr /dev/ | grep ^s
+```
+
+
