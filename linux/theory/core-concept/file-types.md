@@ -67,6 +67,7 @@ There are two types of symbol link file one is **` Soft Links `** and other is *
   - Only be created for regular files not for directories and special files.
   - Hard link cannot span over multiple filesystems. 
 To create hard link execute the below command:
+
 ${\color{orange}Syntax:}$
 ```
 $ ln <original file path> <new file path>
