@@ -22,4 +22,15 @@ Directory files are those files taht contains the other files and directory and 
 $ ls -l | grep ^d
 ```
 
+### Special Files
+Special files are further categorised into different types listed below:
+  - Block Files
+  - Character Files
+  - Socket Files
+  - Symbol Link Files
+    - Soft Link
+    - Hard Link
+  - Named Pipe files
 
+  ![Special Files Types](../../images/core-concept/file-types/special-file-type.png)
+  
