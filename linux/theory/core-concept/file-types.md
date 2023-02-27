@@ -27,7 +27,7 @@ Special files are further categorised into different types listed below:
   - Block Files
   - Character Files
   - Socket Files
-  - Symbol Link Files
+  - Link Files
     - Soft Link
     - Hard Link
   - Named Pipe files
@@ -52,5 +52,18 @@ A socket file is used to pass the information between applications and enables t
 ```
 $ ls -ltr /dev/ | grep ^s
 ```
+
+### Links Files
+Symbol links file points to another file or a folder/directory on linux system. It is like shortcut in windows. To find out these files execute the below command:
+```
+$ ls -ltr /dev/ | grep ^l
+```
+    There are two types of symbol link file one is **` Soft Links `** and other is **` Hard Links `**.
+    #### Hard Links
+      - Every file on the linux filesystem starts with a single hard link. 
+      - The **hard link** is the link between the filename and the actual data stored on the filesystem. 
+      - Creating an additional hard link to a file means pointing to the exact same data as the old filename. This means that the two filenames, even though they are different, point to identical data. 
+      - Files that are hard-linked together share the same **` inode `** number.
+    
 
 
