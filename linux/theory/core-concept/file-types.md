@@ -89,5 +89,11 @@ ${\color{orange}Example:}$
 $ ln -s /opt/python3/bin/python3.9 /usr/bin/python
 ```
 
+### Named Pipe Files
+The named pipe file is also known as **` FIFO `** First In First Out and sends data from one process to another so that the receiving process reads the data **` first-in-first-out `** manner.  To find out these files execute the below command:
+```
+$ ls -l | grep ^p
+```
+
 
 
