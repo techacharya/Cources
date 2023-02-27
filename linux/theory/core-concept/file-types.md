@@ -58,8 +58,7 @@ Symbol links file points to another file or a folder/directory on linux system. 
 ```
 $ ls -ltr /dev/ | grep ^l
 ```
-
-
+<br>
     There are two types of symbol link file one is **` Soft Links `** and other is **` Hard Links `**.
     #### Hard Links
       - Every file on the linux filesystem starts with a single hard link. 
