@@ -64,6 +64,12 @@ There are two types of symbol link file one is **` Soft Links `** and other is *
   - The **hard link** is the link between the filename and the actual data stored on the filesystem. 
   - Creating an additional hard link to a file means pointing to the exact same data as the old filename. This means that the two filenames, even though they are different, point to identical data. 
   - Files that are hard-linked together share the same **` inode `** number.
+  - Only be created for regular files not for directories and special files.
+  - Hard link cannot span over multiple filesystems. 
+
+#### Soft Links
+Soft links link together non-regular and regular files and can also span multiple filesystems. To create soft link execute the below command:
+${\color{orange}Syntax:}$
     
 
 
