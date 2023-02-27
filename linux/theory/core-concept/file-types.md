@@ -36,4 +36,4 @@ Special files are further categorised into different types listed below:
   
 
 ### Block Files
-Block files act as a direct interface to block devices that performs data **`Input `** and **` Output `** operations in units of blocks. These files are hardware files and most of them are present in **` /dev `**. 
+Block files act as a direct interface to block devices that performs data **Input** and **Output** operations in units of blocks. These files are hardware files and most of them are present in **` /dev `**. 
