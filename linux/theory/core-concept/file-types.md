@@ -6,3 +6,5 @@ There are mainly three types of files available in linux system.
   - Regular Files
   - Directory files
   - Special Files
+
+  ![file types](../../images/core-concept/file-types/file-type.png)
