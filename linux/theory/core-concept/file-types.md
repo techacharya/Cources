@@ -66,6 +66,15 @@ There are two types of symbol link file one is **` Soft Links `** and other is *
   - Files that are hard-linked together share the same **` inode `** number.
   - Only be created for regular files not for directories and special files.
   - Hard link cannot span over multiple filesystems. 
+To create hard link execute the below command:
+${\color{orange}Syntax:}$
+```
+$ ln <original file path> <new file path>
+```
+${\color{orange}Example:}$
+```
+$ ln /home/acharya/acharya.py /tmp/acharya
+```
 
 #### Soft Links
 Soft links link together non-regular and regular files and can also span multiple filesystems. To create soft link execute the below command:
