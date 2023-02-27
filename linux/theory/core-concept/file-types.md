@@ -95,7 +95,7 @@ The named pipe file is also known as **` FIFO `** First In First Out and sends d
 $ ls -l | grep ^p
 ```
 
-## Identify file types in Libux System
+## Identify file types in Linux System
 To identify file types in linux system execute the beolow command:
 ${\color{orange}Syntax:}$
 ```
