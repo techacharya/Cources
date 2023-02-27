@@ -96,7 +96,7 @@ $ ls -l | grep ^p
 ```
 
 ## Identify file types in Linux System
-To identify file types in linux system execute the beolow command:
+To identify file types in linux system execute the beolow command:<br>
 ${\color{orange}Syntax:}$
 ```
 $ find / -type <file_identifier>
