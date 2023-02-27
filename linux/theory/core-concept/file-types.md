@@ -70,6 +70,13 @@ There are two types of symbol link file one is **` Soft Links `** and other is *
 #### Soft Links
 Soft links link together non-regular and regular files and can also span multiple filesystems. To create soft link execute the below command:
 ${\color{orange}Syntax:}$
-    
+```
+$ ln -s <file path you want to point to> <new file path>
+```
+${\color{orange}Example:}$
+```
+$ ln -s /opt/python3/bin/python3.9 /usr/bin/python
+```
+
 
 
