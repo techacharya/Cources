@@ -34,3 +34,6 @@ Special files are further categorised into different types listed below:
 
   ![Special Files Types](../../images/core-concept/file-types/special-file-type.png)
   
+
+### Block Files
+Block files act as a direct interface to block devices that performs data **`Input `** and **` Output `** operations in units of blocks. These files are hardware files and most of them are present in **` /dev `**. 
