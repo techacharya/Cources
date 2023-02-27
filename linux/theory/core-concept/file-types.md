@@ -127,5 +127,6 @@ To identify directory files:
 $ find / -type d
 ```
 
+![file identifier](../../images/core-concept/file-types/file-identifier.png)
 
 
