@@ -12,15 +12,16 @@ There are mainly three types of files available in linux system.
 ### Regular Files
 Regular Files are general ordinary files in the system  that contains **` programs `**, **` scripts `**, **` texts `**, **` images `**, **` data `** and so on. To check this execute the command:
 ```
-$ ls -ltr | grep ^-
+$ ls -ltr | grep '^-'
 ```
-
+![regular files](../../images/core-concept/file-types/regular-files.png)
 
 ### Directory Files
 Directory files are those files taht contains the other files and directory and their related information (meta data). To view this execute the below command either **` find / -type d `** or **` ls -ltr | grep ^d `**.
 ```
 $ ls -l | grep ^d
 ```
+![directory files](../../images/core-concept/file-types/directory-files.png)
 
 ### Special Files
 Special files are further categorised into different types listed below:
