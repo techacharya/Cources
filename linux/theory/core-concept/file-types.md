@@ -40,24 +40,28 @@ Block files act as a direct interface to block devices that performs data **Inpu
 ```
 $ ls -ltr /dev/ | grep ^b
 ```
+![block files](../../images/core-concept/file-types/block-files.png)
 
 ### Character Files
 A character file is a hardware file that **` reads/writes `** data character by character and provides a serial stream of input or output and provide direct access to hardware devices. To find out these files execute the below command:
 ```
 $ ls -ltr /dev/ | grep ^c
 ```
+![character files](../../images/core-concept/file-types/character-file.png)
 
 ### Socket Files
 A socket file is used to pass the information between applications and enables the communication between two processes. To find out these files execute the below command:
 ```
 $ ls -ltr /dev/ | grep ^s
 ```
+![socket files](../../images/core-concept/file-types/socket-files.png)
 
 ### Links Files
 Symbol links file points to another file or a folder/directory on linux system. It is like shortcut in windows. To find out these files execute the below command:
 ```
 $ ls -ltr /dev/ | grep ^l
 ```
+![link files](../../images/core-concept/file-types/link-files.png)
 There are two types of symbol link file one is **` Soft Links `** and other is **` Hard Links `**.
 #### Hard Links
   - Every file on the linux filesystem starts with a single hard link. 
@@ -94,6 +98,7 @@ The named pipe file is also known as **` FIFO `** First In First Out and sends d
 ```
 $ ls -l | grep ^p
 ```
+![pipe files](../../images/core-concept/file-types/pipe-files.png)
 
 ## Identify file types in Linux System
 To identify file types in linux system execute the beolow command:<br>
