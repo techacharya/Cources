@@ -52,7 +52,7 @@ $ ls -ltr /dev/ | grep ^c
 ### Socket Files
 A socket file is used to pass the information between applications and enables the communication between two processes. To find out these files execute the below command:
 ```
-$ ls -ltr /dev/ | grep ^s
+$ ls -ltr /run/ | grep ^s
 ```
 ![socket files](../../images/core-concept/file-types/socket-files.png)
 
