@@ -13,4 +13,4 @@ Suppose we require to connect **` USB Device `** to the running machine or syste
   - Once the process is completed the newly inserted or attached device will shwon in the **` /dev/ `** directory with dynamic name created by **` udev `** Dynamic Device Management. 
   - **` udev `** is basically a piece of code or a **User Space** program, which receives signal or notification from **` kernel `**.
 
-  <img src="../../images/core-concept/connect-device/attach-device.png" height="450" width="700" >
+  <img src="../../images/core-concept/connect-device/attach-device.png" height="550" width="800" >
