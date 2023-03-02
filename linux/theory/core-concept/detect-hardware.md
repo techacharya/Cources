@@ -4,6 +4,12 @@ The **` device driver `** is the abstraction layer between software concepts and
 
 Whenever we inserted the devices to the running machine, dynamically a file gets created for that particular device and generally it shows into the **` /dev/ `** directory with some meaningfull name.
 
-Suppose we require to connect **` USB Device `** to the running machine or system. Then **` kernel `** quitely does their job internally and executes the various services to acheve the goals.  
+Suppose we require to connect **` USB Device `** to the running machine or system. Then **` kernel `** quitely does their job internally and executes the various services to acheve the goals. 
+  - Post inserting the **` USB Device `** to the running system or machine the corresponding **device driver** which resides in the **` kernel space `** detects the state change and generates the events.
+  - The **` udev `** daemon, **systemd-udevd.service**, receives device **` uevents `** directly from the kernel whenever a device is added or removed from the system or it changes its state.
+  - When **` udev `** receives a device event, it matches its configured set of rules against various device attributes to identify the device.
+  - **` udev `** supplies the system software with device events, manages permissions of device nodes and may create additional symlinks in the ${\color{purple}/dev/}$ directory.
+  - The **` udev `** rules are read from the files located in the directories ${\color{green}/usr/lib/udev/rules.d}$ and ${\color{green}/usr/local/lib/udev/rules.d}$, the volatile runtime directory ${\color{green}/run/udev/rules.d}$ and the local administration directory ${\color{green}/etc/udev/rules.d}$.
+       
 
   - **` udev `** is basically a piece of code or a program, which receives signal or notification from **` kernel `**
