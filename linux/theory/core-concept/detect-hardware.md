@@ -67,6 +67,8 @@ ${\color{orange}Example:}$<br>
 ```
 # dmesg -l warn
 ```
+![dmesg facility](../../images/core-concept/connect-device/dmesg-level.png)
+
 To see more than one level based message execute the below command:
 ```
 # dmesg -l info,notice
@@ -89,6 +91,8 @@ ${\color{orange}Example:}$<br>
 ```
 # dmesg -f kern
 ```
+![dmesg facility](../../images/core-concept/connect-device/dmesg-facility.png)
+
 We can combine the both **` facility `** and **` level `** togather using **` -x `** option:
 ```
 # dmesg -x
