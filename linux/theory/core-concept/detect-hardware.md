@@ -89,7 +89,11 @@ ${\color{orange}Example:}$<br>
 ```
 # dmesg -f kern
 ```
-
+We can combine the both **` facility `** and **` level `** togather using **` -x `** option:
+```
+# dmesg -x
+```
+![level & facility](../../images/core-concept/connect-device/level-facility.png)
 
 
 
