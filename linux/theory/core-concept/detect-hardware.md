@@ -62,7 +62,7 @@ The **` dmesg `** command extract the messages that match a particular **level**
 ```
 # dmesg -l level_name
 ```
-Replace the level_name with desired level
+Replace the level_name with desired level.<br>
 ${\color{orange}Example:}$<br>
 ```
 # dmesg -l warn
