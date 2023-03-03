@@ -57,3 +57,18 @@ A level is assigned to each message logged to the *` kernel ring buffer `*. The 
 | **` debug `** | Debug message.                                                        |
 
 
+The **` dmesg `** command extract the messages that match a particular **level** by using the **` -l `** option and passing the name of the level as a command-line argument.
+#### {\color{orange}Syntax:}$
+```
+# dmesg -l level_name
+```
+Replace the level_name with desired level
+{\color{orange}Example:}$<br>
+```
+# dmesg -l warn
+```
+To see more than one level based message execute the below command:
+```
+# dmesg -l info,notice
+```
+
