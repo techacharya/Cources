@@ -45,7 +45,7 @@ Suppose we require to connect **` USB Device `** to the running machine or syste
 ![kernel ring buffer](../../images/core-concept/connect-device/usb-dmesg.png)
 
 A level is assigned to each message logged to the *` kernel ring buffer `*. The level represents the significance of the information in the communication. The levels are as follows:
-| **levels**    |                                                                       |
+| **levels**    | **Description**                                                                      |
 |---------------|-----------------------------------------------------------------------|
 | **` emerg `** | In this situation not able to use system.                             |
 | **` alert `** | Something happened wrong and immediate action required.               |
@@ -71,4 +71,25 @@ To see more than one level based message execute the below command:
 ```
 # dmesg -l info,notice
 ```
+The **` dmesg `** messages are grouped into categories called **facilities**. The list of facilities are as follow:
+
+| **Facilities**  | **Description**                  |
+|-----------------|----------------------------------|
+| **` kern `**    | Kernel message.                  |
+| **` user `**    | User-level message.              |
+| **` mail `**    | Logs related to mail system.     |
+| **` daemon `**  | Message related to System daemon |
+| **` auth `**    | Security and authorization message. |
+| **` syslog `**  | Internal syslogd message.           |
+| **` lpr `**     | Line printer sub-system.            |
+| **` news `**    | Network news sub-system.            |
+
+The **` dmesg `** can filter its output to only show messages in a specific facility. To do so, we must use the **` -f `** option:<br>
+${\color{orange}Example:}$<br>
+```
+# dmesg -f kern
+```
+
+
+
 
