@@ -16,6 +16,13 @@ Suppose we require to connect **` USB Device `** to the running machine or syste
 
   <img src="../../images/core-concept/connect-device/attach-device.png" height="550" width="800" >
   
+  Now we can see the attached device under ${\color{green}/dev/}$ directory and can verify by executing below commands:
+  ```
+  # lsblk
+  # df -hT
+  ```
+  ![device connect](../../images/core-concept/connect-device/connect-usb.png)
+  
 ### Operators in udev rules file
 | **Operators** | **Description**                                                 |
 |---------------|-----------------------------------------------------------------|
