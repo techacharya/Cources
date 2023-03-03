@@ -65,7 +65,7 @@ ${\color{orange}Syntax:}$
 Replace the level_name with desired level.<br>
 ${\color{orange}Example:}$<br>
 ```
-# dmesg -l warn
+# dmesg -l info
 ```
 ![dmesg facility](../../images/core-concept/connect-device/dmesg-level.png)
 
@@ -89,7 +89,7 @@ The **` dmesg `** messages are grouped into categories called **facilities**. Th
 The **` dmesg `** can filter its output to only show messages in a specific facility. To do so, we must use the **` -f `** option:<br>
 ${\color{orange}Example:}$<br>
 ```
-# dmesg -f kern
+# dmesg -f daemon
 ```
 ![dmesg facility](../../images/core-concept/connect-device/dmesg-facility.png)
 
