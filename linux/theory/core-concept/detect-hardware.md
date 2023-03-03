@@ -38,10 +38,22 @@ Suppose we require to connect **` USB Device `** to the running machine or syste
 ```
 # dmesg
 ```
-**OR** to read in human readable form and with time format.
+**OR** to read in human readable form and with standard date and time.
 ```
 # dmesg -HTx
 ```
 ![kernel ring buffer](../../images/core-concept/connect-device/usb-dmesg.png)
+
+A level is assigned to each message logged to the *` kernel ring buffer `*. The level represents the significance of the information in the communication. The levels are as follows:
+| **levels**    |                                                                       |
+|---------------|-----------------------------------------------------------------------|
+| **` emerg `** | In this situation not able to use system.                             |
+| **` alert `** | Something happened wrong and immediate action required.               |
+| **` crit `**  | Critical condition occured like hardware or software related failure. |
+| **` err `**   | An error occured related to hardware                                  |
+| **` warn `**  | Nothing serious but might indicate some issue.                        |
+| **` notice `**| Often report security events.                                         |
+| **` info `**  | Startup informational message.                                        |
+| **` debug `** | Debug message.                                                        |
 
 
