@@ -112,5 +112,17 @@ The **` udevadm `** listens to the kernel new uevents upon detecting an event, i
 ![level & facility](../../images/core-concept/connect-device/udevadm-monitor.png)
 
 ### Peripheral Connect Interconnect (PCI)
+A peripheral device is any auxiliary device that connects to and works with the computer to either put information into it or get information out of it. There are generally two types of peripheral devices which is **Internal Peripheral** and **External Peripheral** devices and these peripheral devices can be either **` Input Device `** or **` Output device `** or **` Storage Device `**. Few examples of peripheral devices are:
+  - Network Interface Card
+  - Video Card
+  - Wi-Fi Adaptor
+  - Keyboard & Mouse
+  - RAID Controler
+  - Monitor and many more
+To list the information about connected peripherals devices to the system execute the command below:
+```
+# lspci
+```
+
 
 
