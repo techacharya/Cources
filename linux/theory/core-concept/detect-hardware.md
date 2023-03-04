@@ -112,6 +112,15 @@ The **` udevadm `** listens to the kernel new uevents upon detecting an event, i
 ![level & facility](../../images/core-concept/connect-device/udevadm-monitor.png)
 
 ### Peripheral Connect Interconnect (PCI)
+Peripheral Connect Interconnect is a local computer bus for attaching hardware devices in a computer system and is part of the **` PCI Local Bus `** standard. We can connect **` Wi-Fi Adaptor `**, **` Ethernet Card `**, **` Sound Card `**, **` Graphics Card `**, **` RAID Controler `**, etc directly to the **` PCI Slots `** on the motherboard of the compter system.
+
+To list the connected devices to the PCI slots in the system execte below command:
+```
+# lspci
+```
+![pci slots](../../images/core-concept/connect-device/pci-devices.png)
+
+### Peripheral Devices
 A peripheral device is any auxiliary device that connects to and works with the computer to either put information into it or get information out of it. There are generally two types of peripheral devices which is **Internal Peripheral** and **External Peripheral** devices and these peripheral devices can be either **` Input Device `** or **` Output device `** or **` Storage Device `**. Few examples of peripheral devices are:
   - Network Interface Card
   - Video Card
@@ -121,9 +130,7 @@ A peripheral device is any auxiliary device that connects to and works with the 
   - Monitor and many more
 
 To list the information about connected peripherals devices to the system execute the command below:
-```
-# lspci
-```
+
 
 
 
