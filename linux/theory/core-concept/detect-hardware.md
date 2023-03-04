@@ -113,3 +113,5 @@ The **` udevadm `** listens to the kernel new uevents upon detecting an event, i
 
 ### Peripheral Connect Interconnect (PCI)
 
+${\color{orange}PCI}$
+
