@@ -114,6 +114,7 @@ The **` udevadm `** listens to the kernel new uevents upon detecting an event, i
 ### Peripheral Connect Interconnect (PCI)
 Peripheral Connect Interconnect is a local computer bus for attaching hardware devices in a computer system and is part of the **` PCI Local Bus `** standard. We can connect **` Wi-Fi Adaptor `**, **` Ethernet Card `**, **` Sound Card `**, **` Graphics Card `**, **` RAID Controler `**, etc directly to the **` PCI Slots `** on the motherboard of the compter system.
 ![pci device attach](../../images/core-concept/connect-device/pci-connect.png)
+<img src="../../images/core-concept/connect-device/pci-connect.png" height="400" width="800"
 
 To list the connected devices to the PCI slots in the system execte below command:
 ```
