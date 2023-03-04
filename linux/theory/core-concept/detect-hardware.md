@@ -101,7 +101,7 @@ We can combine the both **` facility `** and **` level `** togather using **` -x
 
 
 ### The **` udevadm `**
-The **` udevadm `** is a device management tool in linux based system which manages all the device events and it controls the runtime behavior of **` udev `**, requests kernel events, manages the event queue, and provides simple debugging mechanisms.
+The **` udevadm monitor `** is a device management tool in linux based system which manages all the device events and it controls the runtime behavior of **` udev `**, requests kernel events, manages the event queue, and provides simple debugging mechanisms.
 ```
 # udevadm info --query=path --name=/dev/sdc1
 ```
@@ -110,3 +110,5 @@ The **` udevadm `** listens to the kernel new uevents upon detecting an event, i
 # udevadm monitor
 ```
 ![level & facility](../../images/core-concept/connect-device/udevadm-monitor.png)
+
+### Peripheral Connect Interconnect (PCI)
