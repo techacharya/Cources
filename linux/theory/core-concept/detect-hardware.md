@@ -8,9 +8,9 @@ Suppose we require to connect **` USB Device `** to the running machine or syste
   - Post inserting the **` USB Device `** to the running system or machine the corresponding **device driver** which resides in the **` kernel space `** detects the state change and generates the events which is **` uevents `**.
   - The **` udev `** daemon, **systemd-udevd.service**, receives device **` uevents `** directly from the kernel whenever a device is added or removed from the system or it changes its state.
   - When **` udev `** receives a device event, it matches its configured set of rules against various device attributes to identify the device.
-  - **` udev `** supplies the system software with device events, manages permissions of device nodes and may create additional symlinks in the ${\color{purple}/dev/}$ directory.
+  - **` udev `** supplies the system software with device events, manages permissions of device nodes and may create additional symlinks in the **` /dev/ `** directory.
   - The **` udev `** rules are read from the files located in the directories **` /usr/lib/udev/rules.d `** and **` /usr/local/lib/udev/rules.d `**, the volatile runtime directory **` /run/udev/rules.d `** and the local administration directory **` /etc/udev/rules.d `**.
-  - Files in ${\color{green}/etc/}$ have the highest priority.
+  - Files in **` /etc/ `** have the highest priority.
   - Once the process is completed the newly inserted or attached device will shwon in the **` /dev/ `** directory with dynamic name created by **` udev `** Dynamic Device Management. 
   - **` udev `** is basically a piece of code or a **User Space** program, which receives signal or notification from **` kernel `**.
 
