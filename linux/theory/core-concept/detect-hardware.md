@@ -9,14 +9,14 @@ Suppose we require to connect **` USB Device `** to the running machine or syste
   - The **` udev `** daemon, **systemd-udevd.service**, receives device **` uevents `** directly from the kernel whenever a device is added or removed from the system or it changes its state.
   - When **` udev `** receives a device event, it matches its configured set of rules against various device attributes to identify the device.
   - **` udev `** supplies the system software with device events, manages permissions of device nodes and may create additional symlinks in the ${\color{purple}/dev/}$ directory.
-  - The **` udev `** rules are read from the files located in the directories ${\color{green}/usr/lib/udev/rules.d}$ and ${\color{green}/usr/local/lib/udev/rules.d}$, the volatile runtime directory ${\color{green}/run/udev/rules.d}$ and the local administration directory ${\color{green}/etc/udev/rules.d}$.
+  - The **` udev `** rules are read from the files located in the directories **` /usr/lib/udev/rules.d `** and **` /usr/local/lib/udev/rules.d `**, the volatile runtime directory **` /run/udev/rules.d `** and the local administration directory **` /etc/udev/rules.d `**.
   - Files in ${\color{green}/etc/}$ have the highest priority.
   - Once the process is completed the newly inserted or attached device will shwon in the **` /dev/ `** directory with dynamic name created by **` udev `** Dynamic Device Management. 
   - **` udev `** is basically a piece of code or a **User Space** program, which receives signal or notification from **` kernel `**.
 
   <img src="../../images/core-concept/connect-device/attach-device.png" height="550" width="800" >
   
-  Now we can see the attached device under ${\color{green}/dev/}$ directory and can verify by executing below commands:
+  Now we can see the attached device under **` /dev/ `** directory and can verify by executing below commands:
   ```
   # lsblk
   # df -hT
@@ -58,12 +58,12 @@ A level is assigned to each message logged to the *` kernel ring buffer `*. The 
 
 
 The **` dmesg `** command extract the messages that match a particular **level** by using the **` -l `** option and passing the name of the level as a command-line argument.<br>
-${\color{orange}Syntax:}$
+**Syntax:**
 ```
 # dmesg -l level_name
 ```
 Replace the level_name with desired level.<br>
-${\color{orange}Example:}$<br>
+**Example:**
 ```
 # dmesg -l info
 ```
@@ -87,7 +87,7 @@ The **` dmesg `** messages are grouped into categories called **facilities**. Th
 | **` news `**    | Network news sub-system.            |
 
 The **` dmesg `** can filter its output to only show messages in a specific facility. To do so, we must use the **` -f `** option:<br>
-${\color{orange}Example:}$ <br>
+**Example:**
 ```
 # dmesg -f daemon
 ```
@@ -113,5 +113,4 @@ The **` udevadm `** listens to the kernel new uevents upon detecting an event, i
 
 ### Peripheral Connect Interconnect (PCI)
 
-${\color{orange}PCI}$
 
