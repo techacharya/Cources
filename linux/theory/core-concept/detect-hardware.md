@@ -119,6 +119,7 @@ A peripheral device is any auxiliary device that connects to and works with the 
   - Keyboard & Mouse
   - RAID Controler
   - Monitor and many more
+
 To list the information about connected peripherals devices to the system execute the command below:
 ```
 # lspci
