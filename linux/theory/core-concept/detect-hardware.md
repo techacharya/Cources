@@ -87,7 +87,7 @@ The **` dmesg `** messages are grouped into categories called **facilities**. Th
 | **` news `**    | Network news sub-system.            |
 
 The **` dmesg `** can filter its output to only show messages in a specific facility. To do so, we must use the **` -f `** option:<br>
-${\color{orange}Example:}$<br>
+${\color{orange}Example:}$ <br>
 ```
 # dmesg -f daemon
 ```
@@ -112,3 +112,4 @@ The **` udevadm `** listens to the kernel new uevents upon detecting an event, i
 ![level & facility](../../images/core-concept/connect-device/udevadm-monitor.png)
 
 ### Peripheral Connect Interconnect (PCI)
+
