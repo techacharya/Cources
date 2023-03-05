@@ -163,11 +163,15 @@ This displays the mount point on which the device is mounted.
 
 | **Major Number** | **Device Type** | **Minor Number** | **Device**        | **Description**                     |
 |------------------|-----------------|------------------|-------------------|-------------------------------------|
-|     **` 1 `**    | Memory device   | **` 1 `**        | **` /dev/mem `**  | Physical memory access              |
+| **` 1 char `**   | Memory device   | **` 1 `**        | **` /dev/mem `**  | Physical memory access              |
 |                  |                 | **` 2 `**        | **` /dev/kmem `** | OBSOLETE - replaced by /proc/kcore  |
 |                  |                 | **` 3 `**        | **` /dev/null `** | Null device                         |
 |                  |                 | **` 4 `**        | **` /dev/port `** | Input Output port access.           |
 |                  |                 | **` 5 `**        | **` /dev/zero `** | Null byte source                    |
+|                  |                 | **` : `**        |                                                         |
+| **` 1 block `**  | RAM Disk        | **` 0 `**        | **` /dev/ram0 `** | First RAM disk                      |
+|                  |                 | **` 1 `**        | **` /dev/ram1 `** | Second RAM disk                     |
+|                  |                 | **` : `**        |                                                         |
 
 
 
