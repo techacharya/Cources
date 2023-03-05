@@ -74,22 +74,22 @@ There are two types of symbol link file one is **` Soft Links `** and other is *
 
 To create hard link execute the below command:
 
-${\color{orange}Syntax:}$
+**_Syntax:_**
 ```
 $ ln <original file path> <new file path>
 ```
-${\color{orange}Example:}$
+**_Example:_**
 ```
 $ ln /home/acharya/acharya.py /tmp/acharya
 ```
 
 #### Soft Links
 Soft links link together non-regular and regular files and can also span multiple filesystems. To create soft link execute the below command:
-${\color{orange}Syntax:}$
+**_Syntax:_**
 ```
 $ ln -s <file path you want to point to> <new file path>
 ```
-${\color{orange}Example:}$
+**_Example:_**
 ```
 $ ln -s /opt/python3/bin/python3.9 /usr/bin/python
 ```
@@ -103,11 +103,11 @@ $ ls -l /run/ | grep ^p
 
 ## Identify file types in Linux System
 To identify file types in linux system execute the beolow command:<br>
-${\color{orange}Syntax:}$
+**_Syntax:_**
 ```
 $ find / -type <file_identifier>
 ```
-${\color{orange}Examples:}$<br>
+**_Examples:_** <br>
 To identify character files:
 ```
 $ find / -type c
