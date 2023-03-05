@@ -74,7 +74,7 @@ All processes make system calls:
   
   <img src="../../images/core-concept/user-space-process.png" width="900" height="550">
 
-Notice in the following figure that bash makes a **`getpid()`** call which requests its own process identity. Also, the **`cat`** command requests access to ${\color{purple}/etc/os-release}$ with a file **`open()`** call. But notice that some code lives in user space, and some lives in the kernel space.
+Notice in the following figure that bash makes a **` getpid() `** call which requests its own process identity. Also, the **` cat `** command requests access to */etc/os-release* with a file **` open() `** call. But notice that some code lives in user space, and some lives in the kernel space.
   <img src="../../images/core-concept/user-space-process-eg.png" width="900" height="550">
 
 ## Kernel types
