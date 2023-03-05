@@ -200,7 +200,7 @@ This displays the mount point on which the device is mounted.
 |                  |                                | **` ... `**|                      | so on                        |
 | **` 9 block `**  | Metadisk (RAID) devices        | **` 0 `**  | **` /dev/md0 `**     | First metadisk group         |
 
-And so on, there are each device has **` Major `** and **` Minor `** number pair.
+And so on, there are each and every device in linux based system has **` Major `** and **` Minor `** number pair.
 
 
 
