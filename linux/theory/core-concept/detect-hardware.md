@@ -232,4 +232,13 @@ To list to hardware details we can make use of some command or tools which are *
 ```
 ![hardware info](../../images/core-concept/connect-device/hardware-detail.png)
 
+For more information read the manual page of commands as below:
+```
+# man lshw
+# man dmidecode
+# man lscpu
+# man 8 udev
+# man udevadm
+```
+
 
