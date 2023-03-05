@@ -209,6 +209,16 @@ To list the detail **` CPU `**  information such as their architecture, vendor, 
 ```
 ![cpu info](../../images/core-concept/connect-device/cpu-info.png)
 
+### List the Memory Information
+To list the ranges of available memory with their online status and detail information of memory execute the below command.
+```
+# lsmem
+```
+**OR**
+```
+# free -h
+```
+![memory info](../../images/core-concept/connect-device/memory-info.png)
 
 
 
