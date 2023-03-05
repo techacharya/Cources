@@ -137,27 +137,33 @@ To list the information about connected **` Block Device `** to the system execu
 ![block device info](../../images/core-concept/connect-device/lsblk-result.png)
 
 The output of **` lsblk `** command arragned with various fields which is listed below: <br>
-**NAME**<br>
+**1. NAME**<br>
 The first field is NAME, which shows the device name. <br>
-**MAJ:MIN** <br>
+**2. MAJ:MIN** <br>
 This field respectively, indicates the major and minor device numbers. <br>
-**RM** <br>
+**3. RM** <br>
 This displays boolean values for removable and non-removable devices.
   - 1  ---> Removal Device
   - 0  ---> Non-removal Device
 
-**SIZE** <br>
+**4. SIZE** <br>
 This field displays the device size in a readable format, i.e., in K, M, G, T, etc. <br>
-**RO** <br>
+**5. RO** <br>
 This field shows the read-only status of a device.
   - 1  ---> Read-only Device
   - 0  ---> No read-only Device
 
-**TYPE** <br>
+**6. TYPE** <br>
 This field shows the type of devices, such as disk, loopback device, partition, or LVM device. <br>
-**MOUNTPOINT** <br>
+**7. MOUNTPOINT** <br>
 This displays the mount point on which the device is mounted.
 
+
+| **Major Number** | **Device Type**           | **Minor Number** | **Device**                                    |
+|------------------|---------------------------|------------------|-----------------------------------------------|
+|     **` 1 `**    | Memory Device             |    **` 1 `**     | Physical memory access                        |
+|                                              |    **` 2 `**     | OBSOLETE - replaced by /proc/kcore            |
+|                                              |    **` 3 `**     | Null device                                   |
 
 
 
