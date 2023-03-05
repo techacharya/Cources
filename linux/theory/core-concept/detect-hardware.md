@@ -184,6 +184,23 @@ This displays the mount point on which the device is mounted.
 |                  |                                | **` 64 `** | **` /dev/hdb `**     | Slave: whole disk or CD-ROM  |
 |                  |                                | **` 1 `**  | **` /dev/hd(a/b)1 `**| First partition              |
 |                  |                                | **` ... `**|                      | so on                        |
+| **` 4 char `**   | TTY devices        | **` 0 `**     | **` /dev/tty0	`** | Current virtual console                  |
+|                  |                    | **` ... `**   |                   | so on upto 63                            |
+|                  |                    | **` 64 `**    | **` /dev/ttyS0 `**| First UART serial port                   |
+|                  |                    | **` ... `**   |                   | so on upto                               |
+| **` 6 `**        | Parallel printer devices       | **` 0 `**  | **` /dev/lp0 `**     | Parallel printer on parport0 |
+|                  |                                | **` ... `**|                      | so on                        |
+| **` 7 char `**   | Virtual console capture devices| **` 0 `**  | **` /dev/vcs `**     | Current vc text contents     |
+|                  |                                | **` ... `**|                      | so on                        |
+| **` 7 block `**  | Loopback devices               | **` 0 `**  | **` /dev/loop0 `**   | First loop device            |
+|                  |                                | **` ... `**|                      | so on                        |
+| **` 8 block `**  | SCSI disk devices              | **` 0 `**  | **` /dev/sda `**     | First SCSI disk whole disk   |
+|                  |                                | **` 16 `** | **` /dev/sdb `**     | Second SCSI disk whole disk  |
+|                  |                                | **` 32 `** | **` /dev/sdc `**     | Third SCSI disk whole disk   |
+|                  |                                | **` ... `**|                      | so on                        |
+| **` 9 block `**  | Metadisk (RAID) devices        | **` 0 `**  | **` /dev/md0 `**     | First metadisk group         |
+
+
 
 
 
