@@ -13,13 +13,13 @@ To better understand the **Linux kernel** in simple language, _think like this:_
 
 
 The linux kernel has four basic major functionalities:
-  - ${\color{green}Memory}$ ${\color{green}Management}$<br>
+  - **` Memory Management `** <br>
     Keep track of how much memory is used to store what, how, and where.
-  - ${\color{green}Process}$ ${\color{green}Management}$<br>
+  - **` Process Management `** <br>
     Determine which processes can use the central processing unit (CPU), when, and for how long.
-  - ${\color{green}Device}$ ${\color{green}Management}$<br>
+  - **` Device Management `** <br>
     Act as mediator/interpreter between the hardware and processes.
-  - ${\color{green}Security}$ ${\color{green}and}$ ${\color{green}System}$ ${\color{green}Calls}$<br>
+  - **` Security and System Calls `** <br>
     Receive requests for service from the processes and maintain the security.
 
 ### The Linux kernel Version
