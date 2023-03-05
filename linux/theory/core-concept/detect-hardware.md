@@ -159,11 +159,14 @@ This field shows the type of devices, such as disk, loopback device, partition, 
 This displays the mount point on which the device is mounted.
 
 
-| **Major Number** | **Device Type**           | **Minor Number** | **Device**                                    |
-|------------------|---------------------------|------------------|-----------------------------------------------|
-|     **` 1 `**    | Memory Device             |    **` 1 `**     | Physical memory access                        |
-|                                                   **` 2 `**     | OBSOLETE - replaced by /proc/kcore            |
-|                                                   **` 3 `**     | Null device                                   |
+| MAJ  |Type |  | **Major Number** | **Minor Number** | **Device Type**   | **Description**                               |
+|------|-----|  |------------------|------------------|-------------------|-----------------------------------------------|
+|   1  | Mem |  |     **` 1 `**    | **` 1 `**        | **` /dev/mem `**  | Physical memory access                        |
+                |                  | **` 2 `**        | **` /dev/kmem `** | OBSOLETE - replaced by /proc/kcore            |
+                |                  | **` 3 `**        | **` /dev/null `** | Null device                                   |
+                |                  | **` 4 `**        | **` /dev/port `** | Input Output port access.                     |
+                |                  | **` 5 `**        | **` /dev/zero `** | Null byte source                              |
+                |                  |
 
 
 
