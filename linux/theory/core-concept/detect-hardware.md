@@ -202,6 +202,13 @@ This displays the mount point on which the device is mounted.
 
 And so on, there are each and every device in linux based system has **` Major `** and **` Minor `** number pair.
 
+### List Out CPU Information
+To list the detail **` CPU `**  information such as their architecture, vendor, family, model, CPU caches, etc. execute the below command:
+```
+# lscpu
+```
+![cpu info](../../images/core-concept/connect-device/cpu-info.png)
+
 
 
 
