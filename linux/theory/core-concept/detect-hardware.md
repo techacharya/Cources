@@ -141,6 +141,8 @@ The output of **` lsblk `** command arragned with various fields which is listed
 The first field is NAME, which shows the device name. <br>
 **2. MAJ:MIN** <br>
 This field respectively, indicates the major and minor device numbers. <br>
+  - **Major Number:** Indicates the device type
+  - **Minor Number:** Indicates the device
 **3. RM** <br>
 This displays boolean values for removable and non-removable devices.
   - 1  ---> Removal Device
@@ -159,13 +161,13 @@ This field shows the type of devices, such as disk, loopback device, partition, 
 This displays the mount point on which the device is mounted.
 
 
-|| **Major Number** | **Minor Number** | **Device Type**   | **Description**                               |
-|------------------|------------------|-------------------|-----------------------------------------------|
-|     **` 1 `**    | **` 1 `**        | **` /dev/mem `**  | Physical memory access                        |
-|                  | **` 2 `**        | **` /dev/kmem `** | OBSOLETE - replaced by /proc/kcore            |
-|                  | **` 3 `**        | **` /dev/null `** | Null device                                   |
-|                  | **` 4 `**        | **` /dev/port `** | Input Output port access.                     |
-|                  | **` 5 `**        | **` /dev/zero `** | Null byte source                              ||
+| **Major Number** | **Device Type** | **Minor Number** | **Device**        | **Description**                     |
+|------------------|-----------------|------------------|-------------------|-------------------------------------|
+|     **` 1 `**    | Memory device   | **` 1 `**        | **` /dev/mem `**  | Physical memory access              |
+|                  |                 | **` 2 `**        | **` /dev/kmem `** | OBSOLETE - replaced by /proc/kcore  |
+|                  |                 | **` 3 `**        | **` /dev/null `** | Null device                         |
+|                  |                 | **` 4 `**        | **` /dev/port `** | Input Output port access.           |
+|                  |                 | **` 5 `**        | **` /dev/zero `** | Null byte source                    |
 
 
 
