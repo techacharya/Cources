@@ -162,8 +162,8 @@ This displays the mount point on which the device is mounted.
 | **Major Number** | **Device Type**           | **Minor Number** | **Device**                                    |
 |------------------|---------------------------|------------------|-----------------------------------------------|
 |     **` 1 `**    | Memory Device             |    **` 1 `**     | Physical memory access                        |
-|                                              |    **` 2 `**     | OBSOLETE - replaced by /proc/kcore            |
-|                                              |    **` 3 `**     | Null device                                   |
+|                                                   **` 2 `**     | OBSOLETE - replaced by /proc/kcore            |
+|                                                   **` 3 `**     | Null device                                   |
 
 
 
