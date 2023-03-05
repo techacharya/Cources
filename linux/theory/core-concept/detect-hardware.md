@@ -136,7 +136,7 @@ To list the information about connected **` Block Device `** to the system execu
 ```
 ![block device info](../../images/core-concept/connect-device/lsblk-result.png)
 
-The output of **` lsblk `** command arragned with various fields which is listed below:
+The output of **` lsblk `** command arragned with various fields which is listed below: <br>
 **NAME**<br>
 The first field is NAME, which shows the device name.
 **MAJ:MIN** <br>
@@ -145,12 +145,14 @@ This field respectively, indicates the major and minor device numbers.
 This displays boolean values for removable and non-removable devices.
   - 1  ---> Removal Device
   - 0  ---> Non-removal Device
+
 **SIZE** <br>
 This field displays the device size in a readable format, i.e., in K, M, G, T, etc.
 **RO** <br>
 This field shows the read-only status of a device.
   - 1  ---> Read-only Device
   - 0  ---> No read-only Device
+
 **TYPE** <br>
 This field shows the type of devices, such as disk, loopback device, partition, or LVM device.
 **MOUNTPOINT** <br>
