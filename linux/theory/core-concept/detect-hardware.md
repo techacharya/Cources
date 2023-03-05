@@ -1,4 +1,4 @@
-# Communication with Hardware in Linux System
+# Communicating with Hardware in Linux System
 
 The **` device driver `** is the abstraction layer between software concepts and hardware circuitry as such, it needs to talk with both of them. In this chapter we will discuss, how a driver can access **` I/O ports `** and **` I/O memory `**. 
 
@@ -130,7 +130,11 @@ A peripheral device is any auxiliary device that connects to and works with the 
   - RAID Controler
   - Monitor and many more
 
-To list the information about connected peripherals devices to the system execute the command below:
+To list the information about connected **` Block Device `** to the system execute the command below:
+```
+# lsblk
+```
+
 
 
 
