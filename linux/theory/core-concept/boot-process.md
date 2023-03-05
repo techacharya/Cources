@@ -62,7 +62,7 @@ The Linux system boot process can be divided into following steps.
   - Stands for GNU GRand Unified Bootloader.
   - Loads **_/boot/grub2/grub.cfg_** at boot time.
   - At this stage, different OS or kernel options displays to select of choice to boot, if not selected by user then automatically proceed to next with default configured kernel or OS default set time elasped.
-  - Once kernel is selected either by user or default, it locates the corresponding kernel file for example **_` /boot/vmlinuz-$(uname -r) _`**.
+  - Once kernel is selected either by user or default, it locates the corresponding kernel file for example **` /boot/vmlinuz-$(uname -r) `**.
   - After locating the kernel, it loads the kernel and initrd/initramfs images as well into the main memory i.e. **RAM**.
   - Once kernel is loaded into the RAM, it passes control to kernel.
 
