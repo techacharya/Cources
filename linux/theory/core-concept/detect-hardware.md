@@ -134,7 +134,7 @@ To list the information about connected **` Block Device `** to the system execu
 ```
 # lsblk
 ```
-
+![block device info](../../images/core-concept/connect-device/lsblk-result.png)
 
 
 
