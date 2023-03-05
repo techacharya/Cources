@@ -225,10 +225,11 @@ To list to hardware details we can make use of some command or tools which are *
 ```
 # lshw
 ```
+![hardware info](../../images/core-concept/connect-device/hardware-info.png)
 **OR**
 ```
 # dmidecode
 ```
-
+![hardware info](../../images/core-concept/connect-device/hardware-detail.png)
 
 
