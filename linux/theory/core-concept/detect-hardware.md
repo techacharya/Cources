@@ -220,6 +220,15 @@ To list the ranges of available memory with their online status and detail infor
 ```
 ![memory info](../../images/core-concept/connect-device/memory-info.png)
 
+### Fetching Hardware details
+To list to hardware details we can make use of some command or tools which are **` lshw `** and **` dmidecode `**. These tools display the description of the system's  hardware  components,  as  well  as other  useful pieces of information such as serial numbers, BIOS revision, etc.
+```
+# lshw
+```
+**OR**
+```
+# dmidecode
+```
 
 
 
