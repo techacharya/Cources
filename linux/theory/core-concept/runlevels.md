@@ -17,8 +17,8 @@ $ who -r
 
 During boot process **` initd `** or **` systemd `** checks for default configured **runlevel** or **target** and make sure that all the required process or service in that mode are started.
 
-${\color{purple}For}$ ${\color{purple}Example:}$<br>
-To start the system into **Graphical Mode** to get graphical interface requires GNOME Display Manager **` gdm.service `** and **Multi User service** as well and many others.<br>
+**_For Example:_** <br>
+To start the system into **` Graphical Mode `** to get graphical interface requires GNOME Display Manager **` gdm.service `** and **Multi User service** as well and many others.<br>
 Similarly, to get Command-line interface with multi user it operates into **Command-line Mode** and requires **NetworkManager Service** and many others service.
 
 ![targets](../../images/core-concept/targets/target3-5.png)
