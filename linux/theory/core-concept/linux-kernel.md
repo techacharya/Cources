@@ -2,24 +2,24 @@
 
 **Kernel** is the core component of the Linux based Operating System and has complete control over everything in the system. It always resides in the memory till system shut down and facilitates interactions between hardware and software components. It virtualizes the hardware resources of the machine to provide each process with its virtual resources. This makes the process seem as it is the sole process running on the machine. 
 
-  - Linnux based Operating System uses **Monolithic Kernel**, hence **kernel** carries out process scheduling, device management, memory managemrnt and several operations by itself.
-  - The **linux kernel** is also modular, hence it extends its capabilities through the use of dynamically loaded kernel modules without the need to reboot the system. A module can be configured as **built-in** or **loadable**.
+  - Linnux based Operating System uses **` Monolithic Kernel `**, hence **` kernel `** carries out process scheduling, device management, memory managemrnt and several operations by itself.
+  - The **` linux kernel `** is also modular, hence it extends its capabilities through the use of dynamically loaded kernel modules without the need to reboot the system. A module can be configured as **` built-in `** or **` loadable `**.
 
   <img src="../../images/core-concept/linux-kernel.png" height="450" width="600">
 
-To better understand the **Linux kernel** in simple language, _think like this:_ The kernel is a busy personal assistant for a powerful CEO/Boss (the hardware). It’s the assistant’s job to relay messages and requests (processes) from employees and the public (users) to the CEO, to remember to attend the meetting or something else (memory), and to determine who has access to the CEO at any given time and for how long.
+To better understand the **` Linux kernel `** in simple language, _think like this:_ The kernel is a busy personal assistant for a powerful CEO/Boss (the hardware). It’s the assistant’s job to relay messages and requests (processes) from employees and the public (users) to the CEO, to remember to attend the meetting or something else (memory), and to determine who has access to the CEO at any given time and for how long.
 
 <img src="../../images/core-concept/linux-kernel-eg.png" height="450" width="600">
 
 
 The linux kernel has four basic major functionalities:
-  - **` Memory Management `** <br>
+  - **Memory Management** <br>
     Keep track of how much memory is used to store what, how, and where.
-  - **` Process Management `** <br>
+  - **Process Management** <br>
     Determine which processes can use the central processing unit (CPU), when, and for how long.
-  - **` Device Management `** <br>
+  - **Device Management** <br>
     Act as mediator/interpreter between the hardware and processes.
-  - **` Security and System Calls `** <br>
+  - **Security and System Calls** <br>
     Receive requests for service from the processes and maintain the security.
 
 ### The Linux kernel Version
