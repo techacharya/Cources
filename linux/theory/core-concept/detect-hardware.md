@@ -199,7 +199,7 @@ This displays the mount point on which the device is mounted.
 |                  |                                | **` 32 `** | **` /dev/sdc `**     | Third SCSI disk whole disk   |
 |                  |                                | **` ... `**|                      | so on                        |
 | **` 9 block `**  | Metadisk (RAID) devices        | **` 0 `**  | **` /dev/md0 `**     | First metadisk group         |
-
+And so on, there are each device has **` Major `** and **` Minor `** number pair.
 
 
 
