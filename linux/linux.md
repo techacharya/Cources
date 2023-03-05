@@ -1,6 +1,6 @@
 # Linux System Administration Guide
 
-This course is presented by **`Devraj Modi`** and hosted on ${\color{green}techacharya}$
+This course is presented by **`Devraj Modi`** and hosted on **_techacharya_**
 
 The **Linux System Administration Guide** documents have the relevant information regarding the deployment, configuration, and administration of Unix-like Systems. It is oriented towards system administrators with a basic understanding of the Unix-like Systems.
 
@@ -19,7 +19,7 @@ The **Linux System Administration Guide** documents have the relevant informatio
     - [Linux Boot Process](theory/core-concept/boot-process.md)
     - [Target or Runlevels in Linux System](theory/core-concept/runlevels.md)
     - [File Types in Linux System](theory/core-concept/file-types.md)
-    - [Working with Hardware](theory/core-concept/detect-hardware.md)
+    - [Communicating with Hardware](theory/core-concept/detect-hardware.md)
     - [File Hierarchy Structure](theory/core-concept/fhs.md)
   - [File Management](theory/file-management/file-management.md)
   - [Local User and Group Management](theory/user-management/user-management.md)
