@@ -143,6 +143,7 @@ The first field is NAME, which shows the device name. <br>
 This field respectively, indicates the major and minor device numbers. <br>
   - **Major Number:** Indicates the device type
   - **Minor Number:** Indicates the device
+
 **3. RM** <br>
 This displays boolean values for removable and non-removable devices.
   - 1  ---> Removal Device
@@ -168,10 +169,22 @@ This displays the mount point on which the device is mounted.
 |                  |                 | **` 3 `**        | **` /dev/null `** | Null device                         |
 |                  |                 | **` 4 `**        | **` /dev/port `** | Input Output port access.           |
 |                  |                 | **` 5 `**        | **` /dev/zero `** | Null byte source                    |
-|                  |                 | **` : `**        |                                                         |
+|                  |                 | **` ... `**      |                   | so on                               |
 | **` 1 block `**  | RAM Disk        | **` 0 `**        | **` /dev/ram0 `** | First RAM disk                      |
 |                  |                 | **` 1 `**        | **` /dev/ram1 `** | Second RAM disk                     |
-|                  |                 | **` : `**        |                                                         |
+|                  |                 | **` ... `**      |                   | so on                               |
+| **` 2 char `**   | Pseudo-TTY masters | **` 0 `**     | **` /dev/ptyp0 `**| First PTY master                    |
+|                  |                    | **` ... `**   |                   | so on                               |
+| **` 2 block `**  | Floppy disks       | **` 0 `**     | **` /dev/fd0 `**  | Controller 0, drive 0, autodetect   |
+|                  |                    | **` ... `**   |                   | so on                               |
+| **` 3 char `**   | Pseudo-TTY slaves  | **` 0 `**     | **` /dev/ttyp0 `**| First PTY slave                     |
+|                  |                    | **` 1 `**     | **` /dev/ttyp1 `**| Second PTY slave                    |
+|                  |                    | **` ... `**   |                   | so on                               |
+| **` 3 block `**  | IDE hard disk/CD-ROM interface | **` 0 `**  | **` /dev/hda `**     | Master: whole disk or CD-ROM |
+|                  |                                | **` 64 `** | **` /dev/hdb `**     | Slave: whole disk or CD-ROM  |
+|                  |                                | **` 1 `**  | **` /dev/hd(a/b)1 `**| First partition              |
+|                  |                                | **` ... `**|                      | so on                        |
+
 
 
 
