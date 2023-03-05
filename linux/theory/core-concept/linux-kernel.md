@@ -80,11 +80,11 @@ Notice in the following figure that bash makes a **` getpid() `** call which req
 ## Kernel types
 Different types of kernel listed below:
   - **Monolithic Kernel**<br>
-    Monolithic Kernel implements fundamental features of a machine such as managing files, process, memory, and other resources in which all the resources are associated with kernel-space. This increases the size of **Kernel** and the execution of a process is faster.
+    Monolithic Kernel implements fundamental features of a machine such as managing files, process, memory, and other resources in which all the resources are associated with kernel-space. This increases the size of **` Kernel `** and the execution of a process is faster.
   - **Mirco Kernel**<br>
     This type has a minimal features with virtual memory and thread scheduling. It has less services in the kernel space and puts rest in user space. So the kernel size reduces and communication among services is done through message parsing and that reduces the speed of execution.
   - **Hybrid Kernel**<br>
-    It is a combination of both **Monolithic** and **Micro kernel** with the speed and design of a monolithic kernel and the modularity and stability of a microkernel.
+    It is a combination of both **` Monolithic `** and **` Micro kernel `** with the speed and design of a monolithic kernel and the modularity and stability of a microkernel.
   - **Exo Kernel**<br>
     It handles the allocation of physical resources to applications and allows us to perform application-specific customization. So, It leads to more work for application developers.
   - **Nano Kernel**<br>
