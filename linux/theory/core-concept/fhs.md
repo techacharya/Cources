@@ -42,6 +42,7 @@ The following directories, or symbolic links to directories, are required in **`
 | **` var `**   | Variable data                                     |
 | **` home `**  | User's home directories (optional)                |
 | **` root `**  | Home directory for the root user (optional)       |
+| **` run `**   | Run time variable data                            |
 
 ### /bin
 **` /bin `** contains commands that may be used by both the system administrator and by users. It may also contain commands which are used indirectly by scripts.
@@ -123,6 +124,11 @@ The super user **` root `** i.e. system administrator account’s home directory
 ### /proc
 It is a virtual file-system and contains the **` kernel `** and **` process `** information. Generally, automatically generated and populated by the system, on the fly.
 
+### /lib64
+The 64-bit architectures PPC64, s390x, sparc64 and AMD64 must place 64-bit libraries in **` /lib64 `**.
+
+### /run
+This directory contains system information data describing the system since it was booted. Files under this directory must be cleared at the beginning of the boot process. 
 
 
 
