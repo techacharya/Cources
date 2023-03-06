@@ -11,4 +11,5 @@ It is possible to define two independent distinctions among files: shareable v/s
   - **Unshareable** files are those that are not shareable.
   - **Static** files include **` binaries `**, **` libraries `**, **` documentation files `** and other files that do not change without system administrator intervention. 
   - **Variable** files are files that are not static.
+
   ![static nonstatic](../../images/core-concept/linux-fhs/static-nonstatic.png)
