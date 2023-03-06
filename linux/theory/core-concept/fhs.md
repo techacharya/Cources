@@ -18,7 +18,7 @@ Now we will discuss in detail about directories created by the linux system at t
 ![directories at installation](../../images/core-concept/linux-fhs/linux-fhs.png)
 
 
-### The root filesystem (/)
+### The root filesystem ( / )
 The contents of the root filesystem **` / `** must be adequate to boot, restore, recover, and/or repair the system.
   - To boot a system, enough must be present on the root partition to mount other filesystems. This includes **` utilities `**, **` configuration `**, **` boot loader `** information, and other essential start-up data.
   - To enable **` recovery `** and/or **` repair `** of a system, those utilities needed by an experienced administrator to diagnose and reconstruct a damaged system must be present on the root filesystem.
