@@ -97,6 +97,19 @@ The following directories, or symbolic links to directories in **` /usr `**.
 | **` lib64 `**   | For 64-bit libraries                           |
 | **` share `**   | Architecture independent data                  |
 
+Command manual pages resides in **_/usr/share/man/_** directory:
+
+| **Directory**   | **Description**        |
+|-----------------|------------------------|
+| **` man1 `**    | User programs          |
+| **` man2 `**    | System calls           |
+| **` man3 `**    | Library calls          |
+| **` man4 `**    | Special files          |
+| **` man5 `**    | File formats           |     
+| **` man6 `**    | Games                  |
+| **` man7 `**    | Miscellaneous          |
+| **` man8 `**    | System administration  |
+
 ### /var 
 
 
