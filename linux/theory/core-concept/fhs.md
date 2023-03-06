@@ -40,5 +40,10 @@ The following directories, or symbolic links to directories, are required in **`
 | **` tmp `**   | Temporary files                                   |
 | **` usr `**   | Secondary hierarchy                               |
 | **` var `**   | Variable data                                     |
+| **` home `**  | User's home directories (optional)                |
+| **` root `**  | Home directory for the root user (optional)       |
+
+**/bin**
+
 
 
