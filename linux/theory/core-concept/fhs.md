@@ -56,6 +56,31 @@ The **` /dev `** directory is the location of device files and/or special files.
 ### /etc
 The **` /etc `** the name stands for **` editable text configuration `** contains configuration files. A **` configuration file `** is a local file used to control the operation of a program it must be static and cannot be an executable binary.
 
+There are some configuration files are defined below:
+| **File**            | **Description**                                       |
+|---------------------|-------------------------------------------------------|
+| **` csh.login `**   |	Systemwide initialization file for C shell logins     |
+| **` exports `**     |	NFS filesystem access control list                    |
+| **` fstab `**       | Static information about filesystems                  |
+| **` ftpusers `**    |	FTP daemon user access control list                   |
+| **` group	`**       |	User group file                                       |
+| **` host.conf `**   |	Resolver configuration file                           |
+| **` hosts `**       | Static information about host names                   |
+| **` hosts.allow `** | Host access file for TCP wrappers                     |
+| **` hosts.deny `**  |	Host access file for TCP wrappers                     |
+| **` hosts.equiv `** | List of trusted hosts for rlogin, rsh, rcp            |
+| **` issue `**       |	Pre-login message and identification file             |
+| **` motd `**        |	Post-login message of the day file                    |
+| **` networks `**    |	Static information about network names                |
+| **` passwd `**      |	The password file                                     |
+| **` profile `**     |	Systemwide initialization file for sh shell logins    |
+| **` protocols `**   |	IP protocol listing                                   |
+| **` resolv.conf `** | Resolver configuration file                           |
+| **` rpc `**         |	RPC protocol listing                                  |
+| **` services `**    |	Port names for network services                       |
+| **` shells `**      |	Pathnames of valid login shells                       |
+| **` syslog.conf `** | Configuration file for syslogd                        |
+
 ### /lib
 The **` /lib `** directory contains those shared library images needed to boot the system and execute the commands in the root filesystem, i.e. by binaries in **` /bin `** and **` /sbin `**.
 
@@ -130,6 +155,8 @@ The 64-bit architectures PPC64, s390x, sparc64 and AMD64 must place 64-bit libra
 ### /run
 This directory contains system information data describing the system since it was booted. Files under this directory must be cleared at the beginning of the boot process. 
 
+### /sys
+ This is also a virtual file-system contains information related to hardware and the operating system.
 
 
   
