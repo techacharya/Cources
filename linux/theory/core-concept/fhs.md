@@ -68,7 +68,7 @@ This directory is provided so that the system administrator may temporarily moun
 The **` /opt `** directory is reserved for the installation of add-on application software packages. A package to be installed in **` /opt `** must locate its static files in a separate **` /opt/<package> `** or **` /opt/<provider> `** directory tree, where <package> is a name that describes the software package and <provider> is the provider’s LANANA (Linux Assigned Names And Numbers Authority) registered name.
 
 ### /sbin
-Utilities used for **` system administration `** root-only commands are stored in **_ /sbin _**, **_ /usr/sbin _**, and *_ /usr/local/sbin _*. **` /sbin `** contains binaries essential for **_ booting _**, **_ restoring _**, **_ recovering _**, and/or **_repairing _** the system in addition to the binaries in **` /bin `**.
+Utilities used for **` system administration `** root-only commands are stored in **_ /sbin _**, **_ /usr/sbin _**, and *_/usr/local/sbin_*. **` /sbin `** contains binaries essential for **_ booting _**, **_ restoring _**, **_ recovering _**, and/or **_repairing _** the system in addition to the binaries in **` /bin `**.
   
 
   
