@@ -30,7 +30,7 @@ The following directories, or symbolic links to directories, are required in **`
 | **` bin `**   | Essential command binaries                        |
 | **` boot `**  | Static files of the boot loader                   |
 | **` dev `**   | Device files                                      |
-| **` etc `**   | Host-specific system configuration                |
+| **` etc `**   | Host specific system configuration                |
 | **` lib `**   | Essential shared libraries and kernel modules     |
 | **` media `** | Mount point for removeable media                  |
 | **` mnt `**   | Mount point for mounting a filesystem temporarily |
@@ -44,6 +44,32 @@ The following directories, or symbolic links to directories, are required in **`
 | **` root `**  | Home directory for the root user (optional)       |
 
 ## /bin
+**` /bin `** contains commands that may be used by both the system administrator and by users. It may also contain commands which are used indirectly by scripts.
 
+## /boot
+This directory contains everything required for the **` boot process `** except configuration files not needed at boot time and the map installer. Thus /boot stores data that is used before the kernel begins executing user-mode programs. The kernel must be located in **` /boot `**.
+
+## /dev
+The **` /dev `** directory is the location of device files and/or special files.
+
+## /etc
+The **` /etc `** the name stands for **` editable text configuration `** contains configuration files. A **` configuration file `** is a local file used to control the operation of a program it must be static and cannot be an executable binary.
+
+## /lib
+The **` /lib `** directory contains those shared library images needed to boot the system and execute the commands in the root filesystem, i.e. by binaries in **` /bin `** and **` /sbin `**.
+
+## /media
+Default mount point for removable devices, such as USB sticks, media players, cdroms, etc.
+
+## /mnt
+This directory is provided so that the system administrator may temporarily mount a filesystem as needed. The content of this directory is a local and should not affect any program is run.
+
+## /opt
+The **` /opt `** directory is reserved for the installation of add-on application software packages. A package to be installed in **` /opt `** must locate its static files in a separate **` /opt/<package> `** or **` /opt/<provider> `** directory tree, where <package> is a name that describes the software package and <provider> is the provider’s LANANA (Linux Assigned Names And Numbers Authority) registered name.
+
+
+  
+
+  
 
 
