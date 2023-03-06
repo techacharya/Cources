@@ -13,3 +13,6 @@ It is possible to define two independent distinctions among files: **` shareable
   - **Variable** files are files that are not static.
 
   ![static variable files](../../images/core-concept/linux-fhs/static-nonstatic.png)
+  
+Now we will discuss in detail about directories created by the linux system at the time of installation.
+![directories at installation](../../images/core-concept/linux-fhs/linux-fhs.png)
