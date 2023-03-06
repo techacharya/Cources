@@ -38,7 +38,7 @@ The following directories, or symbolic links to directories, are required in **`
 | **` sbin `**  | Essential system binaries                         |
 | **` srv `**   | Data for services provided by this system         |
 | **` tmp `**   | Temporary files                                   |
+| **` usr `**   | Secondary hierarchy                               |
+| **` var `**   | Variable data                                     |
 
-usr Secondary hierarchy
-var Variable data
 
