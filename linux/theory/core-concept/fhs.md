@@ -111,7 +111,7 @@ Command manual pages resides in **_/usr/share/man/_** directory:
 | **` man8 `**    | System administration  |
 
 ### /var 
-
+The **` /var `** contains variable data files. This includes spool directories and files, administrative and logging data, and transient and temporary files.
 
   
 
