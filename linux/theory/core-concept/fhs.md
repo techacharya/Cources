@@ -70,6 +70,35 @@ The **` /opt `** directory is reserved for the installation of add-on applicatio
 ### /sbin
 Utilities used for **` system administration `** root-only commands are stored in **_/sbin_**, **_/usr/sbin_**, and **_/usr/local/sbin_**. **` /sbin `** contains binaries essential for **_booting_**, **_restoring_**, **_recovering_**, and/or **_repairing_** the system in addition to the binaries in **` /bin `**.
   
+### /srv
+This directory contains site-specific data which is served by this system. The main purpose of specifying this is so that users may find the location of the data files for particular service, and so that services which require a single tree for readonly data, writable data and scripts can be reasonably placed.
+
+### /tmp
+The **` /tmp `** directory must be made available for programs that require temporary files.
+
+### /usr
+The **` /usr `** is the second major section of the filesystem. It is shareable, read-only data i.e. **` /usr `** should be shareable between various FHS-compliant hosts and must not be written to. Any information that is host-specific or varies with time is stored elsewhere. <br>
+**_Note:_** <br>
+Large software packages must not use a direct subdirectory under the **` /usr `** hierarchy.
+
+The following directories, or symbolic links to directories in **` /usr `**.
+
+| **Directory**   | **Description**                                |
+|-----------------|------------------------------------------------|
+| **` bin `**     | Most user commands                             |
+| **` include `** | Header files included by C programs            |
+| **` lib `**     | Libraries for programming and packages         |
+| **` local `**   | Local hierarchy                                |
+| **` sbin `**    | Non-vital system binaries                      |     
+| **` share `**   | Architecture-independent data                  |
+| **` games `**   | Games and educational binaries                 |
+| **` libexec `** | Internal binaries that are not intended to be executed directly by users |
+| **` src `**     | Source code                                    |
+| **` lib64 `**   | For 64-bit libraries                           |
+| **` share `**   | Architecture independent data                  |
+
+### /var 
+
 
   
 
