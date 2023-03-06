@@ -43,10 +43,10 @@ The following directories, or symbolic links to directories, are required in **`
 | **` home `**  | User's home directories (optional)                |
 | **` root `**  | Home directory for the root user (optional)       |
 
-## /bin
+### /bin
 **` /bin `** contains commands that may be used by both the system administrator and by users. It may also contain commands which are used indirectly by scripts.
 
-## /boot
+### /boot
 This directory contains everything required for the **` boot process `** except configuration files not needed at boot time and the map installer. Thus /boot stores data that is used before the kernel begins executing user-mode programs. The kernel must be located in **` /boot `**.
 
 ## /dev
