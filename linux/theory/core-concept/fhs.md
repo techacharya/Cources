@@ -113,6 +113,19 @@ Command manual pages resides in **_/usr/share/man/_** directory:
 ### /var 
 The **` /var `** contains variable data files. This includes spool directories and files, administrative and logging data, and transient and temporary files.
 
+### /home
+Contains users account's home directories and user specific configuration files for applications are stored in the user’s home directory in a file that starts with
+the **` . `** character.
+
+### /root
+The super user **` root `** i.e. system administrator account’s home directory may be determined by developer or local preference, but this is the recommended default location.
+
+### /proc
+It is a virtual file-system and contains the **` kernel `** and **` process `** information. Generally, automatically generated and populated by the system, on the fly.
+
+
+
+
   
 
 
