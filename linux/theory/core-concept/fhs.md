@@ -43,7 +43,7 @@ The following directories, or symbolic links to directories, are required in **`
 | **` home `**  | User's home directories (optional)                |
 | **` root `**  | Home directory for the root user (optional)       |
 
-**/bin**
+## /bin
 
 
 
