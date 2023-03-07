@@ -1,6 +1,6 @@
 # Linux Based Operating System Installation
 
-In this chapter we will learn to install the linux based operating system by various methods.
+In this chapter we will learn to install the linux based operating system by various method.
 
 
  - [Install on Standalon Machine](dvd-iso-usb.md)
