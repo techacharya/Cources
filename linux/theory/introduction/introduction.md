@@ -5,7 +5,7 @@ A Unix-like system is an operating system that behaves in a manner similar to a 
 ## History of Unix-like System
 
 ### Evolution of Unix
-  - In the mid **`1960s`**, when the **Massachusetts Institute of Technology**, **AT&T Bell Labs**, and **General Electric** were jointly developing an experimental time-sharing operating system called **Multiplexed Information and Computing Service** ( **`Multics`** ) allowing multiple users to access a mainframe simultaneously. Multics introduced many innovations, but also had many problems.
+  - In the mid **`1960s`**, when the **_Massachusetts Institute of Technology_**, **_AT&T Bell Labs_**, and **_General Electric_** were jointly developing an experimental time-sharing operating system called **_Multiplexed Information and Computing Service_** ( **`Multics`** ) allowing multiple users to access a mainframe simultaneously. Multics introduced many innovations, but also had many problems.
 
   - **Bell Labs**, got frustrated by the size and complexity of **`Multics`** and dissatisfied with the project's progress, hence ultimately management withdrew.
 
