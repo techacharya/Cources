@@ -35,7 +35,7 @@ A Unix-like system is an operating system that behaves in a manner similar to a 
   - The rest of the Operating System usually includes many GNU libraries, utilities, and other software, from the Free Software Foundation. The operating system as a whole is known as **GNU/Linux**.
 
 ### Linux in Today's World
-${\color{green}Linux}$ is the leading Operating System on servers (over 96.4% of the top 1 million web servers are running on  Linux based Operating System). Linux also runs on all most all available electronics device like,
+**_Linux_** is the leading Operating System on servers (over 96.4% of the top 1 million web servers are running on  Linux based Operating System). Linux also runs on all most all available electronics device like,
   - Embedded Systems i.e. devices whose operating system is typically built into the firmware and is highly tailored to the system. This includes:
     -  Routers, Modems, and Firewalls
     -  Automation controls
@@ -52,7 +52,7 @@ ${\color{green}Linux}$ is the leading Operating System on servers (over 96.4% of
   - Servers
 
 ## Linux
-**Linux** is a family of **`free`** (ensures that the end users have freedom in using, studying, sharing and modifying) and **`open-source`** (rights to study, modify the source code and redistribute to others) Unix-like Operating Systems based on the Linux kernel. The Operation System based on **Linux Kernel** is termed as linux distribution. Some linux distributions are: Debian, Fedora, SUSE, Gentoo, Red Hat Enterprise Linux, Arch Linux and many more.
+**_Linux_** is a family of **`free`** (ensures that the end users have freedom in using, studying, sharing and modifying) and **`open-source`** (rights to study, modify the source code and redistribute to others) Unix-like Operating Systems based on the Linux kernel. The Operation System based on **_Linux Kernel_** is termed as linux distribution. Some linux distributions are: Debian, Fedora, SUSE, Gentoo, Red Hat Enterprise Linux, Arch Linux and many more.
 
 ### Linux Operating System Architecture
 An Operating Pystem (OS) is the system software that manages computer hardware, software resources and provides an environment for the users to execute computer programs. It consists of various components to perform specific task / function shown in below figure:
@@ -62,7 +62,7 @@ An Operating Pystem (OS) is the system software that manages computer hardware, 
 
 ### Kernel Modules
 
-The **Kernel Modules** are pieces of code that can be loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to reboot the system. For example, one type of module is the device driver, which allows the kernel to access hardware connected to the system. Custom codes/modules can be added to **Linux kernel** via two methods:
+The **_Kernel Modules_** are pieces of code that can be loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to reboot the system. For example, one type of module is the device driver, which allows the kernel to access hardware connected to the system. Custom codes/modules can be added to **_Linux kernel_** via two methods:
 
   - The basic way is to add the code to the kernel source file itself and recompile the **kernel**.
   - A more efficient way is to add module is by adding code to the **kernel** while it is running. A module can be configured as built-in or loadable. To dynamically load or remove a module, it has to be configured as a loadable module in the kernel configuration.
@@ -73,12 +73,12 @@ Modules are much faster to maintain and debug.
 
 
 #### Obtain kernel modules information
-Modules are stored in **/usr/lib/modules/$(uname -r)/kernel**. You can use the command **`uname -r`** to get your current kernel release version.
+Modules are stored in **_/usr/lib/modules/$(uname -r)/kernel_**. You can use the command **`uname -r`** to get your current kernel release version.
 
-${\color{orange}Note:}$<br>
-Module names often use underscores ( **` _ `** ) or dashes ( **` - `**); however, those symbols are interchangeable when using the **modprobe** command and in configuration files in ${\color{green}/etc/modprobe.d/}$.
+**_Note:_** <br>
+Module names often use underscores ( **` _ `** ) or dashes ( **` - `**); however, those symbols are interchangeable when using the **modprobe** command and in configuration files in **_/etc/modprobe.d/_**.
 
-You can see what modules are already loaded into the kernel by running **`lsmod`**, which gets its information by reading the file ${\color{green}/proc/modules}$.
+You can see what modules are already loaded into the kernel by running **`lsmod`**, which gets its information by reading the file **_/proc/modules_**.
 ```
 $ lsmod
 ```
@@ -90,7 +90,7 @@ $ modinfo module_name
 #### Module loading
 Today, all necessary modules loading is handled automatically by **`udev`**, so if you do not need to use any out-of-tree kernel modules, there is no need to put modules that should be loaded at boot in any configuration file. However, there are cases where you might want to load an extra module during the boot process, or blacklist another one for your computer to function properly.
 
-**Kernel modules** can be explicitly listed in files under ${\color{green}/etc/modules-load.d/}$ for **systemd** to load them during boot. Each configuration file is named in the style of ${\color{purple}/etc/modules-load.d/program.conf}$. Configuration files simply contain a list of kernel modules names to load, separated by newlines. Empty lines and lines starting with character **` # `** or **` ; `** are ignored.
+**_Kernel modules_** can be explicitly listed in files under **_/etc/modules-load.d/_** for **` systemd `** to load them during boot. Each configuration file is named in the style of **_/etc/modules-load.d/program.conf_**. Configuration files simply contain a list of kernel modules names to load, separated by newlines. Empty lines and lines starting with character **` # `** or **` ; `** are ignored.
 ```
 /etc/modules-load.d/virtio-net.conf
 ------------------------------------------------------------------------------------------------------------------------
@@ -101,7 +101,7 @@ virtio_net
 
 ## kernel
 
-The **Linux kernel** is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel. ${\color{green}Kernel}$ is central/core component of an Operating System and generally has complete control over everything in the system. It always resident in memory until Operating System is shut down again and facilitates interactions between hardware and software components. It is responsible for various tasks such as:
+The **_Linux kernel_** is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel. **_Kernel_** is central/core component of an Operating System and generally has complete control over everything in the system. It always resident in memory until Operating System is shut down again and facilitates interactions between hardware and software components. It is responsible for various tasks such as:
   - Device management
   - Memory Management
   - Process Management
@@ -120,17 +120,17 @@ Determine which processes can use the **Central Processing Unit (CPU)**, when, a
 
 Receive requests for service from the processes and provide the approperiate security among various processes.
 
-  - The ${\color{green}kernel}$, is invisible to the user, working in its own little world known as **kernel space**, where it allocates memory and keeps track of where everything is stored. System components, Libraries and user's application like, Web browsers, shell, files, etc are known as the **user space**. These applications interact with the kernel through a **System Call Interface (SCI)**.
+  - The **_kernel_**, is invisible to the user, working in its own little world known as **_kernel space_**, where it allocates memory and keeps track of where everything is stored. System components, Libraries and user's application like, Web browsers, shell, files, etc are known as the **_user space_**. These applications interact with the kernel through a **_System Call Interface (SCI)_**.
 
 
 ### kernel within the OS
 To put the kernel in context, you can think of a **Linux** machine as having 3 layers:
   - **The hardware:**<br> 
-The physical machine — the bottom or base of the system, made up of memory **(RAM)** and the processor or central processing unit **(CPU)**, as well as input/output **(I/O)** devices such as storage, networking, and graphics. The CPU performs computations and reads from, and writes to, memory.
+The physical machine — the bottom or base of the system, made up of memory **_(RAM)_** and the processor or central processing unit **_(CPU)_**, as well as input/output **(I/O)** devices such as storage, networking, and graphics. The CPU performs computations and reads from, and writes to, memory.
   - **The Linux kernel:**<br> 
 The core of the OS. It’s residing in memory that tells the **CPU** what to do.
   - **User processes:** <br>
-These are the running programs that the **kernel** manages. User processes are what collectively make up **user space**. The **kernel** also allows these processes and servers to communicate with each other known as **Inter-process Communication, or IPC.
+These are the running programs that the **kernel** manages. User processes are what collectively make up **user space**. The **kernel** also allows these processes and servers to communicate with each other known as **_Inter-process Communication, or IPC_**.
 
 ![linux architecture](../../images/lintro/kernel_arch.png)
 
