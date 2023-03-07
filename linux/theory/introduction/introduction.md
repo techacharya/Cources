@@ -76,7 +76,7 @@ Modules are much faster to maintain and debug.
 Modules are stored in **_/usr/lib/modules/$(uname -r)/kernel_**. You can use the command **`uname -r`** to get your current kernel release version.
 
 **_Note:_** <br>
-Module names often use underscores ( **` _ `** ) or dashes ( **` - `**); however, those symbols are interchangeable when using the **modprobe** command and in configuration files in **_/etc/modprobe.d/_**.
+Module names often use underscores ( **` _ `** ) or dashes ( **` - `** ); however, those symbols are interchangeable when using the **modprobe** command and in configuration files in **_/etc/modprobe.d/_**.
 
 You can see what modules are already loaded into the kernel by running **` lsmod `**, which gets its information by reading the file **_/proc/modules_**.
 ```
