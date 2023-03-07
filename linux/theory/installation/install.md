@@ -4,7 +4,7 @@ In this chapter we will learn to install the linux based operating system by var
 
 
  - [Install on Standalon Machine](dvd-iso-usb.md)
- - [Installation through NFS](theory/installation/pxe-nfs.md)
- - [Installation through FTP](theory/installation/pxe-ftp.md)
- - [Installation through HTTP/HTTPS](theory/installation/pxe-http.md)
- - [Installation through Kickstart](theory/installation/kickstart.md)
+ - [Installation through NFS](pxe-nfs.md)
+ - [Installation through FTP](pxe-ftp.md)
+ - [Installation through HTTP/HTTPS](pxe-http.md)
+ - [Installation through Kickstart](kickstart.md)
