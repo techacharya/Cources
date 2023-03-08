@@ -17,9 +17,9 @@
 
 ![Partition Scheme](../../images/installation/partition-scheme.png)
 
-![Partition Creation](../../images/installation/partitation-creation.png)
+![Partition Creation](../../images/installation/mount-point-selection.png)
 
-![Mount Point Selection](../../images/installation/mount-point-selection.png)
+![Mount Point Selection](../../images/installation/partitation-creation.png)
 
 ![Partition Created](../../images/installation/)
 
