@@ -27,3 +27,7 @@
 
 ![Software Selection](../../images/installation/software-selection.png)
 
+![Set root Password](../../images/installation/set-root-passwd.png)
+
+![Begin Installation](../../images/installation/begin-installation.png)
+
