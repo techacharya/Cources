@@ -2,6 +2,8 @@
 
 The **` device driver `** is the abstraction layer between software concepts and hardware circuitry as such, it needs to talk with both of them. In this chapter we will discuss, how a driver can access **` I/O ports `** and **` I/O memory `**. 
 
+### Devices access or communicating approach
+
   - During earlier days, the address bus and data bus was smaller. Address bus used to 16 bits wide and data bus used to be 8 bits wide.
   - Further, compare to the CPU speep the peripherals used to work at a slower speed.
   - As a result, some of the manufacturers decided to have a separate address space for the **_devices_** and for **_memory ( RAM )_**. This approach is called **` I/O Port `** access.
@@ -14,8 +16,16 @@ The **` device driver `** is the abstraction layer between software concepts and
     - It doesn't require the use of special -purpose processor instructions.
     - CPU's access memory much more efficiently.
     - Compilers can optimize the code for better register allocation and addressing mode selection when accessing memory.
-  - All the devices are controlled by reading and writing hardware registers.
-  - Mostof the time a device has several registers and communication with a device involves access to more than one register.
+ 
+
+### Registers in hardware device
+ - All the devices are controlled by reading and writing hardware registers.
+ - Most of the time a device has several registers and communication with a device involves access to more than one register.
+ - Each device has minimum of the below registers:
+   - A data register (either readable or writable, depending on whether it is an input or output device)
+   - A control register (writable, for controlling device operation)
+   - A stste register (readable, for determining device status e.g., whether it is ready to receive or provide data)
+ - More complex devices e.g., disks have multiple control and status registers.
 
 Whenever we inserted the devices to the running machine, dynamically a file gets created for that particular device and generally it shows into the **` /dev/ `** directory with some meaningfull name.
 
