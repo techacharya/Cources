@@ -28,7 +28,7 @@ The **` device driver `** is the abstraction layer between software concepts and
  - More complex devices e.g., disks have multiple control and status registers.
 
 ### Distinguish between I/O port and I/O memory access
-On **_x86_** machine there is a separate pin IO/M. This pin is used to distinguish between memory and I/O operations.
+On **_x86_** machine there is a separate pin **_IO/M_**. This pin is used to distinguish between **_memory_** and **_I/O_** operations.
   - High ---> I/O operation
   - Low  ---> Memory operation.
 When **_IN/OUT_** instruction signal is used, the **_IO/M_** pin is high, so the memory doesn't respond and **_I/O_** chip does. <br>
