@@ -2,7 +2,7 @@
 
 The **` device driver `** is the abstraction layer between software concepts and hardware circuitry as such, it needs to talk with both of them. In this chapter we will discuss, how a driver can access **` I/O ports `** and **` I/O memory `**. 
 
-### Devices access or communicating approach
+### Devices accessing or communicating approach
 
   - During earlier days, the address bus and data bus was smaller. Address bus used to 16 bits wide and data bus used to be 8 bits wide.
   - Further, compare to the CPU speep the peripherals used to work at a slower speed.
@@ -26,6 +26,27 @@ The **` device driver `** is the abstraction layer between software concepts and
    - A control register (writable, for controlling device operation)
    - A stste register (readable, for determining device status e.g., whether it is ready to receive or provide data)
  - More complex devices e.g., disks have multiple control and status registers.
+
+### Distinguish between I/O port and I/O memory access
+On **_x86_** machine there is a separate pin IO/M. This pin is used to distinguish between memory and I/O operations.
+  - High ---> I/O operation
+  - Low  ---> Memory operation.
+When **_IN/OUT_** instruction signal is used, the **_IO/M_** pin is high, so the memory doesn't respond and **_I/O_** chip does. <br>
+And when **_LOAD/STORE_** instructions is used, the **_IO/M_** pin is low and the memory responds and **_I/O_** devices stay out of communication.
+
+#### Access memory 
+**_Address Bus:_** Identify the source or destination of data. <br>
+**_Data Bus:_** Carries data <br>
+**_Control Bus:** Control and timing information (read/write, clock signals)
+
+![system bus](../../images/core-concept/connect-device/system-bus.png)
+
+  - CPU puts the address of memory on the address bus
+  - Sets the control signal indicating read/write operation
+  - Data is placed by the corresponding memory chip on the data bus.
+
+**_Note:_** <br>
+Now a days, this is handled by the memory controller. CPU communicates with the memory controller.
 
 Whenever we inserted the devices to the running machine, dynamically a file gets created for that particular device and generally it shows into the **` /dev/ `** directory with some meaningfull name.
 
