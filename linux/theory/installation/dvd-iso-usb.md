@@ -33,3 +33,5 @@
 
 ![Installation Complete Reboot](../../images/installation/installation-complete.png)
 
+![Installation Complete Reboot](../../images/installation/login-shell.png)
+
