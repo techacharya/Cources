@@ -37,7 +37,7 @@ And when **_LOAD/STORE_** instructions is used, the **_IO/M_** pin is low and th
 #### Access memory 
 **_Address Bus:_** Identify the source or destination of data. <br>
 **_Data Bus:_** Carries data <br>
-**_Control Bus:** Control and timing information (read/write, clock signals)
+**_Control Bus:_** Control and timing information (read/write, clock signals)
 
 ![system bus](../../images/core-concept/connect-device/system-bus.png)
 
