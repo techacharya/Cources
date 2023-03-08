@@ -23,5 +23,7 @@
 
 ![Mount Point Selection](../../images/installation/partitation-creation.png)
 
-![Partition Created](../../images/installation/)
+![accept Changes](../../images/installation/accept-changes.png)
+
+![Software Selection](../../images/installation/software-selection.png)
 
