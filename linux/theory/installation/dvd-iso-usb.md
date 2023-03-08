@@ -11,9 +11,9 @@
 
 ![Installation Summary](../../images/installation/installation-summary.png)
 
-![Installation Destination Selection](../../images/installation/install-destination-selection.png)
+![Installation Destination Selection](../../images/installation/install-destination-list.png)
 
-![Installation Destination List](../../images/installation/install-destination-list.png)
+![Installation Destination List](../../images/installation/install-destination-selection.png)
 
 ![Partition Scheme](../../images/installation/partition-scheme.png)
 
