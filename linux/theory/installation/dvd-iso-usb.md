@@ -31,3 +31,5 @@
 
 ![Begin Installation](../../images/installation/begin-installation.png)
 
+![Installation Complete Reboot](../../images/installation/installation-complete.png)
+
