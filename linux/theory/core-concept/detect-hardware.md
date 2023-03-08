@@ -147,6 +147,12 @@ We can combine the both **` facility `** and **` level `** togather using **` -x
 ```
 ![level & facility](../../images/core-concept/connect-device/level-facility.png)
 
+**_Watching live message_** <br>
+To see messages as they arrive in the kernel ring buffer, use the **` --follow `** (wait for messages) option.
+```
+# dmesg --follow
+```
+
 
 ### The **` udevadm `**
 The **` udevadm monitor `** is a device management tool in linux based system which manages all the device events and it controls the runtime behavior of **` udev `**, requests kernel events, manages the event queue, and provides simple debugging mechanisms.
