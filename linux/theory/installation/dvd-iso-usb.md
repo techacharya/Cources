@@ -7,6 +7,8 @@
 
 ![Installation Menu](../../images/installation/make-install-selection.png)
 
+![Troubleshoot Options](../../images/installation/troubleshoot.png)
+
 ![Language Selection](../../images/installation/lang-selection.png)
 
 ![Installation Summary](../../images/installation/installation-summary.png)
