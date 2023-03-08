@@ -48,6 +48,8 @@ And when **_LOAD/STORE_** instructions is used, the **_IO/M_** pin is low and th
 **_Note:_** <br>
 Now a days, this is handled by the memory controller. CPU communicates with the memory controller.
 
+### Connecting device to running machine
+
 Whenever we inserted the devices to the running machine, dynamically a file gets created for that particular device and generally it shows into the **` /dev/ `** directory with some meaningfull name.
 
 Suppose we require to connect **` USB Device `** to the running machine or system. Then **` kernel `** quitely does their job internally and executes the various services to acheve the goals. 
