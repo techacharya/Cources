@@ -1,6 +1,10 @@
 # Install Linux Operating system On Stand-alon Hardware
 
 
+To download **_rufus_** visit the site:
+https://rufus.ie/en/
+
+
 ![BIOS setup](../../images/installation/bios-setup.png)
 
 ![BIOS setup Exit](../../images/installation/bios-setup-save-exit.png)
