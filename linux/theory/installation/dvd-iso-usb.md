@@ -1,5 +1,18 @@
 # Install Linux Operating system On Stand-alon Hardware
 
+In this lession we will learn to install linux based operationg system. Installing linux based OS on a **_Server_**, **_Desktop_** or **_laptop_** is easier than you think.
+
+To install Linux on a computer or laptop, you will need:
+  - A suitable target device like, **_Server, Virtual Machine, Desktop, Laptop_**
+  - A downloaded linux based operating system **_iso_** image file.
+  - Installation media or bootable device like, **_CD, DVD, USB Drive,_** etc.
+
+### Choose operating system (distribution)
+Various linux based operating systems or distributions are available in the world like, **_Ubuntu, Fedora, Mint, CentOS, Red Hat_**, etc.
+  - **_Step 1:_** Download the linux based OS **_iso_** image file of your choice or need of distribution and version.
+  - **_Step 2:_** Create a bootable CD/DVD or USB drive.
+  - **_Step 3:_** Boot that media on the target system, and then make a few decisions regarding the installation.
+
 
 To download **_rufus_** visit the site:
 https://rufus.ie/en/
