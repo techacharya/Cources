@@ -40,14 +40,15 @@ Once you've found your way into the **_BIOS Setup_**, find the **_boot_** or **_
 
 ![BIOS setup Exit](../../images/installation/bios-setup-save-exit.png)
 
-If everythis is as expected installation program **_anaconda_** will executed and you will land to the installation menu. You will see three option:
+If everythis is as expected installation program **_anaconda_** will executed and you will land to the installation menu. You will see three options comming up here:
   - Install Red Hat Enterprise Linux *_<version_*
   - Test this media & install Red Hat Enterprise Linux *_<version>_*
   - Troubleshooting
 
 ![Installation Menu](../../images/installation/make-install-selection.png)
 
-**_Install Red Hat Enterprise Linux version_**
+**_Install Red Hat Enterprise Linux 9.1_** will install the **_RHEL_** operating system using graphical installation program.
+**_Test this media & install Red Hat Enterprise Linux 9.1_** will first check the integrity of **_DVD_** or **_iso_** whether it's correct or not.
 
 ![Troubleshoot Options](../../images/installation/troubleshoot.png)
 
