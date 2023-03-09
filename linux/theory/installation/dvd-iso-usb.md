@@ -48,7 +48,7 @@ If everythis is as expected installation program **_anaconda_** will executed an
 ![Installation Menu](../../images/installation/make-install-selection.png)
 
 **_Install Red Hat Enterprise Linux 9.1_** will install the **_RHEL_** operating system using graphical installation program. <br>
-**_Test this media & install Red Hat Enterprise Linux 9.1_** will first check the integrity of **_DVD_** or **_iso_** whether it's correct or not. If integrity will pass then proceed for installation.
+**_Test this media & install Red Hat Enterprise Linux 9.1_** will first check the integrity of **_DVD_** or **_iso_** whether it's correct or not. If integrity will pass then proceed for installation. <br>
 **_Troubleshooting_** it contains several other options that you might be use to resolve system issue.
 
 ![Troubleshoot Options](../../images/installation/troubleshoot.png)
