@@ -75,12 +75,16 @@ If you require to create partition on your own than select **_Custom_** and also
 
 ![Installation Destination List](../../images/installation/install-destination-selection.png)
   
-Post disk drive selection and click on **_Done_** you will land to the partition creation page. You will see here three types of partition: <br>
+Post disk drive selection and click on **_Done_** you will land to the partition creation page. You will see here three partition schemes: <br>
   - **Standard Partition**
   - **LVM**
   - **LVM Thin Provisioning**
 
 ![Partition Scheme](../../images/installation/partition-scheme.png)
+
+**_Standard Partition:_** in this partition scheme we can't make changes without unmounting the partition. **_/boot_** partition must be standard. <br>
+**_Logical Volume Manager (LVM):_** More flexible to scale up and scale down partition and can change on running machine without unmounting the partition. <br>
+**_LVM Thin Provisioning:_** This allows to create logical volumes that are larger than the available extents.
 
 ![Partition Creation](../../images/installation/mount-point-selection.png)
 
