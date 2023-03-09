@@ -63,7 +63,6 @@ Since this is first time installation select the first option choose first optio
 ![Language Selection](../../images/installation/lang-selection.png)
 
 Select the appropriate *_language_* and *_language country_* of your choice or requirement and click on **_Continue_**. At the next step you will see the **_Installation Summary_** where, you can configure everything according to your need. Such as **_Software Selection_**, **_Partition Creation_** and so on. <br>
-Installation is controlled by anaconda and provide **_tmux_** terminal multiplexer to show several windows. It can be used display logs, troubleshooting issues, ect.
 
 ![Installation Summary](../../images/installation/installation-summary.png)
 To create partition as per your need click on 
