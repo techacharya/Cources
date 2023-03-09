@@ -74,6 +74,8 @@ Here you will see the all available storage disk drive attached to your machine 
 If you require to create partition on your own than select **_Custom_** and also you can encrypt drive to make it more secure. If you select the encryption option then you will ask for passpharase to encrypt partition and you will have to enter the same passpharase at every boot.
 
 ![Installation Destination List](../../images/installation/install-destination-selection.png)
+  
+Post disk drive selection and click on **_Done_** you will land to the partition creation page
 
 ![Partition Scheme](../../images/installation/partition-scheme.png)
 
