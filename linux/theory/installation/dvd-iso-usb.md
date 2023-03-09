@@ -18,7 +18,8 @@ First step is just download linux based OS from whatever site hosts the distribu
   - Plug in USB device and then run the **_rufus utility_**.
 
   ![Rufus Utility](../../images/installation/rufus-home-page.png)
-  - 
+  
+  -  
 
 
 ![BIOS setup](../../images/installation/bios-setup.png)
