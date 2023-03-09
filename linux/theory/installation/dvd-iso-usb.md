@@ -87,6 +87,7 @@ Post disk drive selection and click on **_Done_** you will land to the partition
 **_LVM Thin Provisioning:_** This allows to create logical volumes that are larger than the available extents.
 
 ![Partition Creation](../../images/installation/mount-point-selection.png)
+To create partition or mount point click on **+** symbol and to delete partition click on **-** symbol. In linux generally you can create **_/boot_**, **_swap_** and **_/_** partition. Size of **_/boot_** may be **_512 byte_** and **_swap_** you can create double of **_RAM Memory_** size you have upto **_4GB_** and above that may be of same size but this all depends on requirements and size available in your system. The remaining space you can assign to the **_/ (root)_** partition. 
 
 ![Mount Point Selection](../../images/installation/partitation-creation.png)
 
