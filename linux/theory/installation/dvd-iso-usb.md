@@ -19,7 +19,8 @@ First step is just download linux based OS from whatever site hosts the distribu
 
   ![Rufus Utility](../../images/installation/rufus-home-page.png)
   
-  -  
+  - In the **_Device_** field, at the very top, make sure your USB drive is the one selected. If not, click the pull-down and select it.
+  - 
 
 
 ![BIOS setup](../../images/installation/bios-setup.png)
