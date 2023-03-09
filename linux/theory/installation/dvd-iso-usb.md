@@ -27,6 +27,8 @@ First step is just download linux based OS from whatever site hosts the distribu
 
   - Click on **` CANCLE `** and exit.
 
+#### Get ready to install
+Now insert the bootable device into the target system or machine. May need to change the **_boot order_**, which by default almost certainly puts the hard drive first. 
 
 ![BIOS setup](../../images/installation/bios-setup.png)
 
