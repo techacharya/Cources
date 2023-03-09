@@ -62,6 +62,8 @@ Since this is first time installation select the first option choose first optio
 
 ![Language Selection](../../images/installation/lang-selection.png)
 
+Select the appropriate language 
+
 ![Installation Summary](../../images/installation/installation-summary.png)
 
 ![Installation Destination Selection](../../images/installation/install-destination-list.png)
