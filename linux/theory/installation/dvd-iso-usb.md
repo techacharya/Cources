@@ -66,11 +66,11 @@ Select the appropriate *_language_* and *_language country_* of your choice or r
 
 ![Installation Summary](../../images/installation/installation-summary.png)
   
-To install Red Hat Enterprise Linux on local storage disk drive click on **_Installation Destination_** and make selection of your disk drive.
+To install Red Hat Enterprise Linux on local storage disk drive click on **_Installation Destination_** and make selection of your disk drive among all available.
 
 ![Installation Destination Selection](../../images/installation/install-destination-list.png)
 
-
+Here you will see the all available storage disk drive attached to your machine and select your desired disk drive. you can select more than one if you wish or required.
 
 ![Installation Destination List](../../images/installation/install-destination-selection.png)
 
