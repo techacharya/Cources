@@ -7,15 +7,17 @@ To install Linux on a computer or laptop, you will need:
   - A downloaded linux based operating system **_iso_** image file.
   - Installation media or bootable device like, **_CD, DVD, USB Drive,_** etc.
 
-### Choose operating system (distribution)
+### Overall installation process
 Various linux based operating systems or distributions are available in the world like, **_Ubuntu, Fedora, Mint, CentOS, Red Hat_**, etc.
   - **_Step 1:_** Download the linux based OS **_iso_** image file of your choice or need of distribution and version.
   - **_Step 2:_** Create a bootable CD/DVD or USB drive.
   - **_Step 3:_** Boot that media on the target system, and then make a few decisions regarding the installation.
 
-
-To download **_rufus_** visit the site:
-https://rufus.ie/en/
+#### Build bootable device
+First step is just download linux based OS from whatever site hosts the distribution and version you want. Once you've downloaded linux bsed OS **_iso_**, you'll need a utility that can create a bootable device. To achieve the target you can use **_rufus_**, which is fast, free and easy to use. To download **_rufus_** visit the site https://rufus.ie/en/ .
+  - Plug in USB device and then run the **_rufus utility_**.
+  ![Rufus Utility](../../images/installation/rufus-home-page.png)
+  - 
 
 
 ![BIOS setup](../../images/installation/bios-setup.png)
