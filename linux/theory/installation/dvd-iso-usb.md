@@ -21,9 +21,11 @@ First step is just download linux based OS from whatever site hosts the distribu
   
   - In the **_Device_** field, at the very top, make sure your USB drive is the one selected. If not, click the pull-down and select it.
   - In the **_Boot selection_** field click on the **` SELECT `** option, navigate to the downloaded linux based OS folder and select the download **_iso_** image file.
-  - If you like, you can change the **_New volume label_** field to your choice but it's not necessary. Click **` Start `**, then wait while the drive is formatted and the **_iso_** installed.
+  - If you like, you can change the **_Volume label_**, **_Partition scheme_**, **_Target system_** and other provided fields to your choice but it's not necessary. Click **` START `**, then wait while the drive is formatted and the **_iso_** copied or till **_Status_** is **` READY `**.
 
 ![Bootable Device](../../images/installation/making-bootable.png)
+
+  - Click on **` CANCLE `** and exit.
 
 
 ![BIOS setup](../../images/installation/bios-setup.png)
