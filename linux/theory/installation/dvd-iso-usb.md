@@ -62,7 +62,7 @@ Since this is first time installation select the first option choose first optio
 
 ![Language Selection](../../images/installation/lang-selection.png)
 
-Select the appropriate language and language country
+Select the appropriate *_language_* and *_language country_* of your choice or requirement and click on **_Continue_**.
 
 ![Installation Summary](../../images/installation/installation-summary.png)
 
