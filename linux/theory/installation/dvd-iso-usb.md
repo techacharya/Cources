@@ -48,7 +48,7 @@ If everythis is as expected installation program **_anaconda_** will executed an
 ![Installation Menu](../../images/installation/make-install-selection.png)
 
   - **_Install Red Hat Enterprise Linux 9.1_** will install the **_RHEL_** operating system using graphical installation program. <br>
-  - **_Test this media & install Red Hat Enterprise Linux 9.1_** will first check the integrity of **_DVD_** or **_iso_** whether it's correct or not. If integrity will pass then proceed for installation. <br>
+  - **_Test this media & install Red Hat Enterprise Linux 9.1_** will first check the integrity of **_DVD_** or **_iso_** whether it's correct or not. If integrity will pass then proceed for installation. This will consume some time to test media. <br>
   - **_Troubleshooting_** contains several other options that you might be use to resolve system issue.
 
 ![Troubleshoot Options](../../images/installation/troubleshoot.png)
@@ -57,6 +57,8 @@ If everythis is as expected installation program **_anaconda_** will executed an
   - **_Rescue a Red Hat Enterprise Linux system_** if system having issue and not able to boot, make use of this option to access config files and edit them to recover system. <br>
   - **Run a memory test_** in case there is a fault in system's memory, can cause to system crash in that situation you can make use of this option.
   - **Boot from local drive_** boot from the local device drive which already have installed.
+
+Since this is first time installation select the first option choose first option i.e. **_Install Red Hat Enterprise Linux 9.1_**. It will start the installtion process and will ask for **_language_** and **_region_** selection.
 
 ![Language Selection](../../images/installation/lang-selection.png)
 
