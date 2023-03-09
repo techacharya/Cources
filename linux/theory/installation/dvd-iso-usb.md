@@ -47,6 +47,8 @@ If everythis is as expected installation program **_anaconda_** will executed an
 
 ![Installation Menu](../../images/installation/make-install-selection.png)
 
+**_Install Red Hat Enterprise Linux version_**
+
 ![Troubleshoot Options](../../images/installation/troubleshoot.png)
 
 ![Language Selection](../../images/installation/lang-selection.png)
