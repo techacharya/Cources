@@ -75,7 +75,10 @@ If you require to create partition on your own than select **_Custom_** and also
 
 ![Installation Destination List](../../images/installation/install-destination-selection.png)
   
-Post disk drive selection and click on **_Done_** you will land to the partition creation page
+Post disk drive selection and click on **_Done_** you will land to the partition creation page. You will see here three types of partition: <br>
+  - **Standard Partition**
+  - **LVM**
+  - **LVM Thin Provisioning**
 
 ![Partition Scheme](../../images/installation/partition-scheme.png)
 
