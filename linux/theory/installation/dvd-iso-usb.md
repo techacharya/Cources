@@ -32,6 +32,8 @@ Now insert the bootable device into the target system or machine if wnat to inst
 
 To edit the **_BIOS Setup_** or **_UEFI Firmware_** setting press either **_F1_** or **_F10_** immediately after powering on the machine. It might also be either **_F2_** or **_F9_** or **_F12_** or even the **_Delete_** key depends on the system.
 
+Select the desired option using **↑** and **↓** arrow and 
+
 ![BIOS setup](../../images/installation/bios-setup.png)
 
 Once you've found your way into the **_BIOS Setup_**, find the **_boot_** or **_startup_** menu and make sure **_USB drive_** is first in the boot order. Then save and exit usually by pressing **_F10_** and accepting confirmation.
