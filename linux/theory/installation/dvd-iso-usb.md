@@ -88,7 +88,14 @@ Post disk drive selection and click on **_Done_** you will land to the partition
 
 ![Partition Creation](../../images/installation/mount-point-selection.png)
 
-To create partition or mount point click on **+** symbol and to delete partition click on **-** symbol. In linux generally you can create **_/boot_**, **_swap_** and **_/_** partition. Size of **_/boot_** may be **_512 byte_** and **_swap_** you can create double of **_RAM Memory_** size you have upto **_4GB_** and above that may be of same size but this all depends on requirements and size available in your system. The remaining space you can assign to the **_/ (root)_** partition. 
+To create partition or mount point click on **+** symbol and to delete partition click on **-** symbol. In linux generally you can create **_/boot_**, **_swap_** and **_/_** partition. 
+  - Size of **_/boot_** may be **_512 byte_**.
+  - **_swap_** you can create double of **_RAM_** size you have in system. If **_RAM_** size is greater than **_4GB_** than keep same as **RAM_** size but this all depends on your requirement and size available in your system. 
+  - The remaining space you can assign to the **_/ (root)_** partition. <br>
+  - You may create more partition as per your need
+
+Post creation all the required partition click on **_Done_** at top right corner and click on **_Accept Changes_**.
+
 
 ![Mount Point Selection](../../images/installation/partitation-creation.png)
 
