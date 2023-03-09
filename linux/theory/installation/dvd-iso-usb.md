@@ -28,9 +28,13 @@ First step is just download linux based OS from whatever site hosts the distribu
   - Click on **` CANCLE `** and exit.
 
 #### Get ready to install
-Now insert the bootable device into the target system or machine. May need to change the **_boot order_**, which by default almost certainly puts the hard drive first. 
+Now insert the bootable device into the target system or machine if wnat to install on **_Virtual Machine_** attach the **_iso_** image file under **_CD/DVD_** section in VM settings and power on the target machine. May need to change the **_boot order_**, in **_BIOS Setup_** or **_UEFI Firmware_** which by default almost certainly puts the hard drive first. 
+
+To edit the **_BIOS Setup_** or **_UEFI Firmware_** setting press either **_F1_** or **_F10_** immediately after powering on the machine. It might also be either **_F2_** or **_F9_** or **_F12_** or even the **_Delete_** key depends on the system.
 
 ![BIOS setup](../../images/installation/bios-setup.png)
+
+Once you've found your way into the **_BIOS Setup_**, find the **_boot_** or **_startup_** menu and make sure **_USB drive_** is first in the boot order. Then save and exit usually by pressing **_F10_** and accepting confirmation.
 
 ![BIOS setup Exit](../../images/installation/bios-setup-save-exit.png)
 
