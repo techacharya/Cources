@@ -96,8 +96,10 @@ To create partition or mount point click on **+** symbol and to delete partition
 
 Post creation all the required partition click on **_Done_** at top right corner and click on **_Accept Changes_**.
 
+|                                                                            |                                                                 |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------|
 | ![partition Selection](../../images/installation/partitation-creation.png) | ![accept Changes](../../images/installation/accept-changes.png) |
+
 
 ![Software Selection](../../images/installation/software-selection.png)
 
