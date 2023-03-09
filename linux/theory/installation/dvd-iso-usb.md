@@ -16,6 +16,7 @@ Various linux based operating systems or distributions are available in the worl
 #### Build bootable device
 First step is just download linux based OS from whatever site hosts the distribution and version you want. Once you've downloaded linux bsed OS **_iso_**, you'll need a utility that can create a bootable device. To achieve the target you can use **_rufus_**, which is fast, free and easy to use. To download **_rufus_** visit the site https://rufus.ie/en/ .
   - Plug in USB device and then run the **_rufus utility_**.
+
   ![Rufus Utility](../../images/installation/rufus-home-page.png)
   - 
 
