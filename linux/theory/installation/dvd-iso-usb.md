@@ -65,9 +65,12 @@ Since this is first time installation select the first option choose first optio
 Select the appropriate *_language_* and *_language country_* of your choice or requirement and click on **_Continue_**. At the next step you will see the **_Installation Summary_** where, you can configure everything according to your need. Such as **_Software Selection_**, **_Partition Creation_** and so on. <br>
 
 ![Installation Summary](../../images/installation/installation-summary.png)
-To create partition as per your need click on 
+  
+To install Red Hat Enterprise Linux on local storage disk drive click on **_Installation Destination_** and make selection of your disk drive.
 
 ![Installation Destination Selection](../../images/installation/install-destination-list.png)
+
+
 
 ![Installation Destination List](../../images/installation/install-destination-selection.png)
 
