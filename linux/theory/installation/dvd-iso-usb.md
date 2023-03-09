@@ -62,9 +62,10 @@ Since this is first time installation select the first option choose first optio
 
 ![Language Selection](../../images/installation/lang-selection.png)
 
-Select the appropriate *_language_* and *_language country_* of your choice or requirement and click on **_Continue_**.
+Select the appropriate *_language_* and *_language country_* of your choice or requirement and click on **_Continue_**. At the next step you will see the **_Installation Summary_** where, you can configure everything according to your need. Such as **_Software Selection_**, **_Partition Creation_** and so on.
 
 ![Installation Summary](../../images/installation/installation-summary.png)
+
 
 ![Installation Destination Selection](../../images/installation/install-destination-list.png)
 
