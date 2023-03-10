@@ -101,11 +101,13 @@ Post creation all the required partition click on **_Done_** at top right corner
 | ![partition Selection](../../images/installation/partitation-creation.png) | ![accept Changes](../../images/installation/accept-changes.png) |
 
 Now its time to select the required software to install at the time of installation itself. You can choose base environment either **_Server with GUI_**, or **_Minimal install_** and some others. <br>
-Additional softwares can be selected like, **_FTP Server_**, **_Mail Server_**, etc. You can install any software or package post installation as well at any time if you forgot any software at the time of installtion there is no worries.
+Additional softwares can be selected like, **_FTP Server_**, **_Mail Server_**, etc. You can install any software or package post installation as well at any time if you forgot any software at the time of installtion there is no worries. <br>
 **_Note:_** <br>
 All the settings depends on your requirement or choice.
 
 ![Software Selection](../../images/installation/software-selection.png)
+
+Post selection of desired **_Base Environment_** and **_Additional Softwares_** just click on **_Done_**.
 
 ![Set root Password](../../images/installation/set-root-passwd.png)
 
