@@ -100,14 +100,15 @@ Post creation all the required partition click on **_Done_** at top right corner
 |----------------------------------------------------------------------------|-----------------------------------------------------------------|
 | ![partition Selection](../../images/installation/partitation-creation.png) | ![accept Changes](../../images/installation/accept-changes.png) |
 
-Now its time to select the required software to install at the time of installation itself. You can choose base environment either **_Server with GUI_**, or **_Minimal install_** and some others. <br>
+Now its time to select the required software to install at the time of installation itself. You can choose base environment either **_Server with GUI_** (graphical environment), or **_Minimal install_** (command-line environment) and some others. <br>
 Additional softwares can be selected like, **_FTP Server_**, **_Mail Server_**, etc. You can install any software or package post installation as well at any time if you forgot any software at the time of installtion there is no worries. <br>
 **_Note:_** <br>
 All the settings depends on your requirement or choice.
 
 ![Software Selection](../../images/installation/software-selection.png)
 
-Post selection of desired **_Base Environment_** and **_Additional Softwares_** just click on **_Done_**.
+Post selection of desired **_Base Environment_** and **_Additional Softwares_** just click on **_Done_**. Installation summary page provides all the settings which required such as **_Network & Host Name_**, **_Installation Destination_**, **_KDUMP_**, **_Time & Date_**, etc. <br>
+**_kdump_** is a service which provides a crash dumping mechanism. The service enables you to save the contents of the system memory for analysis. In order to enable *_kdump_* a part of the system memory has to be permanently reserved for the capture kernel. 
 
 ![Set root Password](../../images/installation/set-root-passwd.png)
 
