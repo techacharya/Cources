@@ -100,6 +100,9 @@ Post creation all the required partition click on **_Done_** at top right corner
 |----------------------------------------------------------------------------|-----------------------------------------------------------------|
 | ![partition Selection](../../images/installation/partitation-creation.png) | ![accept Changes](../../images/installation/accept-changes.png) |
 
+Now its time to select the required software to install at the time of installation itself. You can choose base environment either **_Server with GUI_**, or **_Minimal install_** and some others. <br>
+**_Note:_** <br>
+All the settings depends on your requirement or choice.
 
 ![Software Selection](../../images/installation/software-selection.png)
 
