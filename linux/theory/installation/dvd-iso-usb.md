@@ -111,6 +111,7 @@ Post selection of desired **_Base Environment_** and **_Additional software for 
   - Installation summary page provides all the settings which required such as **_Network & Host Name_**, **_Installation Destination_**, **_KDUMP_**, **_Time & Date_**, etc. 
   - **_kdump_** is a service which provides a crash dumping mechanism. The service enables you to save the contents of the system memory for analysis. 
   - In order to enable *_kdump_* a part of the system memory has to be permanently reserved for the capture kernel. 
+  - **_Security Profile_** enables specific rules that cannot be applied later using remediation scripts, for example, a rule for password strength and partitioning. And has strict partitioning requirements that must be met, create separate partitions for **` /boot `**, **` /home `**, **` /var `**, **` /var/log `**, **` /var/tmp `**, and **` /var/log/audit `**.
 
 ![Set root Password](../../images/installation/set-root-passwd.png)
 
