@@ -120,9 +120,11 @@ If all the settings made properly or as per requirement then click on **_Begin I
 
 ![Begin Installation](../../images/installation/begin-installation.png)
 
-Once the installation is completed it will prompt you to reboot the system. You will have to click on **` Reboot system `** and system will rebooted and everythins is as per expection then it will prompt you to login the system.
+Once the installation is completed it will prompt you to reboot the system. You will have to click on **` Reboot System `** and system will rebooted and everythins is as per expection then it will prompt you to login the system.
 
 ![Installation Complete Reboot](../../images/installation/installation-complete.png)
+
+Now yor installation is done successfully and you can login with **_root_** user and password which, set by you at the time of installation phase.
 
 ![Installation Complete Reboot](../../images/installation/login-shell.png)
 
