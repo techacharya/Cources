@@ -107,7 +107,7 @@ All the settings depends on your requirement or choice.
 
 ![Software Selection](../../images/installation/software-selection.png)
 
-Post selection of desired **_Base Environment_** and **_Additional Softwares_** just click on **_Done_**. 
+Post selection of desired **_Base Environment_** and **_Additional software for Selected Environment_** just click on **` Done `** to apply the setting and return to the **` Installation Summary `**. 
   - Installation summary page provides all the settings which required such as **_Network & Host Name_**, **_Installation Destination_**, **_KDUMP_**, **_Time & Date_**, etc. 
   - **_kdump_** is a service which provides a crash dumping mechanism. The service enables you to save the contents of the system memory for analysis. 
   - In order to enable *_kdump_* a part of the system memory has to be permanently reserved for the capture kernel. 
