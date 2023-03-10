@@ -116,9 +116,11 @@ Post selection of desired **_Base Environment_** and **_Additional software for 
 
 ![Set root Password](../../images/installation/set-root-passwd.png)
 
-If all the settings made properly or as per requirement then click on **_Begin Installation_** to start the installation process. Now sit back and wait to installation completion. Once Installation is completed
+If all the settings made properly or as per requirement then click on **_Begin Installation_** to start the installation process. Now sit back and wait to installation completion. Automatically it will install the operating system as per your settings.
 
 ![Begin Installation](../../images/installation/begin-installation.png)
+
+Once the installation is completed it will prompt you to reboot the system. You will have to click on **` Reboot system `** and system will rebooted and everythins is as per expection then it will prompt you to login the system.
 
 ![Installation Complete Reboot](../../images/installation/installation-complete.png)
 
