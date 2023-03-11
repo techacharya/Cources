@@ -30,4 +30,8 @@ Type the password you will see dots as you enter your password here, unlike at t
 
 ![GUI login prompt](../../images/command-line/gui-login-passwd.png)
 
+This process gets you to the desktop, but you're not at a command prompt yet. To access the command prompt click on the **` Activities `** menu in the upper-left.
+
+![GUI login prompt](../../images/command-line/gui-activities.png)
+
 
