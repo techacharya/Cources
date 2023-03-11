@@ -35,3 +35,8 @@ This process gets you to the desktop, but you're not at a command prompt yet. To
 ![GUI login prompt](../../images/command-line/gui-activities.png)
 
 
+Now click on the **_Terminal_** icon in the bottom menu in **_GNOME_** shell.
+
+![GUI login prompt](../../images/command-line/run-terminal.png)
+
+
