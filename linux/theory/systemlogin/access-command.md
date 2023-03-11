@@ -17,7 +17,7 @@ Here, **[acharya@techacharya ~]$** represents the below details: <br>
 **_acharya_**     ---> is the logged in user name <br>
 **_techacharya_** ---> is a hostname <br>
 **_~_**           ---> represents the logged in user's home directory or the present working directory and <br>
-**_$_**           ---> denotes that logged in user is **_non-root_** user if inplace of **$** it is **#** then represents **_root_** user.
+**_$_**           ---> denotes that logged in user is **_non-root_** user inplace of **$** if it is **#** then represents **_root_** user.
 
 ![command-line terminal](../../images/command-line/command-prompt-info.png)
 
