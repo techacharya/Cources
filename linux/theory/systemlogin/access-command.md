@@ -11,5 +11,5 @@ For many reasons, linux system may be configured to boot to a text login. If lin
 
 Getting to a command prompt is easy. Just enter your username don't forget it's case-sensitive; **_acharya_** and **_Acharya_** are not the same. Press **` Enter `**, and then type your password. Don't panic if you don't see any stars or other input as you type; **_linux_** doesn't display any password placeholder characters.
 
-
+![command-line terminal](../../linux/images/command-line/text-command-prompt.png)
 
