@@ -52,8 +52,17 @@ In real world **_linux sysadmin_** often access the command prompt remotely only
     **_Syntax:_**
     ```
     > ssh username@linux_system-IP or hostname
-    > ```
-    > 
+    ```
+    **_Example:_**
+    ```
+    > ssh acharya@192.168.70.130
+    ```
+    Accept the fingerprint by typing **_yes_** and hit **_Enter_** then provide ther **_acharya_** user's password. And you will land to linux command prompt. 
+  - From another **_Linux system_** just launch the command prompt and type the following:
+    ```
+    $ ssh acharya@192.168.70.130
+    ```
+    ![command-line terminal](../../images/command-line/remote-access.png)
   - 
 
 
