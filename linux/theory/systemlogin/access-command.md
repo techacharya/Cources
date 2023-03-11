@@ -1,8 +1,9 @@
 # Accessing the linux Command-line Terminal
 
-Once we have done with the linux based operating system installation the next step is to access the linux command-line terminal. The power of linux system actually lies in it's command-line mode. Graphical User Interface is very simple to learn and use. There are two different method by which command-line can be accessed:
+Once we have done with the linux based operating system installation the next step is to access the linux command-line terminal. The power of linux system actually lies in it's command-line mode. Graphical User Interface is very simple to learn and use. There are three different method by which command-line can be accessed:
   - Text mode
   - GUI mode
+  - Remote access over Secure Shell 
 
 If you're at the physical console or in the case of a **_Virtual Machine_**, the virtual console, you'll either get a login prompt if the system set defaults to the **` multi-user.target `** or a nice GNOME login window if it set defaults to the **` graphical.target `**.
 
@@ -44,4 +45,17 @@ Here, **[acharya@techacharya ~]$** represents the below details: <br>
 **_$_**           ---> denotes that logged in user is **_non-root_** user inplace of **$** if it is **#** then represents **_root_** user.
 
 ![command-line terminal](../../images/command-line/command-prompt-info.png)
+
+### Remote access over Secure Shell 
+In real world **_linux sysadmin_** often access the command prompt remotely only. Linux in text-mode configuration offers an almost identical experience when accessing the system remotely. Assume you are accessing your linux system from another system that could be either **_linux machine_** or **_Windows machine_** or from **_Mac OS_**. All you need to know is **_username_**, **_password_**, and the remote system's _**IP address or hostname_**. just follow the following:
+  - From **_Windows system:_** open the **` Command Prompt (CMD) `** and type: <br>
+    **_Syntax:_**
+    ```
+    > ssh username@linux_system-IP or hostname
+    > ```
+    > 
+  - 
+
+
+
 
