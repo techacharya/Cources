@@ -74,5 +74,10 @@ In real world **_linux sysadmin_** often access the command prompt remotely only
   - From **_Mac OS_** just launch terminal and follow the same step as access from **_linux system_**.
 
 
+### Exit or Logout from Terminal
+There are a few ways to disconnect from it properly:
+  - You can type either **` exit `** or **` logout `** and press **_Enter_**. 
+  - Or you can press **` Ctrl + D `** on your keyboard.
+
 
 
