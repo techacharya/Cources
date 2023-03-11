@@ -104,4 +104,49 @@ Some of **_tmux's_** features are as follows:
 
 ![command-line terminal](../../images/command-line/tmux-eg.png)
 
+To start using **` tmux `**, type tmux on your terminal. This command launches a tmux server, creates a default session **_number 0_** with a single window, and attaches to it.
+```
+$ tmux
+```
+You can detach from your tmux session by pressing **_Ctrl + B_** then **_d_**. <br>
+The **_tmux_** operates using a series of keybindings (keyboard shortcuts) triggered by pressing the **` prefix `** combination. By default, the prefix is **_Ctrl + B_**. After that, press **_d _** to detach from the current session.
+```
+[detached (from session 0)]
+```
+It's no longer attached to the session, but your long-running command executes safely in the background. You can list active tmux sessions with **_tmux ls_**:
+```
+$ tmux ls
+```
+**_0: 1 windows (created Sat Mar 11 15:15:33 2023)_** <br>
+
+You can disconnect your **_SSH connection_** at this point, and the command will continue to run. When, reconnect to the server and reattach to the existing tmux session to resume where you left off:
+```
+$ tmux attach -t 0
+```
+#### tmux keybindings
+The tmux provides several keybindings to execute commands quickly in a tmux session. Here are some of the most useful ones.
+
+First, create a new **_tmux session_** if you're not already in one. You can name your session by passing the parameter **` -s name `**  to the **` tmux new `** command when creating a new session:
+```
+$ tmux new -s docker
+```
+| **Prefix** | **Combination** | **Description**                                            |
+|------------|-----------------|------------------------------------------------------------|
+| Ctrl + B   | D               | Detach from the current session.                           |
+| Ctrl + B   | %               | Split the window into two panes horizontally.              |
+| Ctrl + B   | "               | Split the window into two panes vertically.                |
+| Ctrl + B   | Arrow Key (Left, Right, Up, Down) | Move between panes.                      |
+| Ctrl + B   | X               | Close pane.                                                |
+| Ctrl + B   | C               | Create a new window.                                       |
+| Ctrl + B   | N or P          | Move to the next or previous window.                       |
+| Ctrl + B   | 0 (1,2...)      | Move to a specific window by number.                       |
+| Ctrl + B   | :               | Enter the command line to type commands. Tab completion is available. |
+| Ctrl + B   | ?               | View all keybindings. Press Q to exit.                                |
+| Ctrl + B   | W               | Open a panel to navigate across windows in multiple sessions.         |
+
+
+
+
+ 
+
 
