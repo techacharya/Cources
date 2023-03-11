@@ -151,6 +151,14 @@ The **_tmux_** configuration can be changed permanently by modifying the **` tmu
 **_For example:_** <br>
 The default prefix key combination is **_Ctrl + B_**, but it can be changed to some other combination to convinient.
 
- 
+#### Customize the status bar
+The **_tmux's_** status bar is fully customizable. You can change the colors of each section and what is displayed. 
+
+Status bar can be changed by updating the status bar colors. First, enter command mode by typing **_Ctrl + B_** then **_:_** then change the colors with these commands:
+  - To change the status bar background color: **` set -g status-bg cyan `**
+  - Change inactive window color: **` set -g window-status-style bg=yellow `**
+  - To change active window color: **` set -g window-status-current-style bg=red,fg=white `**
+
+
 
 
