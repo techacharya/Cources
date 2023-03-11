@@ -11,6 +11,8 @@ For many reasons, linux system may be configured to boot to a text login. If lin
 
 Getting to a command prompt is easy. Just enter your username don't forget it's case-sensitive; **_acharya_** and **_Acharya_** are not the same. Press **` Enter `**, and then type your password. Don't panic if you don't see any stars or other input as you type; **_linux_** doesn't display any password placeholder characters.
 
+![command-line terminal](../../images/command-line/text-command-prompt.png)
+
 
 ### Using GUI mode
 If linux system is installed with **_Server with GUI_** base envirnment , it should include the **` X Window System `**, which is the **_GUI_**. The login looks as you might expect. Just select your username in the list to be prompted for your password. 
@@ -34,8 +36,6 @@ This step launches the **_GNOME Terminal_**, and now you're at a command prompt.
 
 ![GUI login prompt](../../images/command-line/terminal-prompt.png)
 
-
-![command-line terminal](../../images/command-line/text-command-prompt.png)
 
 Here, **[acharya@techacharya ~]$** represents the below details: <br>
 **_acharya_**     ---> is the logged in user name <br>
