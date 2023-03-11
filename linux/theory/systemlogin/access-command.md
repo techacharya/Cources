@@ -15,6 +15,7 @@ Getting to a command prompt is easy. Just enter your username don't forget it's 
 
 Here, **[acharya@techacharya ~]$** represents the below details: <br>
 **_acharya_** ---> is the logged in user name <br>
-**_techacharya_** ---> is a hostname nad <br>
-**_~_**           ---> represents the logged in user's home directory or the present working directory.
+**_techacharya_** ---> is a hostname <br>
+**_~_**           ---> represents the logged in user's home directory or the present working directory and <br>
+**_$_**           ---> denotes that logged in user is **_non-root_** user.
 
