@@ -57,7 +57,10 @@ In real world **_linux sysadmin_** often access the command prompt remotely only
     ```
     > ssh acharya@192.168.70.130
     ```
-    Accept the fingerprint by typing **_yes_** and hit **_Enter_** then provide ther **_acharya_** user's password. And you will land to linux command prompt. 
+    Accept the fingerprint by typing **_yes_** and hit **_Enter_** then provide ther **_acharya_** user's password. And you will land to linux command prompt. <br>
+
+    If **_ssh_** command is not installed in **Windows** then you can use the **_putty Utility_** to access linux system. <br>
+    Just download the **_Putty Utility_** and run the putty and fill the **username_**, **_hostname or IP adsress_** of remote linux system
   - From another **_Linux system_** just launch the command prompt and type the following:
     ```
     $ ssh acharya@192.168.70.130
