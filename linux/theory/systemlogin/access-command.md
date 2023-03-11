@@ -39,4 +39,6 @@ Now click on the **_Terminal_** icon in the bottom menu in **_GNOME_** shell.
 
 ![GUI login prompt](../../images/command-line/run-terminal.png)
 
+This step launches the **_GNOME Terminal_**, and now you're at a command prompt.
 
+![GUI login prompt](../../images/command-line/terminal-prompt.png)
