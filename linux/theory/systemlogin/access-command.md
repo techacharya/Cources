@@ -66,7 +66,7 @@ In real world **_linux sysadmin_** often access the command prompt remotely only
     $ ssh acharya@192.168.70.130
     ```
     ![command-line terminal](../../images/command-line/remote-access.png)
-  - 
+  - From **_Mac OS_** just launch terminal and follow the same step as access from **_linux system_**.
 
 
 
