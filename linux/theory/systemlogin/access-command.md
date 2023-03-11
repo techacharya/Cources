@@ -89,4 +89,19 @@ A virtual or pseudo terminal allows a machine to connect to a remote server, usu
 
 ![command-line terminal](../../images/command-line/pseudo-terminal.png)
 
+### Terminal Multiplexer (tmux)
+**` tmux `** is a **_Terminal Multiplexer_** which, allows to create several **_pseudo terminals_** from a single terminal. This is very useful for running multiple programs with a single connection, such as when you're remotely connecting to a machine using **_Secure Shell (SSH)_**.
+
+You can detach **` tmux `** from the current terminal, and all your programs will continue to run safely in the background. Later, you can reattach tmux to the same or a different terminal.
+
+Some of **_tmux's_** features are as follows:
+  - Fully customizable status bar
+  - Multiple window management
+  - Splitting window in several panes
+  - Automatic layouts
+  - Panel synchronization
+  - Scriptability, which allows to create custom **_tmux_** sessions for different purposes
+
+![command-line terminal](../../images/command-line/tmux-eg.png)
+
 
