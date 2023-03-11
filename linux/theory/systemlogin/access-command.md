@@ -13,3 +13,8 @@ Getting to a command prompt is easy. Just enter your username don't forget it's 
 
 ![command-line terminal](../../images/command-line/text-command-prompt.png)
 
+Here, **[acharya@techacharya ~]$** represents the below details:
+**_acharya_** ---> is the logged in user name <br>
+**_techacharya_** ---> is a hostname nad
+**_~_**           ---> represents the logged in user's home directory or the present working directory.
+
