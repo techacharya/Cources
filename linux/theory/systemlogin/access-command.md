@@ -46,6 +46,11 @@ Here, **[acharya@techacharya ~]$** represents the below details: <br>
 
 ![command-line terminal](../../images/command-line/command-prompt-info.png)
 
+### Super user and non-root user
+Super user or administrator and not-root user can be differenciate by looking the either user name or by command prompt
+
+![command-line terminal](../../images/command-line/root-nonroot.png)
+
 ### Remote access over Secure Shell 
 In real world **_linux sysadmin_** often access the command prompt remotely only. Linux in text-mode configuration offers an almost identical experience when accessing the system remotely. Assume you are accessing your linux system from another system that could be either **_linux machine_** or **_Windows machine_** or from **_Mac OS_**. All you need to know is **_username_**, **_password_**, and the remote system's _**IP address or hostname_**. just follow the following:
   - From **_Windows system:_** open the **` Command Prompt (CMD) `** and type: <br>
@@ -79,5 +84,9 @@ There are a few ways to disconnect from it properly:
   - You can type either **` exit `** or **` logout `** and press **_Enter_**. 
   - Or you can press **` Ctrl + D `** on your keyboard.
 
+### Virtual Terminal
+A virtual or pseudo terminal allows a machine to connect to a remote server, usually to allow different user login or to run different application on single machine at a time. You can switch between these terminals using key combination **` Ctrl + Alt + f1 `** to **` Ctrl + Alt + f6 `**.
+
+![command-line terminal](../../images/command-line/pseudo-terminal.png)
 
 
