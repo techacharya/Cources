@@ -145,7 +145,11 @@ $ tmux new -s docker
 | Ctrl + B   | W               | Open a panel to navigate across windows in multiple sessions.         |
 
 
+#### Configure tmux
+The **_tmux_** configuration can be changed permanently by modifying the **` tmux configuration `** file. By default, this file is located at **_$HOME/.tmux.conf_**.
 
+**_For example:_** <br>
+The default prefix key combination is **_Ctrl + B_**, but it can be changed to some other combination to convinient.
 
  
 
