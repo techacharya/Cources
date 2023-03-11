@@ -63,7 +63,7 @@ In real world **_linux sysadmin_** often access the command prompt remotely only
     Just download the **_Putty Utility_** and run the putty and fill the **_username_**, **_hostname or IP adsress_** of remote linux system and click on **` Open `** and then **` Accept `** the fingerprint.
     ![command-line terminal](../../images/command-line/access-from-putty.png)
 
-    Now it's time to provide user's password, post entering the password press **_Enter_** kry and you will land to command prompt.
+    Now it's time to provide user's password, post entering the password press **_Enter_** key and you will land to command prompt.
 
     ![command-line terminal](../../images/command-line/terminal-putty.png)
   - From another **_Linux system_** just launch the command prompt and type the following:
