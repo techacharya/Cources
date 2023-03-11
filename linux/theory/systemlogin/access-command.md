@@ -22,8 +22,12 @@ Here, **[acharya@techacharya ~]$** represents the below details: <br>
 ![command-line terminal](../../images/command-line/command-prompt-info.png)
 
 ### Using GUI mode
-If linux system is installed with **_Server with GUI_** base envirnment , it should include the **` X Window System `**, which is the **_GUI_**. The login looks as you might expect. Just select your username in the list to be prompted for your password. Type the password you will see dots as you enter your password here, unlike at the text login and press the **` Sign In `** button or hit **` Enter `**.
+If linux system is installed with **_Server with GUI_** base envirnment , it should include the **` X Window System `**, which is the **_GUI_**. The login looks as you might expect. Just select your username in the list to be prompted for your password. 
 
 ![GUI login prompt](../../images/command-line/gui-login.png)
+
+Type the password you will see dots as you enter your password here, unlike at the text login and press the **` Sign In `** button or hit **` Enter `**.
+
+![GUI login prompt](../../images/command-line/gui-login-passwd.png)
 
 
