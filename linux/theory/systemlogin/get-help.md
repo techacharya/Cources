@@ -9,6 +9,16 @@ To full fill all these purpose, almost every software and operating system has s
 
 
 ### The command option **_-h_** or **_--help_**
+To know the usage of command and how to use the options with the command and what are they and their purpose make use of **` -h `** or **` --help `** option with command.
+**_Syntax:_** <br>
+```
+$ command -h          OR   $ command --help
+```
+**_Example:_** <br>
+```
+$ ls -h
+```
+
 
 ### The man command
 The **` man `** command 
