@@ -61,9 +61,42 @@ Every manual is divided into the following sections:
 | **4**              | Special files (usually found in /dev)                                          |
 | **5**              | File formats and conventions, e.g. /etc/passwd                                 |
 | **6**              | Games                                                                          |
-| **7**              | Miscellaneous (including macro packages and conventions), e.g. man(7), grff(7) |
+| **7**              | Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7)|
 | **8**              | System administration commands (usually only for root)                         |
 | **9**              | Kernel routines [Non standard]                                                 |
+
+### Update manual database cache using mandb
+**` mandb `**  is  used to initialise or manually update index database caches.  The caches contain information relevant to the current state of the manual page system and the information stored within them is used by the **_man-db_** utilities to enhance their speed and functionality.
+
+Supplying **` mandb `** with an optional colon-delimited path will override the internal system manual page hierarchy search path, determined from information found within the **_man-db_** configuration file.
+
+If manual of any command not found in that case execute the **` mandb `** command to update database cache.
+```
+$ mandb
+```
+### the which command
+**` which `** command takes one or more arguments. For each of its arguments it prints to **_stdout_** the full path of the executables that would have been executed when this argument had been entered at the shell prompt. It does this by searching for an executable or script in the directories listed in the environment variable **_PATH_**.
+**_Syntax:_** <br>
+```
+$ which command/keywords
+```
+**_Example:_**
+```
+$ which ls
+```
+
+### Tab Completion
+Tab completion can save you keystrokes, prevent spelling mistakes, and guide you through complex commands. It works with file names, commands, command arguments, and more.
+
+All of the modern shells have command and filename completion via the **` Tab `** key. The basic principle in all of these shells is the same; you type the start character of the keyword or command, hit the **_Tab_** key twice, and the list of possible commands or files is displayed. 
+```
+$ mk <Tab> <Tab>
+```
+**OR**
+```
+$ ls -ltrh /etc/ssh/ <tab><tab>
+```
+
 
 
 
