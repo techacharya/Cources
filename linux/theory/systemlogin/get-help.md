@@ -15,9 +15,9 @@ To know the usage of command and how to use the options with the command and wha
 $ command -h          OR       $ command --help
 ```
 **_Example:_** <br>
-**```
+```
 $ ls --help
-```**
+```
 
 
 ### The man command
