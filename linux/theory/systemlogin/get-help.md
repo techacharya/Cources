@@ -26,7 +26,33 @@ the terminal. A user can request to display a manual page by simply typing **` m
 
 **_Syntax:_** <br>
 ```
-$ man [man options] [[section] page ...] ...
+$ man [OPTION]... [COMMAND NAME]...
 ```
+**_Example:_** <br>
+```
+$ man -k fdisk
+```
+  - If **_OPTION_** is not used, it displays the whole manual of the command. <br>
+    **_Syntax:_** <br>
+    ```
+    $ man [COMMAND NAME]
+    ```
+    **_Example:_** <br>
+    ```
+    $ man passwd
+    ```
+  - **Section-num:** Since a manual is divided into multiple sections so this option is used to display
+only a specific section of a manual. <br>
+    **_Syntax:_** <br>
+    ```
+    $ man [SECTION-NUM] [COMMAND NAME]
+    ```
+    **_Example:_** <br>
+    ```
+    $ man 8 fdisk
+    ```
+
+
+
 
 
