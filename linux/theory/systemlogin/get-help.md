@@ -8,5 +8,8 @@ In linux systems thausands and thausand commands and files are avaialbe to perfo
 To full fill all these purpose, almost every software and operating system has some kind of built-in help to assist naive and inexperienced users. So we can get help from environment itself to do the basic lebel of troubleshoot or for better understanding of command usage.
 
 
+### The command option **_-h_** or **_--help_**
 
+### The man command
+The **` man `** command 
 
