@@ -74,7 +74,7 @@ If manual of any command not found in that case execute the **` mandb `** comman
 ```
 $ mandb
 ```
-### the which command
+### The which command
 **` which `** command takes one or more arguments. For each of its arguments it prints to **_stdout_** the full path of the executables that would have been executed when this argument had been entered at the shell prompt. It does this by searching for an executable or script in the directories listed in the environment variable **_PATH_**.
 **_Syntax:_** <br>
 ```
