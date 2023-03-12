@@ -27,5 +27,6 @@ the terminal. A user can request to display a manual page by simply typing **` m
 **_Syntax:_** <br>
 ```
 $ man [man options] [[section] page ...] ...
+```
 
 
