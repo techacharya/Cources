@@ -53,7 +53,7 @@ only a specific section of a manual. <br>
     ```
 
 Every manual is divided into the following sections:
-| ** Selection-num** | **Description**                                                                |
+| **Selection-num** | **Description**                                                                |
 |--------------------|--------------------------------------------------------------------------------|
 | **1**              | Executable programs or shell commands                                          |
 | **2**              | System calls (functions provided by the kernel)                                |
