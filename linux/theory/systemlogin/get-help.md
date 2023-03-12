@@ -97,6 +97,15 @@ $ mk <Tab> <Tab>
 $ ls -ltrh /etc/ssh/ <tab><tab>
 ```
 
+### Additional information
+To explore more in depth read the below manuals:
+```
+$ man bash
+$ man intro
+$ man man
+$ man help
+```
+
 
 
 
