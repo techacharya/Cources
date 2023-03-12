@@ -96,6 +96,16 @@ $ mk <Tab> <Tab>
 ```
 $ ls -ltrh /etc/ssh/ <tab><tab>
 ```
+### info and pinfo command
+  - **` info `** reads documentation in Info format.
+    ```
+    $ info cp
+    ```
+  - **` pinfo `** is a program for viewing info files. You specify which page you want to read by passing it an infopage argument. This argument contains the name of an info page.
+    ```
+    $ pinfo cp
+    ```
+
 
 ### Additional information
 To explore more in depth read the below manuals:
