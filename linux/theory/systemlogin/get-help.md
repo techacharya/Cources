@@ -21,5 +21,11 @@ $ ls --help
 
 
 ### The man command
-The **` man `** command 
+The **` man `** command is short for manual, it displays the detail information about command or tool or utility that we can run on
+the terminal. A user can request to display a manual page by simply typing **` man `** followed by a space and then **` argument `** argument can be a command, utility or function. <br>
+
+**_Syntax:_** <br>
+```
+$ man [man options] [[section] page ...] ...
+
 
