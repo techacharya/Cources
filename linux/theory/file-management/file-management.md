@@ -22,10 +22,30 @@ To display current path or working directory execute the **` pwd `** command as 
 ```
 $ pwd
 ```
-And to report current working directory of a process execute the **` pwdx PID `** command as below:
+### cd Command
+It changes the current directory to **_dir_** passed as argument to **` cd `** command if **_dir_** is not supplied, the value of the **` HOME `** shell variable is the default. 
+
+To navigate to **_/var/log_** execute the following command:
 ```
-$ pwdx 2277
+$ cd /var/log
 ```
+To go one directory up or parent directory execute the below command:
+```
+$ cd ..
+```
+To navigate to the previous **_present working directory_** execute the below command:
+```
+$ cd -
+```
+**_Note:_** <br>
+To navigate into a subdirectory or a directory within your current directory, don’t use a forward slash **_( / )_** simply type the name of the directory. <br>
+**_Example:_** <br>
+To navigate into the **_acharya_** directory execute the below command:
+```
+$ cd acharya/
+```
+
+
 
 
 
