@@ -45,6 +45,17 @@ To navigate into the **_acharya_** directory execute the below command:
 $ cd acharya/
 ```
 
+### Listing the Contents (Files & Directories)
+The **` ls `** command lists the information about the existing files in the current directory by default and sort entries alphabetically if none of **_Option_** nor **` --sort `** is specified. 
+```
+$ ls
+```
+To list existing contents in long listing format use the **` -l `** option with **` ls `** command as below:
+```
+$ ls -l
+```
+
+
 
 
 
