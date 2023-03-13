@@ -17,7 +17,17 @@ That is why in this chapter, we will discuss in detail about file management in 
 Let’s now deep dive into the basic file management commands that will help you to create and manage your files on linux based system.
 
 ### pwd Command
-Prints the full filename of the current working directory in a hierarchical order, beginning with the topmost **_root directory_** **_( / )_**.
+Prints the full filename of the current working directory in a hierarchical order, beginning with the topmost **_root directory_** **_( / )_**. <br>
+To display current path or working directory execute the **` pwd `** command as below:
+```
+$ pwd
+```
+And to report current working directory of a process execute the **` pwdx PID `** command as below:
+```
+$ pwdx 2277
+```
+
+
 
 
 
