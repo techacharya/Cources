@@ -90,7 +90,14 @@ Post disk drive selection and click on **_Done_** you will land to the partition
 
 To create partition or mount point click on **+** symbol and to delete partition click on **-** symbol. In linux generally you can create **_/boot_**, **_swap_** and **_/_** partition. 
   - Size of **_/boot_** may be **_512 byte_**.
-  - **_swap_** you can create double of **_RAM_** size you have in system. If **_RAM_** size is greater than **_4GB_** than keep same as **RAM_** size but this all depends on your requirement and size available in your system. 
+  - **_swap_** you can create double of **_RAM_** size you have in system. If **_RAM_** size is greater than **_4GB_** than keep same as **RAM_** size but this all depends on your requirement and size available in your system.
+
+    | **Amount of RAM in the system** |	**Recommended swap space**           | ** Recommended swap space if allowing for hibernation** |
+    |---------------------------------|--------------------------------------|---------------------------------------------------------|
+    | Less than 2 GiB                 | 2 times the amount of RAM            | 3 times the amount of RAM                               |
+    | 2 GiB - 8 GiB                   | Equal to the amount of RAM           | 2 times the amount of RAM                               |
+    | 8 GiB - 64 GiB                  | 4 GiB to 0.5 times the amount of RAM | 1.5 times the amount of RAM                             |
+    | More than 64 GiB                | Workload dependent (at least 4GiB)   | Hibernation not recommended                             |
   - The remaining space you can assign to the **_/ (root)_** partition. <br>
   - You may create more partition as per your need
 
