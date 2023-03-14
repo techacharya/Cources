@@ -112,7 +112,7 @@ $ touch inventory.sh search.py data.txt
 **_Create file using printf command_**
 We can also create file using **` printf `** command. To create file using **` printf `** command execute the command as follow:
 ```
-$ printf "Welcome to **_techacharya !_**" > acharya.txt
+$ printf "Welcome to techacharya !" > acharya.txt
 ```
 
 
