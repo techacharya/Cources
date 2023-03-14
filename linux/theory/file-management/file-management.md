@@ -8,11 +8,11 @@ That is why in this chapter, we will discuss in detail about file management in 
   - **_Special Files:_** Includes another special files 
     - **_Character Files_**
     - **_Block Files_**
-    - **_Socket Files_**
-    - **_Pipe Files_**
     - **_Link Files_**
       - **_Soft Link_**
       - **_Hard Link_**
+    - **_Pipe Files_**
+    - **_Socket Files_**
 
 Let’s now deep dive into the basic file management commands that will help you to create and manage your files on linux based system.
 
