@@ -88,6 +88,19 @@ Here, the very first line i.e., **_total_** indicates the total size by adding o
 
 ![list content](../../images/file-mgmt/list-details.png)
 
+### Creating File
+In linux system file can be created in many ways. Some conventional methods of file creation are as follow:
+  - Using **` touch `** command
+  - Using **` printf `** command
+  - Using **` cat `** command
+  - Using redirection operator **` > `**
+  - Using **`echo `** command
+  - Using different text editor like, vim, gedit, vi, nano, etc.
+
+  **_Using touch command:_** <br>
+  The **` touch `** command updates the access and modification times of file & directory to the current time. Argument passed to **` touch `** command that does not exist is created empty, unless **_-c_** or **_-h_** is supplied.
+  
+
 
 
 
