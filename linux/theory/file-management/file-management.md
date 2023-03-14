@@ -97,7 +97,7 @@ In linux system file can be created in many ways. Some conventional methods of f
   - Using **`echo `** command
   - Using different text editor like, vim, gedit, vi, nano, etc.
 
-  **_Using touch command_** <br>
+  **_Create file using touch command_** <br>
   The **` touch `** command updates the access and modification times of file & directory to the current time. Argument passed to **` touch `** command that does not exist is created empty, unless **_-c_** or **_-h_** is supplied.
 
 To create a empty file **_hello.sh_** ecxecute the below command:
@@ -108,12 +108,47 @@ To create multiple files at once provide the each file name as argument separate
 ```
 $ touch inventory.sh search.py data.txt
 ```
+**_Create file using redirect operator (>)_** <br>
+We can also create a file using the redirect symbol/operator **(>)** on the command line. To create a empty file, we just have to type a redirect symbol **(>)** followed by the file name.
+```
+$ > learn_linux.txt
+```
 
-**_Create file using printf command_**
+**_Create file using printf command_** <br>
 We can also create file using **` printf `** command. To create file using **` printf `** command execute the command as follow:
 ```
 $ printf "Welcome to techacharya !" > acharya.txt
 ```
+
+**_Create file using cat command_** <br>
+The **` cat `** command concatenate files and print on the standard output. We can also use **` cat `** command for many different purposes. <br>
+To create file execute the command as belllow:
+```
+$ cat > tech.txt
+```
+The above command will create a text file and will enter in the editor mode. Now, enter the desired content and press **_Ctrl + D_** key to save and exit the file or you can simply press **_Ctrl + D_** to create empty file and it will return to the command line.
+
+**_Create file using echo command_** <br>
+The **` echo `** command echoing the argument to the standard output. But we can also create file using **` echo `** command. To create a file execute the command as follows:
+```
+$ echo " " > welcome.txt
+```
+**OR**
+```
+$ echo "Welcome to techacharya !" > acharyag.txt
+```
+
+**_Create file using editor_** <br>
+We can also create file using the various different text editors.
+  - **_Using vim editor_** <br>
+    **` vim `**  is  a text editor that is upwards compatible to **` vi `**.  It can be used to edit all kinds of plain text and is especially useful for editing programs. We can also create files using it. To create file execute the below **` vim `** command followed by filename:
+    ```
+    $ vim welcome.sh
+    ```
+    Post executing above command, it will open the text editor to type the content to it press **i** key. Once file contents are typed just press the **_Esc_** key then type combination of character as **_:wq!_** to save and quit.
+    
+  - **_Using nano editor_** <br>
+  - **_Using vi editor_** <br>
 
 
 
