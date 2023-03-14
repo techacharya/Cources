@@ -64,7 +64,7 @@ Here, the very first line i.e., **_total_** indicates the total size by adding o
     |--------------|------------------------------|
     | **-**        | Regular file                 |
     | **b**        | Block file                   |
-    | **C**        | Character file               |
+    | **c**        | Character file               |
     | **d**        | Directory file               |
     | **l**        | Link file                    |
     | **p**        | Pipe file                    |
