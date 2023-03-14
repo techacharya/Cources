@@ -22,6 +22,8 @@ To display current path or working directory execute the **` pwd `** command as 
 ```
 $ pwd
 ```
+![list content](../../images/file-mgmt/current-directory.png)
+
 ### cd Command
 It changes the current directory to **_dir_** passed as argument to **` cd `** command if **_dir_** is not supplied, the value of the **` HOME `** shell variable is the default. 
 
