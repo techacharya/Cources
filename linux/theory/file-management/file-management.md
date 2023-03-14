@@ -58,6 +58,32 @@ $ ls -l
 ```
 ![list content](../../images/file-mgmt/file-types.png)
 
+Here, the very first line i.e., **_total_** indicates the total size by adding of each files and directories size in current directory.
+  - In the first field very first single character of each entry denotes the file types
+    | **_Prefix_** | **_Description_**            |
+    |--------------|------------------------------|
+    | **-**        | Regular file                 |
+    | **b**        | Block file                   |
+    | **C**        | Character file               |
+    | **d**        | Directory file               |
+    | **l**        | Link file                    |
+    | **p**        | Pipe file                    |
+    | **s**        | Socket file                  |
+    - In the first filed itself after first character remaining 9 character represents the permissions. 
+      - These 9 character further grouped into 3 groups of 3 character each.
+      - The 1st 3 character group denotes the owner permission.
+      - The 2nd group represents owner's group permission and 
+      - Last group denotes others permission which, neither owner nor group member. 
+    - In this first field only the 11th character denotes the extended security permission
+      - **.** means extended permission is not set.
+      - **+** means extended permission (Access Control List) is set
+  - The second field represents the number of hard links.
+  - The third field denotes the owner (who created the file or directory) name.
+  - The fourth field represents the owner's group name.
+  - The fifth files indicates the size in bytes.
+  - The sixth field represents the date and the time when this file was created or modified for the last time.
+  - The last seventh field represents the file or directory name.
+
 
 
 
