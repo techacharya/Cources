@@ -97,7 +97,7 @@ In linux system file can be created in many ways. Some conventional methods of f
   - Using **`echo `** command
   - Using different text editor like, vim, gedit, vi, nano, etc.
 
-  **_Using touch command:_** <br>
+  **_Using touch command_** <br>
   The **` touch `** command updates the access and modification times of file & directory to the current time. Argument passed to **` touch `** command that does not exist is created empty, unless **_-c_** or **_-h_** is supplied.
 
 To create a empty file **_hello.sh_** ecxecute the below command:
@@ -109,7 +109,13 @@ To create multiple files at once provide the each file name as argument separate
 $ touch inventory.sh search.py data.txt
 ```
 
-  
+**_Create file using printf command_**
+We can also create file using **` printf `** command. To create file using **` printf `** command execute the command as follow:
+```
+$ printf "Welcome to **_techacharya !_**" > acharya.txt
+```
+
+
 
 
 
