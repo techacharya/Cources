@@ -50,10 +50,12 @@ The **` ls `** command lists the information about the existing files in the cur
 ```
 $ ls
 ```
+![list content](../../images/file-mgmt/list-content.png)
 To list existing contents in long listing format use the **` -l `** option with **` ls `** command as below:
 ```
 $ ls -l
 ```
+![list content](../../images/file-mgmt/file-types.png)
 
 
 
