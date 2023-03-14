@@ -84,6 +84,8 @@ Here, the very first line i.e., **_total_** indicates the total size by adding o
   - The sixth field represents the date and the time when this file was created or modified for the last time.
   - The last seventh field represents the file or directory name.
 
+![list content](../../images/file-mgmt/list-details.png)
+
 
 
 
