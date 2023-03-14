@@ -99,6 +99,16 @@ In linux system file can be created in many ways. Some conventional methods of f
 
   **_Using touch command:_** <br>
   The **` touch `** command updates the access and modification times of file & directory to the current time. Argument passed to **` touch `** command that does not exist is created empty, unless **_-c_** or **_-h_** is supplied.
+
+To create a empty file **_hello.sh_** ecxecute the below command:
+```
+$ touch hello.sh
+```
+To create multiple files at once provide the each file name as argument separated by space to **` touch `** command:
+```
+$ touch inventory.sh search.py data.txt
+```
+
   
 
 
