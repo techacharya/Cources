@@ -148,7 +148,17 @@ We can also create file using the various different text editors.
     Post executing above command, it will open the text editor to type the content to it press **i** key. Once file contents are typed just press the **_Esc_** key then type combination of character as **_:wq!_** to save and quit.
     
   - **_Using nano editor_** <br>
+    We can also create file using **` nano `** command. To create file execute the **` nano `** command folowed by filename as below:
+    ```
+    $ nano techacharya.txt
+    ```
+    It will open the text editor just type your desired file content and press **_Ctrl + O_** to save the content to file and press **_Ctrl + X_** to exit from the editor.
   - **_Using vi editor_** <br>
+    We can also create file using **` vi `** text editor. To create file using it execute the commmand as follows:
+    ```
+    $ vi hello.c
+    ```
+    Post executing above command, it will open the text editor to type the content to it press **_i_** key. Once file contents are typed just press the **_Esc_** key then type combination of character as **_:wq!_** to save and quit.
 
 
 
