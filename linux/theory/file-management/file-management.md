@@ -172,12 +172,21 @@ Reading a file in linux terminal is not the same as opening file in **_notepad_*
     ```
     $ nl techacharya.txt
     ```
-  - If file is to large then **` less `** command is more suitable to read file. It allows backward movement in the file as well as forward movement.  Also, less does not have to read the entire input file before starting, views the file one page at a time so with large input files it starts up faster than text editors. <br>
+  - If file is to large then **` less `** command is more suitable to read file. It allows backward movement in the file as well as forward movement.  Also, less does not have to read the entire input file before starting, views the file one page at a time so with large input files it starts up faster than text editors. You can exit from **` less `** command by pressing **_q_** key. <br>
     To read file execute the following command:
     ```
     $ less /etc/ssh/sshd_config
     ```
-  - 
+  - To output the last part of files i.e., print the last **_10_** lines of file to standard output execute the below command:
+    ```
+    $ tail -f /etc/ssh/sshd_config
+    ```
+  - To output the first part of files i.e., print the first **_10_** lines of file to standard output execute the below command:
+    ```
+    $ head /etc/ssh/sshd_config
+    ```
+    
+
 
 
 
