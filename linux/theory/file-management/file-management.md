@@ -186,8 +186,22 @@ Reading a file in linux terminal is not the same as opening file in **_notepad_*
     $ head /etc/ssh/sshd_config
     ```
     
+### Copying file or directory
+Copy i.e., reate the new file in destination with the either same name or different name and same content as that of the file. To copy the file or file's content execute the beloow command:
+**_Syntax:_**
+```
+$ cp source_filename destination_filename
+```
+**_Example:_**
+```
+$ cp /etc/ssh/sshd_config /home/acharya/tech.cfg
+```
+To copy the directory execute the below command:
+```
+$ cp -r acharya /opt/
+```
 
-
+### Moving file or directory
 
 
 
