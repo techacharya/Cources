@@ -168,9 +168,14 @@ Reading a file in linux terminal is not the same as opening file in **_notepad_*
     ```
     $ cat welcome.txt
     ```
-  - To read file contents using **` nl `** command execute the below command:
+  - Write file contents to standard output, with line numbers added before each line of file. To read file contents using **` nl `** command execute the below command:
     ```
     $ nl techacharya.txt
+    ```
+  - If file is to large then **` less `** command is more suitable to read file. It allows backward movement in the file as well as forward movement.  Also, less does not have to read the entire input file before starting, views the file one page at a time so with large input files it starts up faster than text editors. <br>
+    To read file execute the following command:
+    ```
+    $ less /etc/ssh/sshd_config
     ```
   - 
 
