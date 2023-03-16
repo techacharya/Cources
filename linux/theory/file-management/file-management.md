@@ -161,8 +161,18 @@ We can also create file using the various different text editors.
     Post executing above command, it will open the text editor to type the content to it press **_i_** key. Once file contents are typed just press the **_Esc_** key then type combination of character as **_:wq!_** to save and quit.
 
 
+### Reading or viewing file contents
+Reading a file in linux terminal is not the same as opening file in **_notepad_**. Since you are in the command line mode, you should use commands to read file in linux. To read or view the contents of file there are many different commands available in linux system like, **` cat `**, **` nl `**, **` head `**, **` less `**, **` tail `**, etc.
 
-
+  - To read file contents using **` cat `** command execute the below command:
+    ```
+    $ cat welcome.txt
+    ```
+  - To read file contents using **` nl `** command execute the below command:
+    ```
+    $ nl techacharya.txt
+    ```
+  - 
 
 
 
