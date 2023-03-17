@@ -290,7 +290,8 @@ If need to compare two files then there is some command present in linux system 
     Similarly, **_1,3c1_** means making a change in the **_1st_** to **_3rd_** line of the first file to match line number **_1_** of the second file. <br>
     **<** Symbol represents **_first file_**. <br>
     **>** Symbol represents **_second files_**.
-  - 
+  - **` comm `**
+    This command compares two sorted files line by line. 
 
 
 
