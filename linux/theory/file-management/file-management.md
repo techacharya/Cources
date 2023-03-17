@@ -187,7 +187,7 @@ Reading a file in linux terminal is not the same as opening file in **_notepad_*
     ```
     
 ### Copying file or directory
-Copy i.e., reate the new file in destination with the either same name or different name and same content as that of the file. To copy the file or file's content execute the beloow command:
+Copy i.e., reate the new file in destination with the either same name or different name and same content as that of the file. To copy the file or file's content execute the beloow command: <br>
 **_Syntax:_**
 ```
 $ cp source_filename destination_filename
@@ -202,6 +202,21 @@ $ cp -r acharya /opt/
 ```
 
 ### Moving file or directory
+Move or remove the file from the source and would be creating a file with the same content at the destination. To move the file or directory execute the fillowing commnad.
+**_Syntax:_**
+```
+$ mv source_filename destination_filename
+```
+**_Example:_**
+```
+$ mv /home/acharya/acharya.txt /opt/
+```
+To move directory execute the below command:
+```
+$ mv -r /home/acharya/course /home/tech/
+```
+
+
 
 
 
