@@ -242,6 +242,21 @@ To delete the directory execute the below command:
 $ rm -r /home/acharya/course
 ```
 
+### Counting words in file
+The **` wc `** command used to get a count of the total number of **_lines_**, **_words_**, and **_characters_** contained in a file. To count lines, words, etc. execute the below command: <br>
+**_Syntax:_**
+```
+$ wc filename
+```
+**_Example:_**
+```
+$ wc /etc/ssh/sshd_config
+```
+Here, output is in four fields and each denotes different information as bellow:
+  - **_1st Field:_** Represents total number of **_lines_** in file.
+  - **_2nd Field:_** Denotes total number of **_words_** in the file.
+  - **_3rd Field:_** Represents total number of **_bytes_** or **_characters_** in the file.
+  - **_4th Field_** Represents the filename.
 
 
 
