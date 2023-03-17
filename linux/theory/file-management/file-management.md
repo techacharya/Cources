@@ -256,10 +256,10 @@ Here, output is in four fields and each denotes different information as bellow:
   - **_1st Field:_** Represents total number of **_lines_** in file.
   - **_2nd Field:_** Denotes total number of **_words_** in the file.
   - **_3rd Field:_** Represents total number of **_bytes_** or **_characters_** in the file.
-  - **_4th Field_** Represents the filename.
+  - **_4th Field:_** Represents the filename.
 
 
-### Finding difference between two file's contents
+### Finding difference between two files
 If need to compare two files then there is some command present in linux system to find the difference between two files are: **` cmp `**, **` diff `**, **` comm `**, etc.
   - **` cmp `** 
     It compares two files byte by byte. To compare two files execute the below command: <br>
@@ -284,10 +284,12 @@ If need to compare two files then there is some command present in linux system 
     **_Line number of first_file[Label(a, c, d)]Line number of second_file_** <br>
       - **a** – **_Add:_** Add content in the first file to sync with the second file.
       - **c** – **_Change:_** Indicates that a modification or change required in the content of first file to match the second file.
-      - **d** – **_Delete:_** Remove content from the first file to match with the second.
+      - **d** – **_Delete:_** Remove content from the first file to match with the second. <br>
     **_0a1_** Indicates that after line **_0_** in first file add the **_1st_** line of second file. <br>
     **_2d1:_** Indicates to delete line number **_2_** of the first file to match the second file from line number **_1_**. <br>
-    Similarly, **_1,3c1_** means making a change in the **_1st_** to **_3rd_** line of the first file to match line number **_1_** of the second file.
+    Similarly, **_1,3c1_** means making a change in the **_1st_** to **_3rd_** line of the first file to match line number **_1_** of the second file. <br>
+    **<** Symbol represents **_first file_**. <br>
+    **>** Symbol represents **_second files_**.
   - 
 
 
