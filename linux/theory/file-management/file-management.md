@@ -259,7 +259,30 @@ Here, output is in four fields and each denotes different information as bellow:
   - **_4th Field_** Represents the filename.
 
 
-
+### Finding difference between two file's contents
+If need to compare two files then there is some command present in linux system to find the difference between two files are: **` cmp `**, **` diff `**, **` comm `**, etc.
+  - **` cmp `** 
+    It compares two files byte by byte. To compare two files execute the below command: <br>
+    **_Syntax:_** <br>
+    ```
+    $ cmp first_filename second_filename
+    ```
+    **_Example:_** <br>
+    $ cmp /home/acharya/acharya.py /home/acharya/acharya.sh
+    ```
+  - **` diff `**
+    It compares files line by line. To find the difference between two files execute the below command: <br>
+    **_Syntax:_** <br>
+    ```
+    $ diff first_filename second_filename
+    ```
+    **_Example:_** <br>
+    ```
+    $ diff /home/acharya/acharya.py /home/acharya/acharya.sh
+    ```
+    The comparison of the files is labeled, and each label has a number on either side. The format is as follows: <br>
+    **_Line number of first_file[Label(a, c, d)]Line number of second_file_**
+  - 
 
 
 
