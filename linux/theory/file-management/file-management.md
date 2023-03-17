@@ -216,6 +216,32 @@ To move directory execute the below command:
 $ mv -r /home/acharya/course /home/tech/
 ```
 
+### Renaming file or directory
+We can use the **` mv `** command also to rename the file as well. To rename the file or directory execute the below command: <br>
+**_Syntax:_** <br>
+```
+$ mv filename new_filename
+```
+**_Example:_**
+```
+$ mv /home/acharya/welcome.txt /home/acharya/learning.txt
+```
+
+### Deleting file or directory
+To delete or remove the existing file we can use **` rm `** command. Execute the below command to delete the file: <br>
+**_Syntax:_**
+```
+$ rm filename
+```
+**_Example:_**
+```
+$ rm /home/acharya/welcome.txt
+```
+To delete the directory execute the below command:
+```
+$ rm -r /home/acharya/course
+```
+
 
 
 
