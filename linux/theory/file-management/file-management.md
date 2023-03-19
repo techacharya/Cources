@@ -251,6 +251,26 @@ To delete the directory execute the below command:
 ```
 $ rm -r /home/acharya/course
 ```
+### create links or shortcut
+If you make two copies of a file or directory, you're in danger of making changes to one and forgetting to make the same change to the other. To ovide this issue we can create the shortcut or links in Linux. To create a shortcut/links, use the **` ln `** command as below:
+  - To create soft link execute below command: <br>
+    **_Syntax:_** <br>
+    ```
+    $ ln -s originale_filenmae link_filenmae
+    ```
+    **_Example:_** <br>
+    ```
+    $ ln -s /opt/python/bin/python3 /usr/local/bin/python
+    ```
+  - To create hard link file execute the below command:
+    **_Syntax:_** <br>
+    ```
+    $ ln original_filenmae link_filename
+    ```
+    **_Example:_**
+    ```
+    $ ln /home/acharya/tech /tmp/techacharya
+    ```
 
 ### Counting words in file
 The **` wc `** command used to get a count of the total number of **_lines_**, **_words_**, and **_characters_** contained in a file. To count lines, words, etc. execute the below command: <br>
