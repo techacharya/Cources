@@ -161,7 +161,7 @@ We can also create file using the various different text editors.
     Post executing above command, it will open the text editor to type the content to it press **_i_** key. Once file contents are typed just press the **_Esc_** key then type combination of character as **_:wq!_** to save and quit.
 
 
-### Reading or viewing file contents
+### Read or view file contents
 Reading a file in linux terminal is not the same as opening file in **_notepad_**. Since you are in the command line mode, you should use commands to read file in linux. To read or view the contents of file there are many different commands available in linux system like, **` cat `**, **` nl `**, **` head `**, **` less `**, **` tail `**, etc.
 
   - To read file contents using **` cat `** command execute the below command:
@@ -186,7 +186,7 @@ Reading a file in linux terminal is not the same as opening file in **_notepad_*
     $ head /etc/ssh/sshd_config
     ```
     
-### Copying file or directory
+### Copy file or directory
 Copy i.e., reate the new file in destination with the either same name or different name and same content as that of the file. To copy the file or file's content execute the beloow command: <br>
 **_Syntax:_**
 ```
@@ -201,7 +201,7 @@ To copy the directory execute the below command:
 $ cp -r acharya /opt/
 ```
 
-### Moving file or directory
+### Move file or directory
 Move or remove the file from the source and would be creating a file with the same content at the destination. To move the file or directory execute the fillowing commnad.
 **_Syntax:_**
 ```
@@ -216,7 +216,7 @@ To move directory execute the below command:
 $ mv -r /home/acharya/course /home/tech/
 ```
 
-### Renaming file or directory
+### Rename file or directory
 We can use the **` mv `** command also to rename the file as well. To rename the file or directory execute the below command: <br>
 **_Syntax:_** <br>
 ```
@@ -227,7 +227,7 @@ $ mv filename new_filename
 $ mv /home/acharya/welcome.txt /home/acharya/learning.txt
 ```
 
-### Deleting file or directory
+### Delete file or directory
 To delete or remove the existing file we can use **` rm `** command. Execute the below command to delete the file: <br>
 **_Syntax:_**
 ```
@@ -259,7 +259,7 @@ Here, output is in four fields and each denotes different information as bellow:
   - **_4th Field:_** Represents the filename.
 
 
-### Finding difference between two files
+### Find difference between two files
 If need to compare two files then there is some command present in linux system to find the difference between two files are: **` cmp `**, **` diff `**, **` comm `**, etc.
   - **` cmp `** 
     It compares two files byte by byte. To compare two files execute the below command: <br>
