@@ -262,7 +262,7 @@ If you make two copies of a file or directory, you're in danger of making change
     ```
     $ ln -s /opt/python/bin/python3 /usr/local/bin/python
     ```
-  - To create hard link file execute the below command:
+  - To create hard link file execute the below command: <br>
     **_Syntax:_** <br>
     ```
     $ ln original_filenmae link_filename
