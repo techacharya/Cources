@@ -298,6 +298,7 @@ If need to compare two files then there is some command present in linux system 
     $ cmp first_filename second_filename
     ```
     **_Example:_** <br>
+    ```
     $ cmp /home/acharya/acharya.py /home/acharya/acharya.sh
     ```
     ![comparison](../../images/file-mgmt/cmp-diff.png)
