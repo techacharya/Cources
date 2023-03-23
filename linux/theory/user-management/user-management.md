@@ -7,12 +7,11 @@ The control of _users_ and _groups_ is a core element of linux system administra
   - **_creating group directories_**.
 
 ### Users
-**_Users_** can be either people i.e., accounts tied to physical users or accounts that exist for specific applications to use. Hence, in linux system there are two types of user: <br>
-  **I. Physical User** <br>
-    - 
+**_Users_** can be either people i.e., accounts tied to physical users or accounts that exist for specific applications to use. Hence, in linux system there are two types of user:
+  1. **Physical User**
     - **_Superuser or root_**
     - **_Regular User_**
-  **II. Service User** <br>
+  2. **Service User**
 
   - Each user is associated with a _Unique numerical Identification Number_ which, is a user identification **_(UID)_**. 
   - _User_ who creates a file is also the owner and group owner of that file.
