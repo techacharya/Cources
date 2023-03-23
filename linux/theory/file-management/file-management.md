@@ -272,7 +272,7 @@ If you make two copies of a file or directory, you're in danger of making change
     $ ln /home/acharya/course/hello.sh /tmp/tech_acharya/welcome
     ```
 
-    ![create links]((../../images/file-mgmt/links-create.png)
+    ![create links](../../images/file-mgmt/links-create.png)
 
 ### Counting words in file
 The **` wc `** command used to get a count of the total number of **_lines_**, **_words_**, and **_characters_** contained in a file. To count lines, words, etc. execute the below command: <br>
