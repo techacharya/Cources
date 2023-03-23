@@ -300,7 +300,7 @@ If need to compare two files then there is some command present in linux system 
     **_Example:_** <br>
     $ cmp /home/acharya/acharya.py /home/acharya/acharya.sh
     ```
-  - **` diff `**
+  - **` diff `** <br>
     It compares files line by line. To find the difference between two files execute the below command: <br>
     **_Syntax:_** <br>
     ```
@@ -308,8 +308,10 @@ If need to compare two files then there is some command present in linux system 
     ```
     **_Example:_** <br>
     ```
-    $ diff /home/acharya/acharya.py /home/acharya/acharya.sh
+    $ diff /home/acharya/welcome.sh /home/acharya/hello.sh
     ```
+    ![difference](../../images/file-mgmt/comm-diff.png)
+    
     The comparison of the files is labeled, and each label has a number on either side. The format is as follows: <br>
     **_Line number of first_file[Label(a, c, d)]Line number of second_file_** <br>
       - **a** – **_Add:_** Add content in the first file to sync with the second file.
@@ -320,11 +322,12 @@ If need to compare two files then there is some command present in linux system 
     Similarly, **_1,3c1_** means making a change in the **_1st_** to **_3rd_** line of the first file to match line number **_1_** of the second file. <br>
     **<** Symbol represents **_first file_**. <br>
     **>** Symbol represents **_second files_**.
-  - **` comm `**
+  - **` comm `** <br>
     This command compares two sorted files line by line and it will print file's content always in three column.
       - **_1st Column:_** Unique content from first file.
       - **_2nd Column:_** Unique content from second file.
       - **_3rd Column:_** Common content from both the files.
+      ![difference](../../images/file-mgmt/comm-diff.png)
 
 
 
