@@ -210,6 +210,9 @@ To copy the directory execute the below command:
 ```
 $ cp -r acharya /opt/
 ```
+![copy files](../../images/file-mgmt/copy-files.png)
+
+**_Here,_** **.** (dot) represents current directory.
 
 ### Move file or directory
 Move or remove the file from the source and would be creating a file with the same content at the destination. To move the file or directory execute the fillowing commnad.
