@@ -323,7 +323,13 @@ If need to compare two files then there is some command present in linux system 
     **<** Symbol represents **_first file_**. <br>
     **>** Symbol represents **_second files_**.
   - **` comm `** <br>
-    This command compares two sorted files line by line and it will print file's content always in three column.
+    This command compares two sorted files line by line and it will print file's content always in three column. First sort the file before applying **` comm `** command. <br>
+    **_Example:_** <br>
+    ```
+    $ sort first_filename > file1.txt
+    $ sort second_filename > file2.txt
+    $ comm file1.txt file2.txt
+    ```
       - **_1st Column:_** Unique content from first file.
       - **_2nd Column:_** Unique content from second file.
       - **_3rd Column:_** Common content from both the files.
