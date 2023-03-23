@@ -219,12 +219,13 @@ $ mv source_filename destination_filename
 ```
 **_Example:_**
 ```
-$ mv /home/acharya/acharya.txt /opt/
+$ mv /home/acharya/learning.txt /tmp/tech_acharya/
 ```
 To move directory execute the below command:
 ```
-$ mv -r /home/acharya/course /home/tech/
+$ mv -r /home/acharya/scripts /home/tech/
 ```
+![list content](../../images/file-mgmt/move-files.png)
 
 ### Rename file or directory
 We can use the **` mv `** command also to rename the file as well. To rename the file or directory execute the below command: <br>
