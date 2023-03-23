@@ -204,11 +204,11 @@ $ cp source_filename destination_filename
 ```
 **_Example:_**
 ```
-$ cp /etc/ssh/sshd_config /home/acharya/tech.cfg
+$ cp /etc/ssh/sshd_config /home/acharya/course/ssh_configuration
 ```
 To copy the directory execute the below command:
 ```
-$ cp -r acharya /opt/
+$ cp -r /tmp/tech_acharya /home/acharya/course/
 ```
 ![copy files](../../images/file-mgmt/copy-files.png)
 
