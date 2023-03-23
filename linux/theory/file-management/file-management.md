@@ -245,12 +245,14 @@ $ rm filename
 ```
 **_Example:_**
 ```
-$ rm /home/acharya/welcome.txt
+$ rm /home/acharya/file1.txt
 ```
 To delete the directory execute the below command:
 ```
-$ rm -r /home/acharya/course
+$ rm -r /home/acharya/course/kernel
 ```
+![delete files](../../images/file-mgmt/remove-files.png)
+
 ### create links or shortcut
 If you make two copies of a file or directory, you're in danger of making changes to one and forgetting to make the same change to the other. To ovide this issue we can create the shortcut or links in Linux. To create a shortcut/links, use the **` ln `** command as below:
   - To create soft link execute below command: <br>
