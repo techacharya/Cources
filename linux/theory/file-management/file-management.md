@@ -260,7 +260,7 @@ If you make two copies of a file or directory, you're in danger of making change
     ```
     **_Example:_** <br>
     ```
-    $ ln -s /usr/bin/bin/python3 /usr/local/bin/python
+    $ ln -s /usr/bin/python3 /usr/local/bin/python
     ```
   - To create hard link file execute the below command: <br>
     **_Syntax:_** <br>
