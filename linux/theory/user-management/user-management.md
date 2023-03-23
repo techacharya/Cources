@@ -11,7 +11,7 @@ The control of _users_ and _groups_ is a core element of linux system administra
   1. **Physical User**
      - **_Superuser or root_**
      - **_Regular User_**
-  2. **Service User**
+  2. **Service User or System User**
 
   - Each user is associated with a _Unique numerical Identification Number_ which, is a user identification **_(UID)_**. 
   - _User_ who creates a file is also the owner and group owner of that file.
