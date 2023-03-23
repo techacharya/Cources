@@ -310,7 +310,7 @@ If need to compare two files then there is some command present in linux system 
     ```
     $ diff /home/acharya/welcome.sh /home/acharya/hello.sh
     ```
-    ![difference](../../images/file-mgmt/comm-diff.png)
+    ![difference](../../images/file-mgmt/diff-diff.png)
     
     The comparison of the files is labeled, and each label has a number on either side. The format is as follows: <br>
     **_Line number of first_file[Label(a, c, d)]Line number of second_file_** <br>
@@ -327,6 +327,7 @@ If need to compare two files then there is some command present in linux system 
       - **_1st Column:_** Unique content from first file.
       - **_2nd Column:_** Unique content from second file.
       - **_3rd Column:_** Common content from both the files.
+
       ![difference](../../images/file-mgmt/comm-diff.png)
 
 
