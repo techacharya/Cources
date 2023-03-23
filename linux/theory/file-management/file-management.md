@@ -260,7 +260,7 @@ If you make two copies of a file or directory, you're in danger of making change
     ```
     **_Example:_** <br>
     ```
-    $ ln -s /opt/python/bin/python3 /usr/local/bin/python
+    $ ln -s /usr/bin/bin/python3 /usr/local/bin/python
     ```
   - To create hard link file execute the below command: <br>
     **_Syntax:_** <br>
@@ -269,8 +269,10 @@ If you make two copies of a file or directory, you're in danger of making change
     ```
     **_Example:_**
     ```
-    $ ln /home/acharya/tech /tmp/techacharya
+    $ ln /home/acharya/course/hello.sh /tmp/tech_acharya/welcome
     ```
+
+    ![create links]((../../images/file-mgmt/links-create.png)
 
 ### Counting words in file
 The **` wc `** command used to get a count of the total number of **_lines_**, **_words_**, and **_characters_** contained in a file. To count lines, words, etc. execute the below command: <br>
