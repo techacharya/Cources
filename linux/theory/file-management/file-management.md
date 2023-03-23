@@ -355,4 +355,38 @@ If need to compare two files then there is some command present in linux system 
       ![difference](../../images/file-mgmt/comm-diff.png)
 
 
+### Creating special files
+To create special files like, **_socket_**, **_pipe_**, etc files follow the below examples.
+  - **_Create socket file_** <br>
+    These files are created by server or client's programs to communicate between two processes. <br>
+    ```
+    # python -c "import socket as s; sock = s.socket(s.AF_UNIX); sock.bind('/home/acharya/course/mysql.sock')"
+    ```
+  - **_Create pipe file_** <br>
+    To create pipe file execute the below command:
+    ```
+    # mkfifo filename
+    ```
+  - **_Create character file_** <br>
+    To create character file execute below command: <br>
+    _Syntax:_
+    ```
+    # mknod filename < c : for charater file > major_numer minor_number
+    ```
+    _Example:_
+    ```
+    # mknod character_file c 4 3
+    ```
+  - **_Create block file_** <br>
+    To create block file execute below command: <br>
+    _Syntax:_
+    ```
+    # mknod block_filename < b : for block device file> major_number minor_number
+    ```
+    _Example:_ 
+    ```
+    # mknod sdc1 b 8 1
+    ```
+
+![difference](../../images/file-mgmt/create-special-files.png)    
 
