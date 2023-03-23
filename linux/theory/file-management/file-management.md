@@ -291,7 +291,7 @@ Here, output is in four fields and each denotes different information as bellow:
 
 ### Find difference between two files
 If need to compare two files then there is some command present in linux system to find the difference between two files are: **` cmp `**, **` diff `**, **` comm `**, etc.
-  - **` cmp `** 
+  - **` cmp `** <br>
     It compares two files byte by byte. To compare two files execute the below command: <br>
     **_Syntax:_** <br>
     ```
@@ -300,6 +300,8 @@ If need to compare two files then there is some command present in linux system 
     **_Example:_** <br>
     $ cmp /home/acharya/acharya.py /home/acharya/acharya.sh
     ```
+    ![comparison](../../images/file-mgmt/cmp-diff.png)
+
   - **` diff `** <br>
     It compares files line by line. To find the difference between two files execute the below command: <br>
     **_Syntax:_** <br>
