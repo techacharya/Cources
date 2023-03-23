@@ -319,7 +319,7 @@ If need to compare two files then there is some command present in linux system 
       - **d** – **_Delete:_** Remove content from the first file to match with the second. <br>
     **_0a1_** Indicates that after line **_0_** in first file add the **_1st_** line of second file. <br>
     **_2d1:_** Indicates to delete line number **_2_** of the first file to match the second file from line number **_1_**. <br>
-    Similarly, **_1,3c1_** means making a change in the **_1st_** to **_3rd_** line of the first file to match line number **_1_** of the second file. <br>
+    Similarly, **_2,4c3,4_** means making a change in the **_2nd_** to **_4th_** line of the first file to match line number **_3rd_** to **_4th_** of the second file. <br>
     **<** Symbol represents **_first file_**. <br>
     **>** Symbol represents **_second files_**.
   - **` comm `** <br>
