@@ -9,6 +9,7 @@ The control of _users_ and _groups_ is a core element of linux system administra
 ### Users
 **_Users_** can be either people i.e., accounts tied to physical users or accounts that exist for specific applications to use. Hence, in linux system there are two types of user: <br>
   **I. Physical User** <br>
+    - 
     - **_Superuser or root_**
     - **_Regular User_**
   **II. Service User** <br>
