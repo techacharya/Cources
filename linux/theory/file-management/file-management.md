@@ -280,7 +280,7 @@ $ wc filename
 ```
 **_Example:_**
 ```
-$ wc /home/acharya/hello.sh
+$ wc /home/acharya/course/hello.sh
 ```
 ![comparison](../../images/file-mgmt/count-content.png)
 
@@ -301,7 +301,7 @@ If need to compare two files then there is some command present in linux system 
     ```
     **_Example:_** <br>
     ```
-    $ cmp /home/acharya/welcome.sh /home/acharya/hello.sh
+    $ cmp /home/acharya/course/welcome.sh /home/acharya/course/hello.sh
     ```
     ![comparison](../../images/file-mgmt/cmp-diff.png)
 
@@ -315,7 +315,7 @@ If need to compare two files then there is some command present in linux system 
     ```
     **_Example:_** <br>
     ```
-    $ diff /home/acharya/welcome.sh /home/acharya/hello.sh
+    $ diff /home/acharya/course/welcome.sh /home/acharya/course/hello.sh
     ```
     ![difference](../../images/file-mgmt/diff-diff.png)
     
