@@ -280,8 +280,10 @@ $ wc filename
 ```
 **_Example:_**
 ```
-$ wc /etc/ssh/sshd_config
+$ wc /home/acharya/hello.sh
 ```
+![comparison](../../images/file-mgmt/count-content.png)
+
 Here, output is in four fields and each denotes different information as bellow:
   - **_1st Field:_** Represents total number of **_lines_** in file.
   - **_2nd Field:_** Denotes total number of **_words_** in the file.
@@ -299,7 +301,7 @@ If need to compare two files then there is some command present in linux system 
     ```
     **_Example:_** <br>
     ```
-    $ cmp /home/acharya/acharya.py /home/acharya/acharya.sh
+    $ cmp /home/acharya/welcome.sh /home/acharya/hello.sh
     ```
     ![comparison](../../images/file-mgmt/cmp-diff.png)
 
