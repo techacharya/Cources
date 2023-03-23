@@ -302,7 +302,7 @@ If need to compare two files then there is some command present in linux system 
     $ cmp /home/acharya/acharya.py /home/acharya/acharya.sh
     ```
     ![comparison](../../images/file-mgmt/cmp-diff.png)
-    
+
     First difference finds at **_12th_** byte in the **_1st_** line.
 
   - **` diff `** <br>
