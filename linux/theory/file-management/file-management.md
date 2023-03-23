@@ -236,6 +236,7 @@ $ mv filename new_filename
 ```
 $ mv /home/acharya/welcome.txt /home/acharya/learning.txt
 ```
+![rename file](../../images/file-mgmt/rename-file.png)
 
 ### Delete file or directory
 To delete or remove the existing file we can use **` rm `** command. Execute the below command to delete the file: <br>
