@@ -43,4 +43,9 @@ To make the **_IDs_** assigned to new users by default start at desired **_IDs_*
 
 ![login defination](../../images/user-group-mgmt/login-defs.png)
 
+**_Note_** <br>
+For users created before changed **_UID_MIN_** and **_GID_MIN_** directives, **UIDs** will still associated at the default **_1000_**.
+
+
+
 
