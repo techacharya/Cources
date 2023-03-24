@@ -59,7 +59,7 @@ In linux system the main four files are used to store the **_users_** and **_gro
 
 Since the entire user management system is controlled through these files, linux system itself maintains and updates the backup of each file in the same directory with same name followed by hyphen (**-**). The followig table shows the backup files along with original files:
 
-| **_Files_**        | **_User's Inforamation_**  | **_Password_ Aging Policy_** | **_Group's Information_** | **_Group's Encrypted Password_**|
+| **_Files_**        | **_User's Inforamation_**  | **_Password Aging Policy_** | **_Group's Information_** | **_Group's Encrypted Password_**|
 |--------------------|----------------------------|------------------------------|---------------------------|---------------------------------|
 | **_Original File Name_** | passwd               | shadow                       | group                     | gshadow                         |
 | **_Backup File Name_**   | passwd-              | shadow-                      | group-                    | gshadow-                        |
