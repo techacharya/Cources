@@ -52,4 +52,7 @@ The linux system uses a **_User Private Group (UPG)_** scheme, which makes **_Un
 
 **_UPG_** make it safe to set default permissions for a newly created file or directory, allowing both the **_user_** and the **_group_** of that user to make modifications to the file or directory. The **_umask_** determines what permissions are applied to a newly created file or directory and is configured in the **_/etc/bashrc_** file. 
 
+The list of all groups is stored in the **_/etc/group_** configuration file.
+
+
 
