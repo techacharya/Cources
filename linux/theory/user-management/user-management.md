@@ -58,12 +58,6 @@ The list of all groups is stored in the **_/etc/group_** configuration file.
 In linux system the main four files are used to store the **_users_** and **_groups_** inforamation and all these files are present in the **_/etc/_** directory. These files are: **_passwd_**, **_shadow_**, **_group_** and **_gshadow_**.
 
 Since the entire user management system is controlled through these files, linux system itself maintains and updates the backup of each file in the same directory with same name followed by hyphen (**-**). The followig table shows the backup files along with original files:
-| **_Original File Name_** | **_Backup File Name_** |
-|--------------------------|------------------------|
-| passwd                   | passwd-                |
-| group                    | group-                 |
-| shadow                   | shadow-                |
-| gshadow                  | gshadow-               |
 
 | **_Files_**        | **_User's Inforamation_**  | **_Password_ Aging Policy_** | **_Group's Information_** | **_Group's Encrypted Password_**|
 |--------------------|----------------------------|------------------------------|---------------------------|---------------------------------|
