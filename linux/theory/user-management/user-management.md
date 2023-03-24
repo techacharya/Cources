@@ -20,7 +20,7 @@ The _superuser or root_ user is a king of linux system and is automatically crea
 This is a normal user and can be created as many as required post linux system installation. It has moderate privilege and intended to daily routine activities. Regular user can perform only the tasks for which it is allowed and can access only those files and services for which it is authorized. As per requirement, it can be disabled or deleted.
 
 **_Service User_** <br>
-Ther service or system users are a special type of non-human privileged account used to execute applications and run automated services. These users are created by installation packages or application software when they are installed. These accounts are neither intended for routine activities nor should be used for routine work.
+Ther service or system users are a special type of non-human privileged account used to execute applications and run automated services. These users are created by installation packages or application software when they are installed. These accounts are neither intended for routine activities nor should be used for routine work. By default, the **_User Manager_** does not display the system users.
  
 
 ![Unix Users](../../images/user-group-mgmt/unix-users.jpeg)
@@ -33,3 +33,5 @@ Ther service or system users are a special type of non-human privileged account 
 ### Groups
 **_Groups_** are logical expressions of organization, tying users together for a common purpose. Users within a group share the same permissions to _read_, _write_, or _execute_ files owned by that group.
   - Like, **_user_** each **_group_** is associated with a group ID _**(GID)_**.
+
+
