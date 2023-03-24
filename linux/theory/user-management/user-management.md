@@ -13,6 +13,8 @@ The control of _users_ and _groups_ is a core element of linux system administra
      - **_Regular User_**
   2. **Service User or System User**
 
+![Unix Users](../../images/user-group-mgmt/unix-users.jpeg)
+
   - Each user is associated with a _Unique numerical Identification Number_ which, is a user identification **_(UID)_**. 
   - _User_ who creates a file is also the owner and group owner of that file.
   - The file is assigned separate _read, write,_ and _execute_ permissions for the **_owner, group,_** and **_others_**. 
