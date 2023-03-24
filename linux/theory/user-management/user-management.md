@@ -68,7 +68,7 @@ Since the entire user management system is controlled through these files, linux
 ![Users files & backup](../../images/user-group-mgmt/users-files.png)
 
 **passwd File** <br>
-This files contains list of all user's account and each individual row stores a single user's details and has the seven fields separated by colon (**:**).
+This files contains list of all user's account and each individual row stores a single user's details and has the seven fields separated by colon (**:**). To display the content of passwd file execute the command **_cat /etc/passwd_** or **_head /etc/passwd_** so on.
 
 ![passwd file](../../images/user-group-mgmt/passwd.png)
 
