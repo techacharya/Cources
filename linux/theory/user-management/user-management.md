@@ -35,4 +35,8 @@ Ther service or system users are a special type of non-human privileged account 
   - Like, **_user_** each **_group_** is associated with a group ID _**(GID)_**.
 
 ### Reserved User & Group IDs
-In linux system **_user_** and **_group_** _IDs_ below **1000** is reserved for _system users_ and _groups_.
+In linux system **_user_** and **_group_** _IDs_ below **1000** is reserved for _system users_ and _groups_. Reserved **_user_** and **_group_** _IDs_ are documented in the setup package. To view the documentation, execute the below command:
+```
+$ cat cat /usr/share/doc/setup/uidgid | less
+```
+
