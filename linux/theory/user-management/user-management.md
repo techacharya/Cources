@@ -39,4 +39,4 @@ In linux system **_user_** and **_group_** _IDs_ below **1000** is reserved for 
 ```
 $ cat cat /usr/share/doc/setup/uidgid | less
 ```
-
+To make the **_IDs_** assigned to new users by default start at desired **_IDs_** value, change the **_UID_MIN_** and **_GID_MIN_** directives in the **_/etc/login.defs_** file.
