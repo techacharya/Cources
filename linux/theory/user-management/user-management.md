@@ -13,6 +13,14 @@ The control of _users_ and _groups_ is a core element of linux system administra
      - **_Regular User_**
   2. **Service User or System User**
 
+**_Superuser or root User_** <br>
+The _superuser or root_ user is a king of linux system and is automatically created during the installation. It administrats the whole linux system and can access any service or resource in the linux sysytem. It has the highest privilege and should be used only for administrative purpose not for daily routine activities. The **_root_** user can't be deleted, if requir can be disabled.
+
+**_Regular User_** <br>
+This is a normal user and can be created as many as required post linux system installation. It has moderate privilege and intended to daily routine activities. Regular user can perform only the tasks for which it is allowed and can access only those files and services for which it is authorized. As per requirement, it can be disabled or deleted.
+
+ 
+
 ![Unix Users](../../images/user-group-mgmt/unix-users.jpeg)
 
   - Each user is associated with a _Unique numerical Identification Number_ which, is a user identification **_(UID)_**. 
