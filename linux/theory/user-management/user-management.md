@@ -34,4 +34,5 @@ Ther service or system users are a special type of non-human privileged account 
 **_Groups_** are logical expressions of organization, tying users together for a common purpose. Users within a group share the same permissions to _read_, _write_, or _execute_ files owned by that group.
   - Like, **_user_** each **_group_** is associated with a group ID _**(GID)_**.
 
-### Reserved User & Group ID
+### Reserved User & Group IDs
+In linux system **_user_** and **_group_** _IDs_ below **1000** is reserved for _system users_ and _groups_.
