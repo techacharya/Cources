@@ -54,5 +54,6 @@ The linux system uses a **_User Private Group (UPG)_** scheme, which makes **_Un
 
 The list of all groups is stored in the **_/etc/group_** configuration file.
 
-
+### Users and Groups Management Files
+In linux system the main four files are used to store the **_users_** and **_groups_** inforamation and all these files are present in the **_/etc/_** directory. These files are: **_passwd_**, **_shadow_**, **_group_** and **_gshadow_**.
 
