@@ -65,6 +65,12 @@ Since the entire user management system is controlled through these files, linux
 | shadow                   | shadow-                |
 | gshadow                  | gshadow-               |
 
+| **_Files_**        | **_User's Inforamation_**  | **_Password_ Aging Policy_** | **_Group's Information_** | **_Group's Encrypted Password_**|
+|--------------------|----------------------------|------------------------------|---------------------------|---------------------------------|
+| **_Original File Name_** | passwd               | shadow                       | group                     | gshadow                         |
+| **_Backup File Name_**   | passwd-              | shadow-                      | group-                    | gshadow-                        |
+
+
 ![Users files & backup](../../images/user-group-mgmt/users-files.png)
 
 
