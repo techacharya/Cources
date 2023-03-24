@@ -22,3 +22,4 @@ The control of _users_ and _groups_ is a core element of linux system administra
 
 ### Groups
 **_Groups_** are logical expressions of organization, tying users together for a common purpose. Users within a group share the same permissions to _read_, _write_, or _execute_ files owned by that group.
+  - Like, **_user_** each **_group_** is associated with a group ID _**(GID)_**.
