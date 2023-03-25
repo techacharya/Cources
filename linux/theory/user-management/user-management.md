@@ -83,5 +83,8 @@ These seven fields are as follows:
 
 ![passwd file](../../images/user-group-mgmt/passwd-content.png)
 
+**shadow File** <br>
+
+
 
 
