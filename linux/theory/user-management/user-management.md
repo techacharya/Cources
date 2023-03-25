@@ -104,8 +104,8 @@ Following nine information is stored in the shadow file for each user is:
       - **_$2$_** - Blowfish encryption
       - **_$3$_** - Blowfish encryption
       - **_$5$_** - SHA-256 encryption algorithm
-      - **_$6$_** - SHA-512 encryption algorithm
-      If value is:
+      - **_$6$_** - SHA-512 encryption algorithm <br>
+      If value is: <br>
       **` ! `** - It mean an account is locked. <br>
       **` !! `** - Means the account of an user has been created, but not yet set a password. <br>
       **` * `** - Not intended to be logged in to e.g. **_bin_**, **_daemon_**, **_sshd_**.
