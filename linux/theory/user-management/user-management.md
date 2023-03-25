@@ -107,6 +107,7 @@ Following nine information is stored in the shadow file for each user is:
       - **_$6$_** - SHA-512 encryption algorithm 
     - Between **_2nd_** & **_3rd_** dollar signs - is a salt (random data which, used as an additional input to a _one-way_ function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage).
     - Post **_3rd_** dallar sign - hash itself.
+
   If the value of _2nd field_ is as below: <br>
   **` ! `** - It mean an account is locked. <br>
   **` !! `** - Means the account of an user has been created, but not yet set a password. <br>
