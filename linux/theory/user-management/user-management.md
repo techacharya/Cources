@@ -106,10 +106,10 @@ Following nine information is stored in the shadow file for each user is:
       - **_$5$_** - SHA-256 encryption algorithm
       - **_$6$_** - SHA-512 encryption algorithm <br>
 
-    If the value of _2nd field_ is as below: <br>
-    **` ! `** - It mean an account is locked. <br>
-    **` !! `** - Means the account of an user has been created, but not yet set a password. <br>
-    **` * `** - Not intended to be logged in to e.g. **_bin_**, **_daemon_**, **_sshd_**.
+      If the value of _2nd field_ is as below: <br>
+      **` ! `** - It mean an account is locked. <br>
+      **` !! `** - Means the account of an user has been created, but not yet set a password. <br>
+      **` * `** - Not intended to be logged in to e.g. **_bin_**, **_daemon_**, **_sshd_**.
     - Between **_2nd_** & **_3rd_** dollar signs - is a salt (random data which, used as an additional input to a _one-way_ function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage).
     - Post **_3rd_** dallar sign - hash itself.
   - **_3rd Field:_** It is the date of the last password change. The number of days is calculated based on epoch **_(Jan 1st, 1970)_**. If **0** in this field means that the user must change password on the next login.
