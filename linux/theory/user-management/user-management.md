@@ -88,5 +88,33 @@ This file contains secure user account information. It holds the user's encrypte
 
 ![passwd file](../../images/user-group-mgmt/shadow.png)
 
+In environments with multiple users, it is very important to use _shadow passwords_ provided by the **_shadow-utils_** package to enhance the security of system authentication files.
+
+**_Features_**
+  - Shadow passwords improve system security by moving encrypted password from the world-readable **_/etc/passwd_** file to **_/etc/shadow_** file, which is readable only by the **_root_** user.
+  - It stores the information related to password aging.
+  - This allows to enforce some of the security policies set in the **_/etc/login.defs_** file.
+
+**_Information in shadow file_**
+Following nine information is stored in the shadow file for each user is:
+  - **1st Field:_** It is the user name itself.
+  - **_2nd Field:** This field sores the encrypted password. In encrypted password there are three dollar symbol (**$**):
+    - Between **_1st_** & **_2nd_** dollar signs - type of encryption.
+      - **$1$** MD5 encryption
+      - **$2$** Blowfish encryption
+      - **$3$** Blowfish encryption
+      - **$5$** SHA-256 encryption algorithm
+      - **$6$** SHA-512 encryption algorithm
+    - Between **_2nd_** & **_3rd_** dollar signs - is a salt (random data which, used as an additional input to a _one-way_ function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage).
+    - Post **_3rd_** dallar sign - hash itself.
+  - **_3rd Field:_**
+  - **_4th Field:_**
+  - **_5th Field:_**
+  - **_6th Field:_**
+  - **_7th Field:_**
+  - **_8th Field:_**
+  - **_9th Field:_**
+
+
 
 
