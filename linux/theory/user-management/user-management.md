@@ -113,7 +113,9 @@ Following nine information is stored in the shadow file for each user is:
   - **_6th Field:_** It is the password warning period which means, the user will be warned for number of days before the password will expire, this is the password warning period.
   - **_7th Field:_** This seventh field is the password inactivity period. It is the time in days when an expired password is still accepted and after this period password expires.
   - **_8th Field:_** It is the account expiration date. The date of expiration of the account, expressed as the number of days since **_Jan 1, 1970_**.
-  - **_9th Field:_**
+  - **_9th Field:_** Reserved for future currently not in used.
+
+![passwd file](../../images/user-group-mgmt/shadow-content.png)
 
 
 
