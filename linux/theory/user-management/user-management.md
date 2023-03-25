@@ -98,7 +98,7 @@ In environments with multiple users, it is very important to use _shadow passwor
 **_Information in shadow file_**
 Following nine information is stored in the shadow file for each user is:
   - **1st Field:_** It is the user name itself.
-  - **_2nd Field:** This field sores the encrypted password. In encrypted password there are three dollar symbol (**$**):
+  - **_2nd Field:_** This field sores the encrypted password. In encrypted password there are three dollar symbol (**$**):
     - Between **_1st_** & **_2nd_** dollar signs - type of encryption.
       - **$1$** MD5 encryption
       - **$2$** Blowfish encryption
