@@ -122,6 +122,21 @@ Following nine information is stored in the shadow file for each user is:
 
 ![passwd file](../../images/user-group-mgmt/shadow-content.png)
 
+**group Files** <br>
+The **_/etc/group_** file is a text file that defines the groups on the linux system. There is one entry per line, with the following format: <br>
+**_group_name:password:GID:user_list_** 
+
+![passwd file](../../images/user-group-mgmt/group.png)
+
+The fields are as follows: <br>
+  - **_Group name_** — The name of the group used by various utility programs as a human-readable identifier for the group.
+  - **_Group password_**  — The encrypted group password. If set, this allows users that are not part of the group to join the group by using the **_newgrp_** command and providing the password.
+  - **_Group ID_** — The numerical unique ID equivalent of the group name. It is used by the operating system and applications when determining access privileges.
+  - **_Member list_** — A comma separated list of the users belonging to the group.
+
+![passwd file](../../images/user-group-mgmt/group-content.png)
+
+
 
 
 
