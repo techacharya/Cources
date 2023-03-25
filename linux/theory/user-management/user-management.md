@@ -84,6 +84,7 @@ These seven fields are as follows:
 ![passwd file](../../images/user-group-mgmt/passwd-content.png)
 
 **shadow File** <br>
+This file contains secure user account information. It holds the user's encrypted password and password related information. Just like **_/etc/passpwd_** file this file also stores each user entry in individual row and each row conatins nine different fields separated by colon (**:**).
 
 
 
