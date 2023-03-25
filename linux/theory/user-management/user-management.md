@@ -73,13 +73,13 @@ This files contains list of all user's account and each individual row stores a 
 ![passwd file](../../images/user-group-mgmt/passwd.png)
 
 These seven fields are as follows:
-  - **_1st Field:_** It is a user name itself.
-  - **2nd Field:_** It is a pointer to encrypted user password to the **_/etc/shadow_** files.
-  - **_3rd Field:_** It is user ID.
-  - **_4th Field:_** It is a group ID.
-  - **_5th Field:_** It is a information about user.
-  - **_6th Field:_** It is a user's home directory.
-  - **7th Field:_** This is a login shell name with full path assigned to user.
+  - **_1st Field:_** — It is a user name itself.
+  - **2nd Field:_** — It is a pointer to encrypted user password to the **_/etc/shadow_** files.
+  - **_3rd Field:_** — It is user ID.
+  - **_4th Field:_** — It is a group ID.
+  - **_5th Field:_** — It is a information about user.
+  - **_6th Field:_** — It is a user's home directory.
+  - **7th Field:_** — This is a login shell name with full path assigned to user.
 
 ![passwd file](../../images/user-group-mgmt/passwd-content.png)
 
@@ -97,28 +97,28 @@ In environments with multiple users, it is very important to use _shadow passwor
 
 **_Information in shadow file_**
 Following nine information is stored in the shadow file for each user is:
-  - **1st Field:_** It is the user name itself.
-  - **_2nd Field:_** This field sores the encrypted password. In encrypted password there are three dollar symbol (**$**):
+  - **_1st Field:_** — It is the user name itself.
+  - **_2nd Field:_** — This field sores the encrypted password. In encrypted password there are three dollar symbol (**$**):
     - Between **_1st_** & **_2nd_** dollar signs - type of encryption.
-      - **_$1$_** - MD5 encryption
-      - **_$2$_** - Blowfish encryption
-      - **_$3$_** - Blowfish encryption
-      - **_$5$_** - SHA-256 encryption algorithm
-      - **_$6$_** - SHA-512 encryption algorithm 
+      - **_$1$_** — MD5 encryption
+      - **_$2$_** — Blowfish encryption
+      - **_$3$_** — Blowfish encryption
+      - **_$5$_** — SHA-256 encryption algorithm
+      - **_$6$_** — SHA-512 encryption algorithm 
     - Between **_2nd_** & **_3rd_** dollar signs - is a salt (random data which, used as an additional input to a _one-way_ function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage).
     - Post **_3rd_** dallar sign - hash itself.
 
     If the value of _2nd field_ is as below: <br>
-    **` ! `** - It mean an account is locked. <br>
-    **` !! `** - Means the account of an user has been created, but not yet set a password. <br>
-    **` * `** - Not intended to be logged in to e.g. **_bin_**, **_daemon_**, **_sshd_**.
-  - **_3rd Field:_** It is the date of the last password change. The number of days is calculated based on epoch **_(Jan 1st, 1970)_**. If **0** in this field means that the user must change password on the next login.
-  - **_4th Field:_** This field is the minimum password age which means the number of days that has to pass before the user can be permitted to make changes to the password again. The value **_0_** means password can be changed at any time.
-  - **_5th Field:_** It is the maximum password age i.e., the maximum number of days the password is valid, after that user is forced to change their password again.
-  - **_6th Field:_** It is the password warning period which means, the user will be warned for number of days before the password will expire, this is the password warning period.
-  - **_7th Field:_** This seventh field is the password inactivity period. It is the time in days when an expired password is still accepted and after this period password expires.
-  - **_8th Field:_** It is the account expiration date. The date of expiration of the account, expressed as the number of days since **_Jan 1, 1970_**.
-  - **_9th Field:_** Reserved for future currently not in used.
+    **` ! `** — It mean an account is locked. <br>
+    **` !! `** — Means the account of an user has been created, but not yet set a password. <br>
+    **` * `** — Not intended to be logged in to e.g. **_bin_**, **_daemon_**, **_sshd_**.
+  - **_3rd Field:_** — It is the date of the last password change. The number of days is calculated based on epoch **_(Jan 1st, 1970)_**. If **0** in this field means that the user must change password on the next login.
+  - **_4th Field:_** — This field is the minimum password age which means the number of days that has to pass before the user can be permitted to make changes to the password again. The value **_0_** means password can be changed at any time.
+  - **_5th Field:_** — It is the maximum password age i.e., the maximum number of days the password is valid, after that user is forced to change their password again.
+  - **_6th Field:_** — It is the password warning period which means, the user will be warned for number of days before the password will expire, this is the password warning period.
+  - **_7th Field:_** — This seventh field is the password inactivity period. It is the time in days when an expired password is still accepted and after this period password expires.
+  - **_8th Field:_** — It is the account expiration date. The date of expiration of the account, expressed as the number of days since **_Jan 1, 1970_**.
+  - **_9th Field:_** — Reserved for future currently not in used.
 
 ![passwd file](../../images/user-group-mgmt/shadow-content.png)
 
