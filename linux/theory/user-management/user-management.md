@@ -112,7 +112,7 @@ Following nine information is stored in the shadow file for each user is:
   - **_5th Field:_** It is the maximum password age i.e., the maximum number of days the password is valid, after that user is forced to change their password again.
   - **_6th Field:_** It is the password warning period which means, the user will be warned for number of days before the password will expire, this is the password warning period.
   - **_7th Field:_** This seventh field is the password inactivity period. It is the time in days when an expired password is still accepted and after this period password expires.
-  - **_8th Field:_** It is the account expiration date. The date of expiration of the account, expressed as the number of days since **_Jan 1, 1970 _**.
+  - **_8th Field:_** It is the account expiration date. The date of expiration of the account, expressed as the number of days since **_Jan 1, 1970_**.
   - **_9th Field:_**
 
 
