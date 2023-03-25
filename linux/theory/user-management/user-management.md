@@ -107,12 +107,12 @@ Following nine information is stored in the shadow file for each user is:
       - **_$6$_** - SHA-512 encryption algorithm
     - Between **_2nd_** & **_3rd_** dollar signs - is a salt (random data which, used as an additional input to a _one-way_ function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage).
     - Post **_3rd_** dallar sign - hash itself.
-  - **_3rd Field:_**
-  - **_4th Field:_**
-  - **_5th Field:_**
-  - **_6th Field:_**
-  - **_7th Field:_**
-  - **_8th Field:_**
+  - **_3rd Field:_** It is the date of the last password change. The number of days is calculated based on epoch **_(Jan 1st, 1970)_**. If **0** in this field means that the user must change password on the next login.
+  - **_4th Field:_** This field is the minimum password age which means the number of days that has to pass before the user can be permitted to make changes to the password again. The value **_0_** means password can be changed at any time.
+  - **_5th Field:_** It is the maximum password age i.e., the maximum number of days the password is valid, after that user is forced to change their password again.
+  - **_6th Field:_** It is the password warning period which means, the user will be warned for number of days before the password will expire, this is the password warning period.
+  - **_7th Field:_** This seventh field is the password inactivity period. It is the time in days when an expired password is still accepted and after this period password expires.
+  - **_8th Field:_** It is the account expiration date. The date of expiration of the account, expressed as the number of days since **_Jan 1, 1970 _**.
   - **_9th Field:_**
 
 
