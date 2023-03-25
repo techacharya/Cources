@@ -81,7 +81,6 @@ These seven fields are as follows:
   - **_6th Field:_** It is a user's home directory.
   - **7th Field:_** This is a login shell name with full path assigned to user.
 
-<img src="../../images/user-group-mgmt/passwd-content.png" height="400" width="800" >
 ![passwd file](../../images/user-group-mgmt/passwd-content.png)
 
 
