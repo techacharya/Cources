@@ -74,12 +74,12 @@ This files contains list of all user's account and each individual row stores a 
 
 These seven fields are as follows:
   - **_1st Field:_** — It is a user name itself.
-  - **2nd Field:_** — It is a pointer to encrypted user password to the **_/etc/shadow_** files.
+  - **_2nd Field:_** — It is a pointer to encrypted user password to the **_/etc/shadow_** files.
   - **_3rd Field:_** — It is user ID.
   - **_4th Field:_** — It is a group ID.
   - **_5th Field:_** — It is a information about user.
   - **_6th Field:_** — It is a user's home directory.
-  - **7th Field:_** — This is a login shell name with full path assigned to user.
+  - **_7th Field:_** — This is a login shell name with full path assigned to user.
 
 ![passwd file](../../images/user-group-mgmt/passwd-content.png)
 
