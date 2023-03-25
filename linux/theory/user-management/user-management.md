@@ -137,6 +137,16 @@ The fields are as follows: <br>
 ![passwd file](../../images/user-group-mgmt/group-content.png)
 
 
+**gshadow File** <br>
+The **_/etc/gshadow_** file contains the shadowed or security information for group accounts. This file is readable only by the root user and each line of this file contains the following colon-separated fields:
 
+![passwd file](../../images/user-group-mgmt/gshadow.png)
+
+  - **_1st Field_** — It is the name of the group.
+  - **_2nd Field_** — The encrypted password for the group. If the value of this field is null (**0**), only group members can log into the group.
+  - **_3rd Field_** — Group admin members listed here in a comma separated list can add or remove group members using the **_gpasswd_** command.
+  - **_4th Field_** — Group members listed here in a comma separated list are regular, non-administrative members of the group.
+
+![passwd file](../../images/user-group-mgmt/gshadow-content.png)
 
 
