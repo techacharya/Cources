@@ -100,11 +100,11 @@ Following nine information is stored in the shadow file for each user is:
   - **1st Field:_** It is the user name itself.
   - **_2nd Field:_** This field sores the encrypted password. In encrypted password there are three dollar symbol (**$**):
     - Between **_1st_** & **_2nd_** dollar signs - type of encryption.
-      - **_$1$_** MD5 encryption
-      - **$2$** Blowfish encryption
-      - **$3$** Blowfish encryption
-      - **$5$** SHA-256 encryption algorithm
-      - **$6$** SHA-512 encryption algorithm
+      - **_$1$_** - MD5 encryption
+      - **_$2$_** - Blowfish encryption
+      - **_$3$_** - Blowfish encryption
+      - **_$5$_** - SHA-256 encryption algorithm
+      - **_$6$_** - SHA-512 encryption algorithm
     - Between **_2nd_** & **_3rd_** dollar signs - is a salt (random data which, used as an additional input to a _one-way_ function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage).
     - Post **_3rd_** dallar sign - hash itself.
   - **_3rd Field:_**
