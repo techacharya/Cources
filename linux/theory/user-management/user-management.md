@@ -205,5 +205,5 @@ Provide the desired password and provides same again for confirmation. <br>
 | **_Option_**                   | **_Description_**                                                                                               |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | **` -d `** home_directory      | Home directory to be used instead of default **_/home/username/_**.                                             |
-| **` -c `** 'comment'           | comment can be replaced with any string. It is generally a short description of the user <br>like, phone no., email,fulle name, etc.                                                                                                                             |
+| **` -c `** 'comment'           | comment can be replaced with any string. It is generally a short description of the user like, phone no., email, <br>full name, etc.                                                                                                                                |
 
