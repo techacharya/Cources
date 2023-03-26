@@ -195,7 +195,10 @@ Provide the desired password and provides same again for confirmation. <br>
 | **` -M `**                     | Do not create the home directory.                                                                                    |
 | **` -N `**                     | Do not create a user private group for the user.                                                                     |
 | **` -p `** password            | The password encrypted with **_crypt_**.                                                                             |
-|
+| **` -r `**                     | Create a system account with a **_UID_** less than **1000** and without a home directory.                            |
+| **` -s `** /bin/shell          | User’s login shell, which defaults to **_/bin/bash_**.                                                               |
+| **` -u `** uid                 | User **_ID_** for the user, which must be unique and greater than **999**.                                           |
+
 
 
 
