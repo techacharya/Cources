@@ -201,5 +201,8 @@ Provide the desired password and provides same again for confirmation. <br>
 | **` -u `** uid                 | User **_ID_** for the user, which must be unique and greater than **999**.                                           |
 
 
-
+**_Common useradd command-line options_**
+| **_Option_**                   | **_Description_**                                                                                                    |
+|--------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **` -d `** home_directory      | Home directory to be used instead of default **_/home/username/_**.                                                  |
 
