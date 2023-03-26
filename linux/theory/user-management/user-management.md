@@ -164,3 +164,28 @@ Users and group can be created, managed and deleted by the command-line tools. F
 | **_pwck, grpck_**                  | Utilities that can be used for verification of the password, group, and associated shadow files.                 |
 | **_pwconv, pwunconv_**             | Convert to and from shadow passwords                                                                             |
 | **_grpconv, grpunconv_**           | Utilities that can be used for the conversion of passwords to shadow passwords and back for groups               |
+
+
+### Creating a New User
+To add a new user to the system, execute the following command at a shell prompt as **_root_**: <br>
+**_Syntax:_** <br>
+```
+# useradd [OPTIONs] username
+```
+**_Example:_**
+```
+# useradd -c "test user" tech
+```
+By default, the **_useradd_** command creates a locked user account. To unlock the account, execute the following command as **_root_** to assign a password to craeted user:
+```
+# passwd tech
+```
+Provide the desired password and provides same again for confirmation. <br>
+
+**_Common useradd command-line options_**
+| **_Option_**           | **_Description_**                                                                                                     |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **` -c `** 'comment'   |
+
+
+
