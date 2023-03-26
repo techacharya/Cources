@@ -185,7 +185,8 @@ Provide the desired password and provides same again for confirmation. <br>
 **_Common useradd command-line options_**
 | **_Option_**           | **_Description_**                                                                                                     |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **` -c `** 'comment'   |
+| **` -c `** 'comment'   | comment can be replaced with any string. It is generally a short description of the user like, phone no., email, fulle name, etc. |
+|
 
 
 
