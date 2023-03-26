@@ -189,7 +189,13 @@ Provide the desired password and provides same again for confirmation. <br>
 | **` -d `** home_directory      | Home directory to be used instead of default **_/home/username/_**.                                                  |
 | **` -e `** date                | The date on which the user account will be disabled. The date is specified in the format **_YYYY-MM-DD_**.           |
 | **` -f `** days                | The number of days after a password expires until the account is permanently disabled. A value of **_0_** disables the account as soon as the password has expired, and a value of **_-1_** means the account is not disabled after the password expires.                      |
-| **` -g `** group_name          | 
+| **` -g `** group_name          | The group name or group number for the user’s default _primary_ group. The group must exist prior to being specified here.                                                                                                                                                   |
+| **` -G `** group_list          | List of additional supplementary, other than default group names or group numbers, separated by commas (**,**), of which the user is a member.                                                                                                                             |
+| **` -m `**                     | Create the home directory if it does not exist                                                                       |
+| **` -M `**                     | Do not create the home directory.                                                                                    |
+| **` -N `**                     | Do not create a user private group for the user.                                                                     |
+| **` -p `** password            | The password encrypted with **_crypt_**.                                                                             |
+|
 
 
 
