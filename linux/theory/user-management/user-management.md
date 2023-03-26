@@ -150,3 +150,17 @@ The **_/etc/gshadow_** file contains the shadowed or security information for gr
 ![passwd file](../../images/user-group-mgmt/gshadow-content.png)
 
 
+### Command-line tool
+Users and group can be created, managed and deleted by the command-line tools. Few command-line tools are listed below related to user & group management.
+
+**_Command line utilities for managing users and groups_**
+| **_Utilities_**                    | **_Description_**                                                                                                |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **_id_**                           | Displays user and group IDs                                                                                      |
+| **_useradd, usermod, userdel_**    | Standard utilities for adding, modifying, and deleting user accounts.                                            |
+| **_groupadd, groupmod, groupdel_** | Standard utilities for adding, modifying, and deleting groups.                                                   |
+| **_passwd_**                       | Update user's authentication tokens (password)                                                                   |
+| **_gpasswd_**                      | Used for modification of group password in the **_/etc/gshadow_** file which is used by the **_newgrp_** command.|
+| **_pwck, grpck_**                  | Utilities that can be used for verification of the password, group, and associated shadow files.                 |
+| **_pwconv, pwunconv_**             | Convert to and from shadow passwords                                                                             |
+| **_grpconv, grpunconv_**           | Utilities that can be used for the conversion of passwords to shadow passwords and back for groups               |
