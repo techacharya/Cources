@@ -199,15 +199,7 @@ Provide the desired password and provides same again for confirmation. <br>
 | **` -s `** /bin/shell          | User’s login shell, which defaults to **_/bin/bash_**.                                                               |
 | **` -u `** uid                 | User **_ID_** for the user, which must be unique and greater than **999**.                                           |
 
-
-**_Common useradd command-line options_**
-| **_Option_**                   | **_Description_**                                                                                               |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| **` -d `** home_directory      | Home directory to be used instead of default **_/home/username/_**.                                             |
-| **` -c `** 'comment'           | comment can be replaced with any string. It is generally a short description of the user like, phone no., email, <br>full name, etc.                                                                                                                                |
-| **` -e `** date                | The date on which the user account will be disabled. The date is specified in the format **_YYYY-MM-DD_**.      |
-| **` -f `** days                | The number of days after a password expires until the account is permanently disabled. A value of **_0_** <br> disables the account as soon as the password has expired, and a value of **_-1_** means the account is not disabled after the password <br>
-expires.                                                                                                                                           |
+                                                                                                                                         |
 
 
 
