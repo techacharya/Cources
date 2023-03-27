@@ -204,6 +204,7 @@ Provide the desired password and provides same again for confirmation. <br>
 The following steps illustrate what happens if the command **_useradd -c "test user" tech_** is issued on a system that has shadow passwords enabled:
   - A new entry (row) for user **_tech_** is created in **_/etc/passwd_**.
     ![User Entry in passwd](../../images/user-group-mgmt/user-entry-pass.png)
+
     The row has the above explained seven characteristics.
   - 
 
