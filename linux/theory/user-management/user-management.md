@@ -221,7 +221,13 @@ The following steps illustrate what happens if the command **_useradd -c "test u
     ![User Entry in passwd](../../images/user-group-mgmt/user-entry-gshadow.png)
 
     The row has the above explained **_gshadow_** file's four charactristics.
+  - A directory for user **_tech_** is created in the **_/home_** directory with same name of user.
+
+    ![User Entry in passwd](../../images/user-group-mgmt/user-home.png)
+
+    This directory is owned by user **_tech_** and group **_tech_**. It has read, write, and execute privileges only for the user **tech_**. All other permissions are denied.
   - 
+
 
 
 
