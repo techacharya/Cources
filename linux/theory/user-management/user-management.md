@@ -230,6 +230,28 @@ The following steps illustrate what happens if the command **_useradd -c "test u
 
     ![User Entry in passwd](../../images/user-group-mgmt/user-settings.png)
 
+### Creating a New Group
+To add a new group to the system, type the following command at a shell prompt as **_root_** <br>
+**_Syntax:_** 
+```
+# groupadd [OPTIONS] group_name
+```
+**_Example:_**
+```
+# groupadd techacharya
+```
+Where, OPTIONS are command-line options as described as bellow. <br>
+
+**_Common groupadd command-line options_**
+| **_Option_**           | **_Description_**                                                                                                       |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **` -f, --force `**    | When used with **_-g_** and the specified **GID** already exists, groupadd will choose another uniquegid for the group. |
+| **` -g `** gid         | Group ID for the group, which must be unique and greater than **_999_**.                                                |
+| **` -K, `** key=value  | Overrides **_/etc/login.defs_** defaults (GID_MIN, GID_MAX and others). Multiple -K options can be specified. **_Example:_** -K GID_MIN=1009 -K GID_MAX=1099                                                                                                                     |
+|
+
+
+
 
 
 
