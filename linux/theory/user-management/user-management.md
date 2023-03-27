@@ -207,14 +207,17 @@ The following steps illustrate what happens if the command **_useradd -c "test u
 
     The row has the above explained **_passwd_** file's seven characteristics.
   - A new row for user **_tech_** is created in **_/etc/shadow_**
+
     ![User Entry in passwd](../../images/user-group-mgmt/user-entry-shadow.png)
 
     The row has the above explained **_shadow_** file's nine charactristics.
   - A new row for a group named **_tech_** is created in **_/etc/group_**
+
     ![User Entry in passwd](../../images/user-group-mgmt/user-entry-group.png)
 
     The row has the above explained **_group_** file's four charactristics.
   - A new line for a group named **_tech_** is created in **_/etc/gshadow_**
+
     ![User Entry in passwd](../../images/user-group-mgmt/user-entry-gshadow.png)
 
     The row has the above explained **_gshadow_** file's four charactristics.
