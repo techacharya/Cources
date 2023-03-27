@@ -254,6 +254,19 @@ Where, OPTIONS are command-line options as described as bellow. <br>
 | **` -U `**             | A list of usernames to add as members of the group.                                                                     |
 
 
+### Adding an Existing User to an Existing Group
+To add an already existing user to an already existing group **_usermod_** utility is used. Execute the bellow command to add existing user to a existing group: <br>
+**_Syntax:_**
+```
+# usermod -a -G groupname username
+```
+**_Example:_**
+```
+# usermod -a -G techacharya tech
+```
+Various options of **_usermod_** have different impact on user’s primary group and on their supplementary groups.
+
+To override user’s primary group, run the following command as root:
 
 
 
