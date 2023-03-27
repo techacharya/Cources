@@ -225,8 +225,10 @@ The following steps illustrate what happens if the command **_useradd -c "test u
 
     ![User Entry in passwd](../../images/user-group-mgmt/user-home.png)
 
-    This directory is owned by user **_tech_** and group **_tech_**. It has read, write, and execute privileges only for the user **tech_**. All other permissions are denied.
-  - 
+    This directory is owned by user **_tech_** and group **_tech_**. It has read, write, and execute privileges only for the user **_tech_**. All other permissions are denied.
+  - The files within the **_/etc/skel/_** directory which contain default user settings are copied into the new **_/home/tech/_** directory
+
+    ![User Entry in passwd](../../images/user-group-mgmt/user-settings.png)
 
 
 
