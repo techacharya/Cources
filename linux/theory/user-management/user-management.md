@@ -247,8 +247,12 @@ Where, OPTIONS are command-line options as described as bellow. <br>
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | **` -f, --force `**    | When used with **_-g_** and the specified **GID** already exists, groupadd will choose another uniquegid for the group. |
 | **` -g `** gid         | Group ID for the group, which must be unique and greater than **_999_**.                                                |
-| **` -K, `** key=value  | Overrides **_/etc/login.defs_** defaults (GID_MIN, GID_MAX and others). Multiple -K options can be specified. **_Example:_** -K GID_MIN=1009 -K GID_MAX=1099                                                                                                                     |
-|
+| **` -K `** key=value   | Overrides **_/etc/login.defs_** defaults (GID_MIN, GID_MAX and others). Multiple -K options can be specified. **_Example:_** -K GID_MIN=1009 -K GID_MAX=1099                                                                                                                     |
+| **` -o `**             | This option permits to add a group with a non-unique / duplicate **GID**.                                               |
+| **` -p `**             | Use this encrypted password for the new group.                                                                          |
+| **` -r `**             | Create a system group with a **GID** less than **_1000_**.                                                              |
+| **` -U `**             | A list of usernames to add as members of the group.                                                                     |
+
 
 
 
