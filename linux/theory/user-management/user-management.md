@@ -267,14 +267,24 @@ To add an already existing user to an already existing group **_usermod_** utili
 Various options of **_usermod_** have different impact on user’s primary group and on their supplementary groups.
 
 **_Common options of usermod command_**
-| **_Option_**        | **_Description_**                                                                                              |
-|---------------------|----------------------------------------------------------------------------------------------------------------|
-| **` -a `**          | Add the user to the supplementary group(s). Use only with the **_-G_** option.                                 |
-| **` -c `**          | The new value of the user's password file comment field. It is normally modified using the **_chfn_** utility. |
-| **` -d `**          | The user's new home directory. If the **_-m_** option is given, the contents of the current home directory will be moved to the new home directory, which is created if it does not already exist. If the current home directory does not exist the new home directory will not be created.                                                                                                                               |
-| **` -e `**          | The date on which the user account will be disabled. The date is specified in the format **_YYYY-MM-DD_**.     |
-|**`  `**
+| **_Option_**        | **_Description_**                                                                                                        |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **` -a `**          | Add the user to the supplementary group(s). Use only with the **_-G_** option.                                           |
+| **` -c `**          | The new value of the user's password file comment field. It is normally modified using the **_chfn_** utility.           |
+| **` -d `**          | The user's new home directory. If the **_-m_** option is given, the contents of the current home directory will be moved to the new home directory, which is created if it does not already exist. If the current home directory does not exist the new home directory will not be created.                                                                                                                                         |
+| **` -e `**          | The date on which the user account will be disabled. The date is specified in the format **_YYYY-MM-DD_**.               |
+| **` -f `**          | The number of days after a password expires until the account is permanently disabled.                                   |
+| **` -g `**          | Modify the primary groupname of the user, group must be exist already.                                                   |
+| **` -G `**          | A list of supplementary groups which the user is also a member of. Each group is separated from the next by a comma **,** with no  intervening whitespace.                                                                                                                          |
+| **` -l `**          | The name of the user will be changed and nothing else is changed.                                                        |
+| **` -L `**          | Lock a user's password. This puts a **'!'** in front of the encrypted password, effectively disabling the password.      |
+| **` -m `**          | Move the content of the user's home directory to the new location. If the current home directory does not exist the new home directory will not be created. This option is only valid in combination with the **_-d_** option.                                                |
+| **` -s `**          | The path of the user's new login shell. Setting this field to blank causes the system to select the default login shell. |
+| **` -u `**          | The new numerical value of the user's ID and this value must be unique, unless the **_-o_** option is used.              |
+| **` -U `**          | Unlock a user's password. This removes the **'!'** in front of the encrypted password. If you wish to unlock the account you should also set the **_EXPIRE_DATE_**                                                                                                            |
 
+**_Note:_** <br>
+You must make sure that the named user is not executing any processes when this command is being executed if the user's numerical user ID, the user's name, or the user's home directory is being changed. You must change the owner of any **_crontab_** files or **_at_** jobs manually.
 
 To override user’s primary group, run the following command as root:
 
