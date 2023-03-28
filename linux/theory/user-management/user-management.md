@@ -266,6 +266,16 @@ To add an already existing user to an already existing group **_usermod_** utili
 ```
 Various options of **_usermod_** have different impact on user’s primary group and on their supplementary groups.
 
+**_Common options of usermod command_**
+| **_Option_**        | **_Description_**                                                                                              |
+|---------------------|----------------------------------------------------------------------------------------------------------------|
+| **` -a `**          | Add the user to the supplementary group(s). Use only with the **_-G_** option.                                 |
+| **` -c `**          | The new value of the user's password file comment field. It is normally modified using the **_chfn_** utility. |
+| **` -d `**          | The user's new home directory. If the **_-m_** option is given, the contents of the current home directory will be moved to the new home directory, which is created if it does not already exist. If the current home directory does not exist the new home directory will not be created.                                                                                                                               |
+| **` -e `**          | The date on which the user account will be disabled. The date is specified in the format **_YYYY-MM-DD_**.     |
+|**`  `**
+
+
 To override user’s primary group, run the following command as root:
 
 
