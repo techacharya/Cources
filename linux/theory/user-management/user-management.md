@@ -306,7 +306,7 @@ You must make sure that the named user is not executing any processes when this 
      # usermod -G techacharya tech
      ```
      **_Note:_** <br>
-     Note that in this case all previous supplementary groups of the user are replaced by the new group or several new groups.
+     In this case all previous supplementary or secondary groups of the user are replaced by the new group or several new groups.
   3. To add one or more groups to user’s supplementary groups, execute one of the following commands as root: <br>
      **_Syntax:_**
      ```
