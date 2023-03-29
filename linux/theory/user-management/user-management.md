@@ -326,6 +326,26 @@ You must make sure that the named user is not executing any processes when this 
 In **_UPG_** scheme, groups are automatically assigned to files or directory created within a directory with the **_setgid bit_** set. It makes managing group that share a common directory very simple because any files or directory creates within the directory by a user are owned by the group that owns the directory. 
 
 For example, a group of people need to work on files in the **_/opt/techacharya/_** directory. Some people are trusted to modify the contents of this directory, but not everyone.
+  - As **_root_**, create the **_/opt/techacharya/_** directory by executing the following command at a shell prompt:
+    ```
+    # mkdir /opt/techacharya
+    ```
+  - Add the **_techacharya_** group to the system by executing bellow command:
+    ```
+    # groupadd techacharya
+    ```
+  - Associate the contents of the **_/opt/techacharya/_** directory with the **_techacharya_** group by executing bellow command:
+    ```
+    # chown root:techacharya /opt/techacharya
+    ```
+  - Allow users in the group to create files within the directory and set the **_setgid bit_** by running bellow command:
+    ```
+    # chmod 2775 /opt/techacharya/
+    ```
+  - Add users to the **_techacharya_** group:
+    ```
+    # usermod -aG techacharya user_name
+    ```
 
 
 
