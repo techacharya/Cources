@@ -347,7 +347,23 @@ For example, a group of people need to work on files in the **_/opt/techacharya/
     # usermod -aG techacharya user_name
     ```
 
-
+### Additional Resources
+To know the detail information related to User & Group management read the following manual pages:
+  - **_useradd(8)_** — The manual page for the **_useradd_** command documents how to use it to create new users.
+  - **_userdel(8)_** — The manual page for the **_userdel_** command documents how to use it to delete users.
+  - **_usermod(8)_** — The manual page for the **_usermod_** command documents how to use it to modify users.
+  - **_groupadd(8)_** — The manual page for the **_groupadd_** command documents how to use it to create new groups.
+  - **_groupdel(8)_** — The manual page for the **_groupdel_** command documents how to use it to delete groups.
+  - **_groupmod(8)_** — The manual page for the **_groupmod_** command documents how to use it to modify group membership.
+  - **_gpasswd(1)_** — The manual page for the **_gpasswd_** command documents how to manage the **_/etc/group_** file.
+  - **_grpck(8)_** — The manual page for the **_grpck_** command documents how to use it to verify the integrity of the **_/etc/group_** file.
+  - **_pwck(8)_** — The manual page for the **_pwck_** command documents how to use it to verify the integrity of the **_/etc/passwd_** and **_/etc/shadow_** files.
+  - **_pwconv(8)_** — The manual page for the **_pwconv, pwunconv, grpconv_**, and **_grpunconv_** commands documents how to convert shadowed information for passwords and groups.
+  - **_id(1)_** — The manual page for the **_id_** command documents how to display user and group IDs.
+  - **_umask(2)_** — The manual page for the **_umask_** command documents how to work with the file mode creation mask.
+  - **_group(5)_** — The manual page for the **_/etc/group_** file documents how to use this file to define system groups.
+  - **_passwd(5)_** — The manual page for the **_/etc/passwd_** file documents how to use this file to define user information.
+  - **_shadow(5)_** — The manual page for the **_/etc/shadow_** file documents how to use this file to set passwords and account expiration information for the system.
 
 
 
