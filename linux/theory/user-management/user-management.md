@@ -322,7 +322,10 @@ You must make sure that the named user is not executing any processes when this 
      ```
   4. 
      
+### Creating Group Directories
+In **_UPG_** scheme, groups are automatically assigned to files or directory created within a directory with the **_setgid bit_** set. It makes managing group that share a common directory very simple because any files or directory creates within the directory by a user are owned by the group that owns the directory. 
 
+For example, a group of people need to work on files in the **_/opt/techacharya/_** directory. Some people are trusted to modify the contents of this directory, but not everyone.
 
 
 
