@@ -287,7 +287,7 @@ Various options of **_usermod_** have different impact on user’s primary group
 You must make sure that the named user is not executing any processes when this command is being executed if the user's numerical user ID, the user's name, or the user's home directory is being changed. You must change the owner of any **_crontab_** files or **_at_** jobs manually.
 
 
-  1. To override user’s primary group, execute the following command as root:
+  1. To override user’s primary group, execute the following command as root: <br>
      **_Syntax:_**
      ```
      # usermod -g group_name user_name
@@ -296,7 +296,7 @@ You must make sure that the named user is not executing any processes when this 
      ```
      # usermod -g techacharya tech
      ```
-  2. To override user’s supplementary / secondary groups, execute the following command as root:
+  2. To override user’s supplementary / secondary groups, execute the following command as root: <br>
      **_Syntax:_**
      ```
      # usermod -G group_name1,group_name2,... user_name
@@ -307,7 +307,7 @@ You must make sure that the named user is not executing any processes when this 
      ```
      **_Note:_** <br>
      Note that in this case all previous supplementary groups of the user are replaced by the new group or several new groups.
-  3. To add one or more groups to user’s supplementary groups, execute one of the following commands as root:
+  3. To add one or more groups to user’s supplementary groups, execute one of the following commands as root: <br>
      **_Syntax:_**
      ```
      # usermod -aG group_name1,group_name2,... user_name
