@@ -66,11 +66,15 @@ When the system is looking at a file's permissions to determine what information
 
 
 #### Octal values for Permissions
-When linux file permissions are represented by numbers, it's called numeric mode. In numeric mode, a three-digit value represents specific file permissions (for example, 764.) and these are called octal values. The first digit is for **_owner_** permissions, the second digit is for **_group_** permissions and the third one is for **_others_**. Each permission has a numeric value assigned to it:
+When linux file permissions are represented by numbers, it's called numeric mode. In numeric mode, a three-digit value represents specific file permissions (for example, **_764_**.) and these are called octal values. The first digit is for **_owner_** permissions, the second digit is for **_group_** permissions and the third one is for **_others_**. Each permission has a numeric value assigned to it:
   - **_r_** (read): **4**
   - **_w_** (write): **2**
   - **_x_** (execute): **1**
 
+In the permission value **_764_**, the first digit corresponds to the **_user/owner_**, the second digit to the **_group_**, and the third digit to **_others_**. By adding up the value of each user classification, you can find the file permissions.
+  - **Owner:** rwx = 4 + 2 + 1 = 7
+  - **Group:** rw- = 4 + 2 + 0 = 6
+  - **Others:** r-- = 4 + 0 + 0 = 4
 
 
 
