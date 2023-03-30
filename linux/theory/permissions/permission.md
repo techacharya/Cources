@@ -38,5 +38,7 @@ In above example, you see three different content entry. The first field of the 
   - Last modified or created date and time: **_Mar 30 15:45_**
   - File or directory name itself: **_hello.py_**
 
+#### Read file and Directory Permission
+The **_permission settings_** on a file or directory has the set of permissions for owners (user, group and others) to **` read `**, **` write `** and **` execute `**. The interesting permissions from the **_hello.py_** listing are as follow:
 
 
