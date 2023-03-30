@@ -4,5 +4,6 @@ Linux is the **_multi-user_** operating system which can be accessed by many use
   1. **_Ownership_**
   2. **_Permission_**
 
-
+#### File and Directory Ownership
+Each and every file/directory is owned by a specific user or UID and a specific group or GID.
 
