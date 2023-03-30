@@ -122,6 +122,8 @@ Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available fo
   - **_SetUID (user + s)_** <br>
     Commonly noted as **_SUID_**, the special permission for the user access level has a single function. A file with **_SUID_** always executes as the user who owns the file, no matter who is passing the command. If the file owner doesn't have execute permissions, then use an uppercase **_S_** here.
 
+    Now, to see this in a practical, let's look at the **` /usr/bin/passwd `** command. This command, by default, has the **_SUID_** permission set:
+
     ![SetUID](../../images/file-permission/suid.png)
   - **_SetGID (group + s)_**
   - **_Sticky Bit (other + t)_**
