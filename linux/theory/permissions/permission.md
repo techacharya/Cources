@@ -25,6 +25,7 @@ To view file or directory permission execute the **` ls `** command along with i
 $ ls -l
 ```
 ![Ownership & permission](../../images/file-permission/view-permission.png)
+In above example, you see three different content entry. The first field of the **` ls -l `** output is a group of metadata that includes the permissions on each file. Here are the components of the **_hello.py_** listing:
   - File type: **_-_**
   - Permission settings: **_rw-rw-r--_**
   - Extended attributes: **_._**
