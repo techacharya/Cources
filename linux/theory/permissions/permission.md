@@ -14,6 +14,7 @@ Each and every file/directory is owned by a specific user or UID and a specific 
      A group can contain multiple users. All the users belonging to a group have same access permission for file or directory.
   - **_Other:_** <br>
     Any one who has access to the file or directory other than user and group comes in the category of other. Other has neither created the file nor is a group member.
+    ![file owners](../../images/file-permission/file-owners.png)
 
  
 ### File and Directory Permission
