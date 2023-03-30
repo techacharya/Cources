@@ -46,6 +46,6 @@ rw-rw-r--
 This above string is actually an expression of three different sets of permissions:
   - **_rw-_**
   - **_rw-_**
-  - **_r--_**
+  - **_r- -_**
 
 
