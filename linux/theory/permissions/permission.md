@@ -110,8 +110,8 @@ You can modify file and directory permissions with the **` chmod `** command, wh
     | **=**           | Sets the permission and overrides the permissions set earlier. |
     
     The owners are represented as follows:
-    | **_User Notation_** | **_Description_**           |
-    ----------------------|-----------------------------|
+    | **_Symbol_**        | **_Description_**           |
+    |---------------------|-----------------------------|
     | **_u_**             | User or Owner               |
     | **_g_**             | Group                       |
     | **_o_**             | Others                      |
