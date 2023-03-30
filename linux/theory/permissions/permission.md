@@ -58,6 +58,13 @@ The characters are represent the meaning as follows:
   - **_x_** = Execute permission
   - **_-_** = Represents no any permission applied
 
+#### File and Directory Access Proceedure
+When the system is looking at a file's permissions to determine what information provide to **_user_** when the **_user_** interact with a file, it runs through a series of checks:
+  1. It first checks whether you are the user that owns the file. If so, then you are granted the user owner's permissions, and no further checks will be carried out.
+  2. If you are not the user that owns the file, next your group membership is validated to check whether you belongs to the group that matches the group owner of the file. If so, then you're covered under the group owner field of permissions, and no further checks will be made.
+  3. **_Others_** permissions are applied when the account interacting with the file is neither the **_user owner_** nor in the **_group_** that owns the files.
+
+
 
 
 
