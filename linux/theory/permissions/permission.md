@@ -47,6 +47,7 @@ This above string is actually an expression of three different sets of permissio
   - **_rw-_**    — Owner
   - **_rw-_**    — Group
   - **_r- -_**   — Others
+
 The first set of permissions applies to the **_owner_** of the file. The second set of permissions applies to the **_user group_** that owns the file. And the third set of permissions is generally referred to as **_others_**. All linux files belong to an owner and a group.
 
 
