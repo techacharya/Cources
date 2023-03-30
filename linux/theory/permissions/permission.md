@@ -6,7 +6,7 @@ Linux is the **_multi-user_** operating system which can be accessed by many use
 
      ![Ownership & permission](../../images/file-permission/file-permission.png)
 
-#### File and Directory Ownership
+### File and Directory Ownership
 Each and every file/directory is owned by a specific user or UID and a specific group or GID. Every file and directory on Unix/Linux system is assigned 3 types of owner, listed below.
   - **_User:_** <br>
     A user is the one who created the file. By default, whosoever, creates the file becomes the owner of the file. User can create, delete, or modify the file.
@@ -16,4 +16,6 @@ Each and every file/directory is owned by a specific user or UID and a specific 
     Any one who has access to the file or directory other than user and group comes in the category of other. Other has neither created the file nor is a group member.
 
  
+### File and Directory Permission
+File permissions are core to the security model used by linux systems. They determine who can access files and directories on a system and how. This article provides an overview of linux file permissions, how they work, and how to change them.
 
