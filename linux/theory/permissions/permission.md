@@ -50,4 +50,12 @@ This above string is actually an expression of three different sets of permissio
 
 The first set of permissions applies to the **_owner_** of the file. The second set of permissions applies to the **_user group_** that owns the file. And the third set of permissions is generally referred to as **_others_**. All linux files belong to an owner and a group.
 
+The characters are represent the meaning as follows:
+  - **_r_** = Read permission
+  - **_w_** = Write permission
+  - **_x_** = Execute permission
+  - **_-_** = Represents no any permission applied
+
+
+
 
