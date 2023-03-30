@@ -28,6 +28,7 @@ $ ls -l
   - File type: **_-_**
   - Permission settings: **_rw-rw-r--_**
   - Extended attributes: **_._**
+  - Number of hard links: **_1_**
   - User owner: **_acharya_**
   - Group owner: **_acharya_**
   - Size in block: **_0_**
