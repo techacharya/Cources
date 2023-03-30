@@ -119,8 +119,9 @@ You can modify file and directory permissions with the **` chmod `** command, wh
 
 ### Special Permission
 Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available for files and directories and provide additional privileges over the standard permission sets that have been covered. It make up a fourth access level in addition to **_user, group_**, and **_other_**. 
-  - **_SetUID (user + s)_**
+  - **_SetUID (user + s)_** <br>
     Commonly noted as **_SUID_**, the special permission for the user access level has a single function. A file with **_SUID_** always executes as the user who owns the file, no matter who is passing the command. If the file owner doesn't have execute permissions, then use an uppercase **_S_** here.
+    ![SetUID](../../images/file-permission/suid.png)
   - **_SetGID (group + s)_**
   - **_Sticky Bit (other + t)_**
 
