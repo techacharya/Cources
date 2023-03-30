@@ -90,7 +90,19 @@ Now we are going to explain what do these permissions actually do in practice ?
     This permission is very different on **_directories_** compared to **_files_**. Having execute permission on a _directory_ authorizes you to look at extended information on files in the directory using **` ls -l `** but also allows you to change your working directory using **` cd `**. 
 
 
-    
+#### Modify file and directory permission
+You can modify file and directory permissions with the **` chmod `** command, which stands for **_change mode_**. 
+  - To change file permissions in numeric mode, enter **` chmod `** and the octal value you desire, such as **_775_**, followed by the file name. 
+    ```
+    # chmod 755 welcome.sh
+    ```
+  - To change file permissions in symbolic mode, enter a user class and the permissions you want to grant them preceded by the file name.
+    ```
+    # chmod ug+rwx hello.py
+    ```
+
+
+
 
 
 
