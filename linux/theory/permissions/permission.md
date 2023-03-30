@@ -117,7 +117,8 @@ You can modify file and directory permissions with the **` chmod `** command, wh
     | **_o_**             | Others                      |
     | **_a_**             | All (owner + group + others)|
 
-
+### Special Permission
+Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available for files and directories and provide additional privileges over the standard permission sets that have been covered. It make up a fourth access level in addition to **_user, group_**, and **_other_**. 
 
 
 
