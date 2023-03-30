@@ -99,8 +99,9 @@ You can modify file and directory permissions with the **` chmod `** command, wh
   - To change file permissions in symbolic mode, enter a user class and the permissions you want to grant them preceded by the file name.
     ```
     # chmod ug+rwx hello.py
+    # chmod o+r hello.py
     ```
-
+This grants read, write, and execute for the **_user_** and **_group_** and only read for **_others_**.
 
 
 
