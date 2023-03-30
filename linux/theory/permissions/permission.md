@@ -44,9 +44,9 @@ The **_permission settings_** on a file or directory has the set of permissions 
 rw-rw-r--
 ```
 This above string is actually an expression of three different sets of permissions:
-  - **_rw-_** — Owner
-  - **_rw-_** — Group
-  - **_r- -_** — Others
+  - **_rw-_**    — Owner
+  - **_rw-_**    — Group
+  - **_r- -_**   — Others
 
 
 
