@@ -76,6 +76,8 @@ In the permission value **_764_**, the first digit corresponds to the **_user/ow
   - **Group:** rw- = 4 + 2 + 0 = 6
   - **Others:** r-- = 4 + 0 + 0 = 4
 
+The results produce the three-digit value **764**.
+
 
 
 
