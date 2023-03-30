@@ -87,6 +87,8 @@ Now we are going to explain what do these permissions actually do in practice ?
   - **_execute (x) permission_** <br>
     Execute permission allows you to execute the contents of a file. It also allows to run **_Shell scripts, Python programs_**, and a variety of interpreted or compiled languages.
 
+    This permission is very different on **_directories_** compared to **_files_**. Having execute permission on a _directory_ authorizes you to look at extended information on files in the directory using **` ls -l `** but also allows you to change your working directory using **` cd `**. 
+
 
     
 
