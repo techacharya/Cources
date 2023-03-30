@@ -101,7 +101,13 @@ You can modify file and directory permissions with the **` chmod `** command, wh
     # chmod ug+rwx hello.py
     # chmod o+r hello.py
     ```
-This grants read, write, and execute for the **_user_** and **_group_** and only read for **_others_**.
+    This above commands grant read, write, and execute for the **_user_** and **_group_** and only read for **_others_**.
+    
+    | **_Operator_**  | **_Description_**                                              |
+    |-----------------|----------------------------------------------------------------|
+    | **+**           | Adds permission to a file or directory                         |
+    | **–**           | Removes the permission                                         |
+    | **=**           | Sets the permission and overrides the permissions set earlier. |
 
 
 
