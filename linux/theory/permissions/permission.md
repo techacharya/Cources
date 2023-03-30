@@ -78,6 +78,18 @@ In the permission value **_764_**, the first digit corresponds to the **_user/ow
 
 The results produce the three-digit value **764**.
 
+#### Explaining Permissions
+Now we are going to explain what do these permissions actually do in practice ?
+  - **_read (r) permission_** <br>
+    Read permission is used to access the file's contents. It is required to make copies of a file, because you need to access the file's contents to make a duplicate of it.
+  - **_write (w) permission_** <br>
+    Write permission allows you to modify or change the contents of a file. It also allows you to use the redirect or append operators in the shell (**>** or **>>**) to change the contents of a file. Without write permission, changes to the file's contents are not permitted.
+  - **_execute (x) permission_** <br>
+    Execute permission allows you to execute the contents of a file. It also allows to run **_Shell scripts, Python programs_**, and a variety of interpreted or compiled languages.
+
+
+    
+
 
 
 
