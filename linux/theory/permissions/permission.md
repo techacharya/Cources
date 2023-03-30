@@ -19,3 +19,20 @@ Each and every file/directory is owned by a specific user or UID and a specific 
 ### File and Directory Permission
 File permissions are core to the security model used by linux systems. They determine who can access files and directories on a system and how. This article provides an overview of linux file permissions, how they work, and how to change them.
 
+#### View File and Directory Permission
+To view file or directory permission execute the **` ls `** command along with its **` -l `** (for long listing) option will show you metadata about linux files, including the permissions set on the file and directory.
+```
+$ ls -l
+```
+![Ownership & permission](../../images/file-permission/view-permission.png)
+  - File type: **_-_**
+  - Permission settings: **_rw-rw-r--_**
+  - Extended attributes: **_._**
+  - User owner: **_acharya_**
+  - Group owner: **_acharya_**
+  - Size in block: **_0_**
+  - Last modified or created date and time: **_Mar 30 15:45_**
+  - File or directory name itself: **_hello.py_**
+
+
+
