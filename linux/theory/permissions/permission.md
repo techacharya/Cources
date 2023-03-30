@@ -5,7 +5,7 @@ Linux is the **_multi-user_** operating system which can be accessed by many use
   2. **_Permission_**
 
      ![Ownership & permission](../../images/file-permission/file-permission.png)
-     <img src="../../images/file-permission/file-permission.png" height="400" width="800">
+     <img src="../../images/file-permission/file-permission.png" height="500" width="800">
 
 #### File and Directory Ownership
 Each and every file/directory is owned by a specific user or UID and a specific group or GID.
