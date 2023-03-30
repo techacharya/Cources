@@ -125,7 +125,10 @@ Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available fo
     Now, to see this in a practical, let's look at the **` /usr/bin/passwd `** command. This command, by default, has the **_SUID_** permission set:
 
     ![SetUID](../../images/file-permission/suid.png)
-  - **_SetGID (group + s)_**
+  - **_SetGID (group + s)_** <br>
+    Commonly noted as **_SGID_**, this special permission has a couple of functions:
+      - If set on a file, it allows the file to be executed as the group that owns the file similar to **_SUID_**.
+      - If set on a directory, any files or directory created in the directory will have their group ownership set to that of the directory owner.
   - **_Sticky Bit (other + t)_**
 
 
