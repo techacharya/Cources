@@ -174,7 +174,8 @@ You can use **` umask `** utility to display the current value of the **` umask 
 
   ![SetGID](../../images/file-permission/umask.png)  
 
-
+**_Note:_** <br>
+When displaying the umask in octal mode, you may notice it displayed as a four digit number **_0002_** or **_0022_**. The first digit of the umask represents a special bit (**_Sticky Bit, SGID Bit_**, or **_SUID Bit_**). If the first digit is set to **_0_**, the special bit is not set.
 
 
 
