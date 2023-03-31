@@ -171,7 +171,8 @@ You can use **` umask `** utility to display the current value of the **` umask 
     ```
     $ umask
     ```
-    
+
+  ![SetGID](../../images/file-permission/umask.png)  
 
 
 
