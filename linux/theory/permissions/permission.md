@@ -188,6 +188,8 @@ The files cannot be given execution permissions by default as it can cause a sec
 |----------------------|-------------|-----------------------|---------------------------|
 | **_File_**           | 0002        | 666                   | 664                       |
 | **_Directory_**      | 0002        | 777                   | 775                       |
+| **_File_**           | 0022        | 666                   | 644                       |
+| **_Directory_**      | 0022        | 777                   | 755                       |
 
 
 
