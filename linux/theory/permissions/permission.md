@@ -191,5 +191,10 @@ The files cannot be given execution permissions by default as it can cause a sec
 | **_File_**           | 0022        | 666                   | 644                        | **_root_**         |
 | **_Directory_**      | 0022        | 777                   | 755                        | **_root_**         |
 
+The default **_umask_** value for users as bellow:
+  - **_root_** = 0022
+  - **_normal user_** = 0002
+
+![SetGID](../../images/file-permission/umask-value.png)
 
 
