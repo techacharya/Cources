@@ -129,6 +129,8 @@ Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available fo
     Commonly noted as **_SGID_**, this special permission has a couple of functions:
       - If set on a file, it allows the file to be executed as the group that owns the file similar to **_SUID_**.
       - If set on a directory, any files or directory created in the directory will have their group ownership set to that of the directory owner.
+
+    ![SetGID](../../images/file-permission/guid.png)
   - **_Sticky Bit (other + t)_**
 
 
