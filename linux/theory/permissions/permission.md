@@ -138,6 +138,8 @@ Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available fo
     
     ![Sticky Bit](../../images/file-permission/sticky-bit.png)
 
+    In above figure you can see that **_Sticky Bit_** is 
+
 
 
 
