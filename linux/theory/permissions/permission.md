@@ -140,6 +140,13 @@ Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available fo
 
     In above figure you can see that **_Sticky Bit_** is set on **_tech_acharya_** directory. The files and directory presents in that directory can be deleted only by either **_root_** or owner of **_tech_acharya_** directory. The **_tech_** user belongs to **acharya** group eventhough not able to delete the files and directory while they are able to create the file and directory.
 
+Using the numerical method, we need to pass a fourth, preceding digit in our **` chmod `** command. The digit used is calculated similarly to the standard permission digits:
+  - **_SetUID_** = 4
+  - **_SetGID_** = 2
+  - **_Sticky Bit_** = 1
+
+
+
 
 
 
