@@ -177,5 +177,12 @@ You can use **` umask `** utility to display the current value of the **` umask 
 **_Note:_** <br>
 When displaying the umask in octal mode, you may notice it displayed as a four digit number **_0002_** or **_0022_**. The first digit of the umask represents a special bit (**_Sticky Bit, SGID Bit_**, or **_SUID Bit_**). If the first digit is set to **_0_**, the special bit is not set.
 
+#### Calculate the umask values
+The effective permission to the newly created files and directories are assigned by subtracting the **_umask_** values from the maximum full permission of files and directories.
+  - **_File_** — The full permission set for the file is **_666_** (**` read `** and **` write `** ) permission for all.
+  - **_Directory_** — The full permission set for the directory is **_777_** (**` read `** **` write `** **` execute `**).
+
+**_Note:_** <br>
+The files cannot be given execution permissions by default as it can cause a security concern, and linux systems are pretty much known for their amazing security, so that wouldn’t be good to set execution permission by default.
 
 
