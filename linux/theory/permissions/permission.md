@@ -138,7 +138,7 @@ Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available fo
     
     ![Sticky Bit](../../images/file-permission/sticky-bit.png)
 
-    In above figure you can see that **_Sticky Bit_** is set on **_tech_acharya_** directory. The files and directory presents in that directory are deleted only by either **_root_** or owner of **_tech_acharya_** directory. The **_tech_** user is belongs to **acharya** group eventhough not able to delete the files and directory while they are able to create the file and directory.
+    In above figure you can see that **_Sticky Bit_** is set on **_tech_acharya_** directory. The files and directory presents in that directory are deleted only by either **_root_** or owner of **_tech_acharya_** directory. The **_tech_** user belongs to **acharya** group eventhough not able to delete the files and directory while they are able to create the file and directory.
 
 
 
