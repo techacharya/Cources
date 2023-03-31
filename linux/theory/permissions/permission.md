@@ -145,6 +145,18 @@ Using the numerical method, we need to pass a fourth, preceding digit in our **`
   - **_SetGID_** = 2
   - **_Sticky Bit_** = 1
 
+To set the the special permission on file and directory execute the command as bellow: <br>
+**_Syntax:_** <br>
+```
+# chmod x### file_name | directory_name
+```
+Where **x** is the special permissions digit. <br>
+**_Example:_** <br>
+To set **_SGID_** on **_tech_acharya_** directory using the numerical method execute the bellow command:
+```
+# chmod 2775 tech_acharya
+```
+![SetGID](../../images/file-permission/set-sgid.png)
 
 
 
