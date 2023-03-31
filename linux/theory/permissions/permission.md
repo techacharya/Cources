@@ -186,10 +186,10 @@ The effective permission to the newly created files and directories are assigned
 The files cannot be given execution permissions by default as it can cause a security concern, and linux systems are pretty much known for their amazing security, so that wouldn’t be good to set execution permission by default.
 | **_File/Directory_** | **_Umask_** | **_Full Permission_** | **_Effective Permission_** | **_User_**         |
 |----------------------|-------------|-----------------------|----------------------------|--------------------|
-| **_File_**           | 0002        | 666                   | 664                        | **_root_**         |
-| **_Directory_**      | 0002        | 777                   | 775                        | **_root_**         |
-| **_File_**           | 0022        | 666                   | 644                        | **_normal user_** |
-| **_Directory_**      | 0022        | 777                   | 755                        | **_normal user_**  |
+| **_File_**           | 0002        | 666                   | 664                        | **_normal user_**  |
+| **_Directory_**      | 0002        | 777                   | 775                        | **_normal user_**  |
+| **_File_**           | 0022        | 666                   | 644                        | **_root_**         |
+| **_Directory_**      | 0022        | 777                   | 755                        | **_root_**         |
 
 
 
