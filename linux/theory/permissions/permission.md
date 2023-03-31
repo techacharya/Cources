@@ -197,4 +197,6 @@ The default **_umask_** value for users as bellow:
 
 ![SetGID](../../images/file-permission/umask-value.png)
 
+#### Changing umask value
+**_umask_** value can be edited or modified by editing the file **` /etc/login.defs `** or **` /etc/bashrc `** or **` /etc/profile `**.
 
