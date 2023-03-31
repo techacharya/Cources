@@ -158,7 +158,20 @@ To set **_SGID_** on **_tech_acharya_** directory using the numerical method exe
 ```
 ![SetGID](../../images/file-permission/set-sgid.png)
 
+### The umask Utility
+The _**` umask `**_ utility is used to determine the file and directory permission for newly created files and directories. It can be used to control the default file permission for new files and directories the user creates. It can also be used to display, set, or change the current or default value of the umask.
 
+#### Display current umask value
+You can use **` umask `** utility to display the current value of the **` umask `** in symbolic or octal mode.
+  - To display the current value of the _**` umask `**_ in symbolic mode, execute the below command:
+    ```
+    $ umask -S
+    ```
+  - To display the current value of the _**` umask `**_ in octal mode, execute the below command:
+    ```
+    $ umask
+    ```
+    
 
 
 
