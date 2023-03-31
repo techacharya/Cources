@@ -133,7 +133,12 @@ Special permissions (**_SetUID, SetGID_** and **_Sticky Bit_**) are available fo
     ![SetGID](../../images/file-permission/guid.png)
 
     Here, in above figure you can see that file and directory has been created by three different user (**_root, acharya_** and **_tech_**). So file and directory owners are different but group is same for all created files & directory by them just because of set the **_SUID_** to the **` tech_acharya `**. directory.
-  - **_Sticky Bit (other + t)_**
+  - **_Sticky Bit (other + t)_** <br>
+    The **_Sticky Bit_** is a directory-level special permission that restricts file deletion. Only the **_owner_** of the file and **_root_** can remove the file within that directory. A common example of this is the **_/tmp_** directory.
+    
+    ![Sticky Bit](../../images/file-permission/sticky-bit.png)
+
+
 
 
 
