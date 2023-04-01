@@ -83,5 +83,6 @@ user group:
 # setfacl -d -m o:rx /home/acharya/course/tech_acharya/
 ```
 
-
+### Configuring ACLs on Filesystems
+Before using **_ACLs_** for a file or directory, the partition for the file or directory must be mounted with **_ACL_** support. If it is a local ext3 file system, it can mounted with the following command:
 
