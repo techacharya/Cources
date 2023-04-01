@@ -36,6 +36,9 @@ The **_rules_** must be specified in the following formats. Multiple rules can b
   - **_u:uid/user_name:perms_** <br>
     Sets the **_access ACL_** for a user. The user name or **_UID_** may be specified. The user may be any valid user on the system. And **_perms_** can be permission sets (**` read `**, **` write `** and **` execute `**). 
   - **_g:gid/group_name:perms_** <br>
-    This sets the **_access ACL_** for a group. The group name or GID may be specified. The group may be any valid group on the system.
-  - 
+    This sets the **_access ACL_** for a group. The group name or **_GID_** may be specified. The group may be any valid group on the system.
+  - **_m:perms_** <br>
+    Sets the effective rights mask. The mask is the union of all permissions of the owning group and all of the user and group entries.
+  - **_o:perms_** <br>
+    Sets the **_access ACL_** for users other than the ones in the group for the file.
 
