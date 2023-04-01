@@ -93,6 +93,19 @@ Execute the following command to check **_ACL_** support for file system
 ```
 ![Retrieving ACLs](../../images/acls/kernel-acl-support.png)
 
+Here, **_POSIX_ACL=Y_** option if there is **_N_** instead of **_Y_**, then it means Kernel doesn’t support **_ACL_** and need to be recompiled.
+
+#### Check Mounted File System for ACLs Support
+Now, check the mounted file system whether it is mounted with **_ACL_** option or not. To check same execute the bellow command:
+```
+# mount  | grep -w /
+```
+Relace the **/** with your desired filesystem mount point. <br>
+```
+# tune2fs -l /dev/mapper/fedora-root | grep acl
+```
+The _**` tune2fs `**_ utility works for **_extn_** file-system where, **_n_** is **_2_**, **_3_** or **_4_** like **_ext3_**. For **_xfs_** file-system use the _**` xfs_info `**_ instead of _**` tune2fs `**_.
+
 Before using **_ACLs_** for a file or directory, the partition for the file or directory must be mounted with **_ACL_** support. If it is a local file system, it can mounted with the following command: <br>
 **_Syntax:_** 
 ```
