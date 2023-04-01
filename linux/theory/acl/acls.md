@@ -8,3 +8,12 @@ An access **_ACL_** is the access control list for a specific file or directory.
 
 #### default ACLs
 A default ACL can only be associated with a directory and the **_default ACLs_** are optional.
+
+**_ACLs can be configured:_** <br>
+  - _Per user_
+  - _Per group_
+  - _Via the effective rights mask_
+  - _For users not in the user group for the file_
+
+
+
