@@ -26,5 +26,11 @@ $ getfacl /home/acharya/course/welcome.sh
 
 Here, **_welcome.sh_** file and directory **_tech_acharya_** directory does not have the **_ACL_**.
 
+### Setting up access ACLs
+The _**` setfacl `**_ utility sets up and modify the **_ACLs_** for files and directories. To set or modify the **_ACLs_** of files and directories execute the bellow command: <br>
+**_Syntax:_**
+_```
+# setfacl -m rules file_name/directory_name
+```_
 
 
