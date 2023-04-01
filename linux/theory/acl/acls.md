@@ -51,4 +51,9 @@ Permissions **_perms_** must be a combination of the characters **_r_**, **_w_**
      ```
      # setfacl -m u:dev:rw /home/acharya/course/welcome.sh
      ```
-  2. 
+  2. To give **_read_** and **_execute_** permission to group **_tech_** execute the bellow command:
+     ```
+     # setfacl -m g:tech:wx /home/acharya/course/hello.sh
+     ```
+
+
