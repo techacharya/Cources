@@ -84,6 +84,14 @@ user group:
 ```
 
 ### Configuring ACLs on Filesystems
+Before moving ahead you should have support for **_ACLs_** on current kernel and mounted file systems.
+
+#### Check kernel for ACL Support
+Execute the following command to check **_ACL_** support for file system
+```
+# grep -i acl /boot/config-`uname -r`
+```
+
 Before using **_ACLs_** for a file or directory, the partition for the file or directory must be mounted with **_ACL_** support. If it is a local file system, it can mounted with the following command: <br>
 **_Syntax:_** 
 ```
