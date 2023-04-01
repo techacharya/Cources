@@ -27,3 +27,4 @@ $ getfacl /home/acharya/course/welcome.sh
 Here, **_welcome.sh_** does not has the **_ACL_**.
 
 
+
