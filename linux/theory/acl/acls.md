@@ -55,5 +55,6 @@ Permissions **_perms_** must be a combination of the characters **_r_**, **_w_**
      ```
      # setfacl -m g:tech:wx /home/acharya/course/hello.sh
      ```
-
+### Remove the ACLs
+To remove all the permissions for a **_user_**, **_group_**, or **_others_**, use the _**` -x `**_ option and do not specify any permissions:
 
