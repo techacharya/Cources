@@ -78,6 +78,10 @@ user group:
 ```
 # setfacl -m d:o:rx /home/acharya/course/tech_acharya/
 ```
+**_OR_**
+```
+# setfacl -d -m o:rx /home/acharya/course/tech_acharya/
+```
 
 
 
