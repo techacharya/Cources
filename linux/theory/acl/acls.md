@@ -18,7 +18,7 @@ A default ACL can only be associated with a directory and the **_default ACLs_**
 The **` setfacl `** and **` getfacl `** utilities are used for setting up **_ACLs_** and retrieving **_ACLs_** respectively.
 
 ### Retrieving ALCs
-To determine the existing **_ACLs_** for a file or directory, _**` getfacl `**_ commandis is used. To retrieve the access control lists for a file or directory execute the following command:
+To determine the existing **_ACLs_** for a file or directory, _**` getfacl `**_ commandis is used. When a file does not have an **_ACL_**, it displays the same information as _**` ls –l `**_, although in a different format. To retrieve the access control lists for a file or directory execute the following command:
 ```
 $ getfacl /home/acharya/course/welcome.sh
 ```
