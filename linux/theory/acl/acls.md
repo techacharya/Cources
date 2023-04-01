@@ -100,7 +100,7 @@ Now, check the mounted file system whether it is mounted with **_ACL_** option o
 ```
 # mount  | grep -w /
 ```
-Relace the **/** with your desired filesystem mount point. <br>
+Relace the **` / `** with your desired filesystem mount point. <br>
 ```
 # tune2fs -l /dev/mapper/fedora-root | grep acl
 ```
