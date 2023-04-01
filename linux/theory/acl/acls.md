@@ -42,3 +42,5 @@ The **_rules_** must be specified in the following formats. Multiple rules can b
   - **_o:perms_** <br>
     Sets the **_access ACL_** for users other than the ones in the group for the file.
 
+Permissions **_perms_** must be a combination of the characters **_r_**, **_w_**, and **_x_** for _**` read `**_, _**` write `**_, and _**` execute `**_.
+
