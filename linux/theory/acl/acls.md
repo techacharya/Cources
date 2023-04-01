@@ -62,7 +62,7 @@ To remove all the permissions for a **_user_**, **_group_**, or **_others_**, us
 # setfacl -x rules file_name/Direcory_name
 ```
 **_Example:_** <br>
-To remove all permissions from the user *__tech_**:
+To remove all permissions from the user **_tech_** execute the following command:
 ```
 # setfacl -x u:tech /home/acharya/course/hello.sh
 ```
