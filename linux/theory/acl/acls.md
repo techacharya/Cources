@@ -84,5 +84,9 @@ user group:
 ```
 
 ### Configuring ACLs on Filesystems
-Before using **_ACLs_** for a file or directory, the partition for the file or directory must be mounted with **_ACL_** support. If it is a local ext3 file system, it can mounted with the following command:
+Before using **_ACLs_** for a file or directory, the partition for the file or directory must be mounted with **_ACL_** support. If it is a local file system, it can mounted with the following command: <br>
+**_Syntax:_** 
+```
+# mount -t filesystem_type -o acl device-name mount_point
+```
 
