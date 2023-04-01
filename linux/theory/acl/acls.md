@@ -15,5 +15,9 @@ A default ACL can only be associated with a directory and the **_default ACLs_**
   - _Via the effective rights mask_
   - _For users not in the user group for the file_
 
-The **` setfacl `** and **` getfacl `** utilities are used for setting up **_ACL_** and retrieving **_ACL_** respectively.
+The **` setfacl `** and **` getfacl `** utilities are used for setting up **_ACLs_** and retrieving **_ACLs_** respectively.
+
+### Retrieving ALCs
+To determine the existing **_ACLs_** for a file or directory, _**` getfacl `**_ commandis is used. 
+
 
