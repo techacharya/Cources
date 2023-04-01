@@ -102,7 +102,7 @@ Now, check the mounted file system whether it is mounted with **_ACL_** option o
 ```
 Relace the **` / `** with your desired filesystem mount point. <br>
 ```
-# tune2fs -l /dev/mapper/fedora-root | grep acl
+# tune2fs -l /dev/xvda4 | grep acl
 ```
 The _**` tune2fs `**_ utility works for **_extn_** file-system where, **_n_** is **_2_**, **_3_** or **_4_** like **_ext3_**. For **_xfs_** file-system use the _**` xfs_info `**_ instead of _**` tune2fs `**_.
 
