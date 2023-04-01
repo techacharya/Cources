@@ -66,5 +66,9 @@ To remove all permissions from the user *__tech_**:
 ```
 # setfacl -x u:tech /home/acharya/course/hello.sh
 ```
+To remove all extended **_ACL_** entries execute the bellow command:
+```
+# setfacl –b test
+```
 
 
