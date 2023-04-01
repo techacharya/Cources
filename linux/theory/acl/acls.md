@@ -24,7 +24,7 @@ $ getfacl /home/acharya/course/welcome.sh
 ```
 ![Retrieving ACLs](../../images/acls/retrieve-acl.png)
 
-Here, **_welcome.sh_** does not has the **_ACL_**.
+Here, **_welcome.sh_** file and directory **_tech_acharya_** directory does not have the **_ACL_**.
 
 
 
