@@ -70,5 +70,11 @@ To remove all extended **_ACL_** entries execute the bellow command:
 ```
 # setfacl –b /home/acharya/course/hello.sh
 ```
+### Setting up the default ACLs
+To set a default **_ACL_**, add **` d `** before the rule and specify a directory instead of a file name. <be>
+**_Example:_** <br>
+To set the default **_ACL_** for the **_/home/acharya/course/tech_acharya/_** directory to _**` read `**_ and _**` execute `**_ for users not in the
+user group:
+```
 
 
