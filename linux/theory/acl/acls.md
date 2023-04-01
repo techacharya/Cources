@@ -42,5 +42,12 @@ The **_rules_** must be specified in the following formats. Multiple rules can b
   - **_o:perms_** <br>
     Sets the **_access ACL_** for users other than the ones in the group for the file.
 
-Permissions **_perms_** must be a combination of the characters **_r_**, **_w_**, and **_x_** for _**` read `**_, _**` write `**_, and _**` execute `**_. respectively.
+Permissions **_perms_** must be a combination of the characters **_r_**, **_w_**, and **_x_** for _**` read `**_, _**` write `**_, and _**` execute `**_ respectively.
 
+**_Examples:_** <br>
+  1. Give read and write permissions
+     To give **_read_** and **_write_** permissions to user **dev** execute bellow command:
+     ```
+     # setfacl -m u:dev:rw /home/acharya/course/welcome.sh
+     ```
+  2. 
