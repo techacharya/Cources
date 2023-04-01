@@ -22,6 +22,7 @@ To determine the existing **_ACLs_** for a file or directory, _**` getfacl `**_ 
 ```
 $ getfacl /home/acharya/course/welcome.sh
 ```
+![Retrieving ACLs](../../images/acls/retrieve-acl.png)
 
 
 
