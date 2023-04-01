@@ -32,5 +32,10 @@ The _**` setfacl `**_ utility sets up and modify the **_ACLs_** for files and di
 ```
 # setfacl -m rules file_name/directory_name
 ```
-
+The **_rules_** must be specified in the following formats. Multiple rules can be specified in the same command if they are separated by commas (**,**).
+  - **_u:uid/user_name:perms_** <br>
+    Sets the **_access ACL_** for a user. The user name or **_UID_** may be specified. The user may be any valid user on the system. And **_perms_** can be permission sets (**` read `**, **` write `** and **` execute `**). 
+  - **_g:gid/group_name:perms_** <br>
+    This sets the **_access ACL_** for a group. The group name or GID may be specified. The group may be any valid group on the system.
+  - 
 
