@@ -28,7 +28,14 @@ $ ls -l
 ![Ownership & permission](../../images/file-permission/view-permission.png)
 
 In above example, you see three different content entry. The first field of the **` ls -l `** output is a group of metadata that includes the permissions on each file. Here are the components of the **_hello.py_** listing:
-  - File type: **_-_**
+  - File type: **_-_** <br>
+      - _**` — `**_ = Regular file
+      - _**` d `**_ = Directory file
+      - _**` b `**_ = Block file
+      - _**` c `**_ = Character file
+      - _**` l `**_ = Link file
+      - _**` s `**_ = Socket file
+      - _**` p `**_ = Named pipe file
   - Permission settings: **_rw-rw-r--_**
   - Extended attributes: **_._**
   - Number of hard links: **_1_**
