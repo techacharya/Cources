@@ -111,5 +111,10 @@ Before using **_ACLs_** for a file or directory, the partition for the file or d
 ```
 # mount -t filesystem_type -o acl device-name mount_point
 ```
+**_Example:_**
+```
+# mount -t ext3 -o acl /dev/xvda4 /home/acharya/course/tech_acharya
+```
+
 **_Note_** <br>
 For **_xfs_** file-system, **_ACL_** are always enabled.
