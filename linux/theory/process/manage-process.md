@@ -10,5 +10,6 @@ These original code and binary files or codes both are called program only and g
   - **_Static Local or Global variable_**
     This section contains all the **_local_** and **_global_** variables defined in the program. 
   - **_Stack_**
-    
+    Most of the program has the function calls. So the stack require to contain the temporary data, such as function parameters, returns addresses, and local variables.
   - **_Heap_**
+    Program also has dynamic array, linked lists, etc. So heap requires to conatin the dynamically allocated memory to process during its execution time. 
