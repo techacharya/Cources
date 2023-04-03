@@ -3,4 +3,5 @@ A process is basically a program in the execution. _For example:_ Suppose we hav
 
 These binary files or codes called program and generally reside in the secondary storage device i.e., **_HDD/SSD_**. In order to exeute this program Operating system loads this program into the **_main memory_** i.e., **_RAM_** and starts executing it. When program loads into **_main memory_** it creates data structures into the **_RAM_** and this structure is called as process.
 
+<img src="../../images/process-mgmt/peocess-structure.png" height="400" width="300">
 ![Process Structure](../../images/process-mgmt/peocess-structure.png)
