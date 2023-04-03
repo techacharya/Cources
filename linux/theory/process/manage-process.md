@@ -15,3 +15,5 @@ These original code and binary files or codes both are called program only and g
     Program also has dynamic array, linked lists, etc. So heap requires to conatin the dynamically allocated memory to process during its execution time. 
     
 This structure of memory is known as process boundary and eveythig required by the particular process will lies in this boundary only. While **_Operating System_** executing this particular process should never cross these boundaries.
+
+
