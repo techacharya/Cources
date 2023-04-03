@@ -14,6 +14,20 @@ These original code and binary files or codes both are called program only and g
   - **_Heap_**
     Program also has dynamic array, linked lists, etc. So heap requires to conatin the dynamically allocated memory to process during its execution time. 
     
-This structure of memory is known as process boundary and eveythig required by the particular process will lies in this boundary only. While **_Operating System_** executing this particular process should never cross these boundaries.
+This structure of memory is known as process boundary and eveythig required by the particular process will lies in this boundary only. While **_Operating System_** executing this particular process should never cross these boundaries. This boundary is called process.
+
+### Identification of Process
+There are number of process created in the system randomaly at any point of time in that senerio we are supposed to keep track of which process is what, how many process are there and what is the current state of a particular process. So to identify a particular process among various process there is a set of attribute are recorded at specific location called **_Process Control Block_** or **_PCB_**. <br>
+**_Attributes of Process:_** <br>
+  - **_Process ID_**
+  - **_Program Counter_**
+  - **_Process State_**
+  - **_Priority_**
+  - **_General Purpose Register_**
+  - **_List of Open Files_**
+  - **_List of Open Devices_**
+  - **_Protection_**
+
+
 
 
