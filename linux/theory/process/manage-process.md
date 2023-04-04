@@ -20,8 +20,10 @@ This structure of memory is known as process boundary and eveythig required by t
 There are number of process created in the system randomaly at any point of time in that senerio we are supposed to keep track of which process is what, how many process are there and what is the current state of a particular process. So to identify a particular process among various process there is a set of attribute are recorded at specific location called **_Process Control Block_** or **_PCB_**. <br>
 **_Attributes of Process:_** <br>
   - **_Process ID_**
+
     A unique numerical identification number assigned by the operating system to the process.
   - **_Program Counter_**
+
     It is a register in **_CPU_** and contains that memory address from where the next instruction is to be fetched for execution.
   - **_Process State_**
   - **_Priority_**
