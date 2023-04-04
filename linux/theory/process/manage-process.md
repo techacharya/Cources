@@ -20,6 +20,17 @@ The original code and binary files or codes both are called program only and gen
     
 This structure of memory is known as process boundary and eveythig required by the particular process will lies in this boundary only. While **_Operating System_** executing this particular process should never cross these boundaries. This boundary is called process.
 
+**A process consists of:** 
+  - An address space of allocated memory
+  - Security properties including ownership, credentials and privileges
+  - One or more threads of program code
+  - Process states
+
+**The environment of process includes:**
+  - Golbal and local variables
+  - A current scheduling context
+  - Allocated system resources, such as file descriptors and network ports, etc.
+
 ### Identification of Process
 There are number of process created in the system randomaly at any point of time in that senerio we are supposed to keep track of which process is what, how many process are there and what is the current state of a particular process. So to identify a particular process among various process there is a set of attribute are recorded at specific location called **_Process Control Block_** or **_PCB_**. <br>
 **_Attributes of Process:_** <br>
