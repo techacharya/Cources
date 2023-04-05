@@ -48,6 +48,7 @@ A unique numerical identification number assigned by the operating system to the
 #### Program Counter
 It is a register in **_CPU_** and contains that memory address from where the next instruction is to be fetched for execution.
 #### Process State
+The 
 #### Priority
 #### General Purpose Register
 #### List of Open Files
