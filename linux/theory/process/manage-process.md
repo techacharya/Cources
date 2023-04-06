@@ -49,7 +49,13 @@ A unique numerical identification number assigned by the operating system to the
 It is a register in **_CPU_** and contains that memory address from where the next instruction is to be fetched for execution.
 #### Process State
 The state of a process is the current activity of the process. The process states are:
-  - 
+  - **_New_**
+  - **_Ready_**
+  - **_Running_**
+  - **_Block or Wait_**
+  - **_Termination or Completion_**
+  - **_Suspend ready_**
+  - **_Suspend wait or Suspend block_**
 #### Priority
 It shows the importance of the process and generally it is a number.
 #### General Purpose Register
