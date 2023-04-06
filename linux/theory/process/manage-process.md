@@ -74,5 +74,13 @@ It defines the area of memory allocated for the process. Any process should not 
 
 ![Process Control Block](../../images/process-mgmt/pcb-list.png)
 
+**Context Switching** <br>
+This **_Process Control Block_** is also known as context. The process of saving the **_context_** of one process and loading the **_context_** of another process is called _**` Context Switching `**_. This may happen when:
+  - _A high-priority process comes to a ready state than the running process_
+  - _An Interrupt occurs_
+  - _User-mode and kernel-mode switch_
+  - _Preemptive CPU scheduling used._
+
+
 These all information related to process can be seen in the directory _**` /proc/PID/ `**_.
 ![Process Control Block](../../images/process-mgmt/process-info.png)
