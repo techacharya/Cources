@@ -48,11 +48,16 @@ A unique numerical identification number assigned by the operating system to the
 #### Program Counter
 It is a register in **_CPU_** and contains that memory address from where the next instruction is to be fetched for execution.
 #### Process State
-The 
+The state of a process is the current activity of the process. The process states are:
+  - 
 #### Priority
+It shows the importance of the process and generally it is a number.
 #### General Purpose Register
+The intermediate result present in registers is keep tracked while process is preempted or moved to waiting state.
 #### List of Open Files
+During the execution of process files are open for reading or writing purpose. So it keeps records of all the open files.
 #### List of Open Devices
+It keeps records of all open devices like printers, disk, etc.
 #### Protection
-
+It defines the area of memory allocated for the process. Any process should not access the other process's allocated memory space.
 
