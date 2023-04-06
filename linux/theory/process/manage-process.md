@@ -44,7 +44,7 @@ There are number of process created in the system randomaly at any point of time
   - **_Protection_**
 
   ![Process Control Block](../../images/process-mgmt/pcb.png)
-  <img src="../../images/process-mgmt/pcb.png" width="400" height="700">
+  <img src="../../images/process-mgmt/pcb.png" width="450" height="550">
 
 #### Process ID
 A unique numerical identification number assigned by the operating system to the process.
