@@ -85,6 +85,16 @@ This **_Process Control Block_** is also known as context. The process of saving
 These all information related to process can be seen in the directory _**` /proc/PID/ `**_.
 ![Process Control Block](../../images/process-mgmt/process-info.png)
 
+### Process Types
+There are two types of process in linux system:
+  - **_User Process_**
+  - **_System Process_**
+
+#### User Process
+User processes are executed in user mode and can be preempted or suspended at the time of executing. It executes the user code.
+#### System Process
+System processes are executed in privileged mode and executed automatically as per requirement without preemption. It executes the system code.
+
 ### Ways of running Process
 There are two ways to run the process in linux system:
   - **_Foreground Process_**
