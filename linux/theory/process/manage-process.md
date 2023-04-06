@@ -43,7 +43,6 @@ There are number of process created in the system randomaly at any point of time
   - **_List of Open Devices_**
   - **_Protection_**
 
-  ![Process Control Block](../../images/process-mgmt/pcb.png)
   <img src="../../images/process-mgmt/pcb.png" width="450" height="550">
 
 #### Process ID
