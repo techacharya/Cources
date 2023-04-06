@@ -62,4 +62,4 @@ It keeps records of all open devices like printers, disk, etc.
 It defines the area of memory allocated for the process. Any process should not access the other process's allocated memory space.
 
 
-**_Operating System_** creates a _**` Process Control Block `**_ PCB for each and every process and this **_PCB_** contains all the process attributes to manages it. These all **_PCBs_** are represented in the doubly linked list. In the linux kernel, each process is represented by a _**` task_struct `**_ in a **_doubly-linked list_**, the head of which is _**` init_task `**_.
+**_Operating System_** creates a _**` Process Control Block `**_ PCB for each and every process and this **_PCB_** contains all the process attributes to manages it. These all **_PCBs_** are represented in the linked list. In the linux kernel, each process is represented by a _**` task_struct `**_ in a **_doubly-linked list_**, the head of which is _**` init_task `**_.
