@@ -84,3 +84,11 @@ This **_Process Control Block_** is also known as context. The process of saving
 
 These all information related to process can be seen in the directory _**` /proc/PID/ `**_.
 ![Process Control Block](../../images/process-mgmt/process-info.png)
+
+### Process running ways
+There are two ways to run the process in linux system:
+  - **_Foreground Process_**
+  - **_Background Process_**
+
+#### Foreground Process
+Processes that require a **_user_** to start them or to interact with them are called _foreground processes_. It needs certain inputs from the user and gives some output on the screen. Such way of running processes are also known as interactive processes. 
