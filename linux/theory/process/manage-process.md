@@ -43,6 +43,8 @@ There are number of process created in the system randomaly at any point of time
   - **_List of Open Devices_**
   - **_Protection_**
 
+  ![Process Control Block](../../images/process-mgmt/pcb.png)
+
 #### Process ID
 A unique numerical identification number assigned by the operating system to the process.
 #### Program Counter
