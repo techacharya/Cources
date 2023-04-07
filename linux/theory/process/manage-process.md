@@ -135,3 +135,10 @@ Now set the execution permisiion by executing command _**` chmod +x clock.sh `**
 $ ./clock.sh
 ```
 Post executing the above command stop the process with **_Ctrl + Z_** so that we can use our terminal.
+
+#### List Processes
+To list out the currently active processes _**` ps `**_ command can be used:
+```
+$ ps
+```
+![Process Control Block](../../images/process-mgmt/list-process.png)
