@@ -150,3 +150,11 @@ Here, in above example:
 | **_TTY_**    | The name of terminal to standard output.             |
 | **_TIME_**   | The amount of time that the process has been running |
 | **_CMD_**    | The command executed to launch the process           |
+
+To list an incredibly detailed list of processes, _**` ps `**_ command can be used with the _options_.
+```
+$ ps -au
+```
+![Process Control Block](../../images/process-mgmt/ps-options.png)
+
+
