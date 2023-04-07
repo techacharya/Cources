@@ -185,3 +185,19 @@ In above picture the field **_STAT_** shows the state of process. Here are the d
 | **_W_**      | Paging (not valid since the _2.6.xx kernel_)                            |
 | **_X_**      | Dead (should never be seen)                                             |
 | **_Z_**      | Defunct **` zombie `** process, terminated but not reaped by its parent |
+
+For **_BSD_** formats and when the stat keyword is used, additional characters may be displayed:
+| **_Symbol_** | **_Description_**                                                        |
+|--------------|--------------------------------------------------------------------------|
+| **<**        | High-priority (not nice to other users)                                  |
+| **N**        | low-priority (nice to other users)                                       |
+| **L**        | Has pages locked into memory (for real-time and custom IO)               |
+| **s**        | It is a session leader                                                   |
+| **l**        | It is multi-threaded                                                     |
+| **+**        | Is in the foreground process group                                       |
+
+
+
+
+
+
