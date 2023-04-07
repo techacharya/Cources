@@ -160,8 +160,10 @@ $ ps -au
 The options can be used in two popular syntax:
   - **_Standard linux syntax:_** In this options is used with dash (**-**) like, _**` ps -x `**_, _**` ps -aux `**_ etc.
   - **_BSD syntax:_** In this syntax option can be used directly without dash like, _**` ps x `**_, _**` ps aux `**_ etc. 
+  - **_GNU syntax:_** long options, which are preceded by two dashes (**--**).
 
 The **` ps `** command options:
 | **_Option_** | **_Description_**                                                                 |
 |--------------|-----------------------------------------------------------------------------------|
-|
+| **_a_**      | all users                                                                         |
+| **_u_**      | shows the user/owner
