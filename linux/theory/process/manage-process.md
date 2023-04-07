@@ -157,4 +157,11 @@ $ ps -au
 ```
 ![Process Control Block](../../images/process-mgmt/ps-options.png)
 
+The options can be used in two popular syntax:
+  - **_Standard linux syntax:_** In this options is used with dash (**-**) like, _**` ps -x `**_, _**` ps -aux `**_ etc.
+  - **_BSD syntax:_** In this syntax option can be used directly without dash like, _**` ps x `**_, _**` ps aux `**_ etc. 
 
+The **` ps `** command options:
+| **_Option_** | **_Description_**                                                                 |
+|--------------|-----------------------------------------------------------------------------------|
+|
