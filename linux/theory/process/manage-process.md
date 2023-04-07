@@ -172,3 +172,16 @@ The **` ps `** command options:
 | **_f_**      | Do full-format listing.                                                           |
 
 ![Process Control Block](../../images/process-mgmt/process-list.png)
+
+In above picture the field **_STAT_** shows the state of process. Here are the different values that the **_s_**, **_stat_** and **_state_** output specifiers (header **_STAT_** or **_S_**) will display to describe the state of a process
+| **_State_**  | **_Description_**                                                       |
+|--------------|-------------------------------------------------------------------------|
+| **_D_**      | Uninterruptible sleep **_generally IO_**                                |
+| **_I_**      | Idle kernel thread                                                      |
+| **_R_**      | running or runnable (on run queue)                                      |
+| **_S_**      | Interruptible sleep (waiting for an event to complete)                  |
+| **_T_**      | Stopped by job control signal                                           |
+| **_t_**      | Stopped by debugger during the tracing                                  |
+| **_W_**      | Paging (not valid since the _2.6.xx kernel_)                            |
+| **_X_**      | Dead (should never be seen)                                             |
+| **_Z_**      | Defunct **` zombie `** process, terminated but not reaped by its parent |
