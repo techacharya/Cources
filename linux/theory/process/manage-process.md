@@ -110,6 +110,9 @@ Processes that are run independently of a user are referred to as background pro
 To understand the process management going to write a _**` bash shell script `**_ **_clock.sh_** and execute the script. This approach allows you to see the process without making meaningful changes to the system. To write the script execute the bellow command:
 ```
 $ vim clock.sh
+```
+Paste the following content to the file _**` clock.sh `**_ and save, quit & exit from the **` vim `** editor.
+```
 #!/usr/bin/env bash
 
 columns=`tput cols`
