@@ -142,3 +142,11 @@ To list out the currently active processes _**` ps `**_ command can be used:
 $ ps
 ```
 ![Process Control Block](../../images/process-mgmt/list-process.png)
+
+Here, in above example:
+| **_Fields_** | **_Description_**                                    |
+|--------------|------------------------------------------------------|
+| **_PID_**    | Unique process ID                                    |
+| **_TTY_**    | The name of terminal to standard output.             |
+| **_TIME_**   | The amount of time that the process has been running |
+| **_CMD_**    | The command executed to launch the process           |
