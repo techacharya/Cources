@@ -166,4 +166,8 @@ The **` ps `** command options:
 | **_Option_** | **_Description_**                                                                 |
 |--------------|-----------------------------------------------------------------------------------|
 | **_a_**      | all users                                                                         |
-| **_u_**      | shows the user/owner
+| **_u_**      | shows the user/owner                                                              |
+| **_x_**      | displays processes not executed in the terminal                                   |
+| **_e_**      | Select all processes.                                                             |
+| **_f_**      | Do full-format listing.                                                           |
+
