@@ -171,3 +171,4 @@ The **` ps `** command options:
 | **_e_**      | Select all processes.                                                             |
 | **_f_**      | Do full-format listing.                                                           |
 
+![Process Control Block](../../images/process-mgmt/process-list.png)
