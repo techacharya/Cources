@@ -154,5 +154,5 @@ To see the more details about active process the options can be used. Execute th
 ```
 $ ps -au
 ```
-[ps command options](../../images/process-mgmt/ps-options.png)
+![ps command options](../../images/process-mgmt/ps-options.png)
 
