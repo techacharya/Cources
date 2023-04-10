@@ -128,7 +128,7 @@ do
 	sleep 1
 done
 ```
-Post writing into the file escape from the **` vim `** editer by pressing _**` Esc `**_ key then type key combination **`wq!`** to save and exit. Set the execution permission to the file _**` clock.sh `**_ by **` chmod +x clock.sh `** command and start the process by executing following command: 
+Post writing into the file escape from the **` vim `** editer by pressing _**` Esc `**_ key then type key combination **`:wq!`** to save and exit. Set the execution permission to the file _**` clock.sh `**_ by **` chmod +x clock.sh `** command and start the process by executing following command: 
 ```
 $ ./clock.sh
 ```
