@@ -177,7 +177,7 @@ For **_BSD_** formats and when the **_stat_** keyword is used, additional charac
 | **_N_**      | The low-priority (nice to other users)                                         |
 | **_L_**      | Has pages locked into memory (for real-time and custom IO)                     |
 | **_s_**      | It is a session leader                                                         |
-| **_l_**      | It is multi-threaded                                                           |
+| `**_l_**`    | It is multi-threaded                                                           |
 | **_+_**      | is in the foreground process group                                             |
 
 
