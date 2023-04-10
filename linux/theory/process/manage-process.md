@@ -156,3 +156,20 @@ $ ps -au
 ```
 ![ps command options](../../images/process-mgmt/ps-options.png)
 
+In the above figure of **` ps `** command output, the _**` STAT `**_ column or field indicates the current state of each process.
+
+| **_State_**  | **_Description_**                                                            |
+|--------------|------------------------------------------------------------------------------|
+| **_D_**      | Uninterruptible sleep (usually IO)                                           |
+| **_I_**      | Idle kernel thread                                                           |
+| **_R_**      | running or runnable (on run queue)                                           |
+| **_S_**      | Interruptible sleep (waiting for an event to complete)                       |
+| **_T_**      | Stopped by job control signal                                                |
+| **_t_**      | Stopped by debugger during the tracing                                       |
+| **_W_**      | Paging (not valid since the 2.6.xx kernel)                                   |
+| **_X_**      | Dead (should never be seen)                                                  |
+| **_Z_**      | Defunct or _**` zombie `**_ process, terminated but not reaped by its parent |
+
+
+
+
