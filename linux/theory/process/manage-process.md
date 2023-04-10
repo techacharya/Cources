@@ -105,3 +105,6 @@ Processes that require a **_user_** to start them or to interact with them are c
 
 #### Background Process
 Processes that are run independently of a user are referred to as background processes. To run a process in the background, place an ampersand **_(&)_** symbol at the end of the command name that you use to start the process. Such ways of running processes are also known as _non-interactive processes_.
+
+
+Now, going to start the _**` clock.sh `**_ process . This approach allows to see the process without making meaningful changes to my system.
