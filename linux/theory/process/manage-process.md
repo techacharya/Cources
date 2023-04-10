@@ -139,7 +139,7 @@ To list all currently active processes execute the following command:
 ```
 $ ps
 ```
-![Process Control Block](../../images/process-mgmt/process-info.png)
+![Process Control Block](../../images/process-mgmt/process-list.png)
 
 
 
