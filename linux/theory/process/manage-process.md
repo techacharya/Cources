@@ -106,7 +106,7 @@ Processes that require a **_user_** to start them or to interact with them are c
 #### Background Process
 Processes that are run independently of a user are referred to as background processes. To run a process in the background, place an ampersand **_(&)_** symbol at the end of the command name that you use to start the process. Such ways of running processes are also known as _non-interactive processes_.
 
-
+### Managing the Processes
 Now, going to start the _**` clock.sh `**_ process . This approach allows to see the process without making meaningful changes to my system. Write the simple script of simple clock create a **` shell script `** file _cloock.sh_ with following content. To do so copy the bellow content and paste into the the **_clock.sh_** file.
 ```
 $ vim clock.sh
@@ -133,5 +133,14 @@ Post writing into the file escape from the **` vim `** editer by pressing _**` E
 $ ./clock.sh
 ```
 Then stop the process with _**` Ctrl + Z `**_ so that we can use our terminal.
+
+### List Processes
+To list all currently active processes execute the following command:
+```
+$ ps
+```
+![Process Control Block](../../images/process-mgmt/process-info.png)
+
+
 
 
