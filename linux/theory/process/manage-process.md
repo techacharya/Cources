@@ -134,12 +134,12 @@ $ ./clock.sh
 ```
 Then stop the process with _**` Ctrl + Z `**_ so that we can use our terminal.
 
-### List Processes
+#### List processes
 To list all currently active processes execute the following command:
 ```
 $ ps
 ```
-![Process Control Block](../../images/process-mgmt/list-process.png)
+![list process](../../images/process-mgmt/list-process.png)
 
 Here, in the above figure you can see few information about the active process on the system.
 | **_Field_** | **_Description_**                                           |
@@ -149,4 +149,10 @@ Here, in the above figure you can see few information about the active process o
 | **_TIME_**  | The amount of time that the process has been running        |
 | **_CMD_**   | The command executed to launch the process                  |
 
+#### List process with more details
+To see the more details about active process the options can be used. Execute the following command to list with more details:
+```
+$ ps -au
+```
+[ps command options](../../images/process-mgmt/ps-options.png)
 
