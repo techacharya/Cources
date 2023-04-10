@@ -170,6 +170,14 @@ In the above figure of **` ps `** command output, the _**` STAT `**_ column or f
 | **_X_**      | Dead (should never be seen)                                                  |
 | **_Z_**      | Defunct or _**` zombie `**_ process, terminated but not reaped by its parent |
 
-
+For **_BSD_** formats and when the **_stat_** keyword is used, additional characters may be displayed:
+| **_Symbol_** | **_Description_**                                                              |
+|--------------|--------------------------------------------------------------------------------|
+| **_<_**      | High-priority (not nice to other users)                                        |
+| **_N_**      | The low-priority (nice to other users)                                         |
+| **_L_**      | Has pages locked into memory (for real-time and custom IO)                     |
+| **_s_**      | It is a session leader                                                         |
+| **_l_**      | It is multi-threaded                                                           |
+| **_+_**      | is in the foreground process group                                             |
 
 
