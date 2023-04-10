@@ -181,7 +181,7 @@ For **_BSD_** formats and when the **_stat_** keyword is used, additional charac
 | **` + `**    | is in the foreground process group                                             |
 
 The **` ps `** command options and it accepts several kinds of options:
-  - **_UNIX Options:_** Which may be grouped and must be preceded by a dash ( **-** ).
+  - **_UNIX Options:_** Which may be grouped and must be preceded by a dash ( **` - `** ).
   - **_BSD Options:_** It may be grouped and must not be used with a dash.
-  - **_GNU long Options:_**, which are preceded by two dashes ( **--** ).
+  - **_GNU long Options:_**, which are preceded by two dashes ( **` -- `** ).
 
