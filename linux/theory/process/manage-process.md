@@ -141,6 +141,12 @@ $ ps
 ```
 ![Process Control Block](../../images/process-mgmt/list-process.png)
 
-
+Here, in the above figure you can see few information about the active process on the system.
+| **_Field_** | **_Description_**                                           |
+|-------------|-------------------------------------------------------------|
+| **_PID_**   | Unique process ID                                           |
+| **_TTY_**   | A pseudo device that allows us to interact with the system. |
+| **_TIME_**  | The amount of time that the process has been running        |
+| **_CMD_**   | The command executed to launch the process                  |
 
 
